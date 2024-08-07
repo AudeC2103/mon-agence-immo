@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3200/Properties";
+const BASE_URL = "http://localhost:5998/Properties";
 
 export class PropertiesAPI {
     static async fetchAll() {
