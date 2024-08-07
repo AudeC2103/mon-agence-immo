@@ -1,0 +1,9 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+@import '../../styles/base';
+@import '../../styles/components';
+
+.header {
+  padding: 20px;
+  color: $text-color;
+}

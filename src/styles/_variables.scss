@@ -1,0 +1,48 @@
+// Couleurs principales
+$primary-color: #A0A603;
+$secondary-color: #D6D58E;
+$highlight-color: #D9F501;
+$accent-color: #04ADBF;
+$light-accent-color: #04BFBF;
+$background-color: #F5F5F5;
+$text-color: #003E49;
+$neutral-color: #F2E0C9;
+$black: #000000;
+$white: #ffffff;
+$card-bg-color: #f0f0f0;
+
+// Typographie
+$font-stack: 'Arial', sans-serif;
+$font-size-base: 16px;
+$font-size-large: 24px;
+$font-size-small: 14px;
+
+// Espacement
+$base-padding: 15px;
+$base-margin: 15px;
+$spacing-small: 8px;
+$spacing-medium: 16px;
+$spacing-large: 32px;
+
+// Autres variables utiles
+$button-text: $black;
+$btn-primary-color: $primary-color; // Utilisation de la couleur principale
+$btn-secondary-color: $secondary-color; // Utilisation de la couleur secondaire
+$button-bg: $primary-color;
+$button-hover-bg: darken($primary-color, 10%); // Pour l'effet hover
+
+// Bordures et ombrages
+$border-radius: 4px;
+$box-shadow-basic: 0px 4px 8px rgba(0, 0, 0, 0.1);
+$box-shadow-complex: -5px -5px 10px rgba(255, 255, 255, 0.5), 
+                     4px 4px 8px rgba(170, 170, 204, 0.2), 
+                     8px 8px 10px rgba(0, 0, 0, 0.5), 
+                     -10px -10px 20px rgba(255, 255, 255, 1);
+$box-shadow-hover: -7px -7px 14px rgba(255, 255, 255, 0.6), 
+                     5px 5px 10px rgba(170, 170, 204, 0.3), 
+                     10px 10px 12px rgba(0, 0, 0, 0.6), 
+                     -12px -12px 24px rgba(255, 255, 255, 1);
+
+// Autres variables
+$transition-duration: 0.3s;
+  

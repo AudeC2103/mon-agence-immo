@@ -1,0 +1,22 @@
+// Components shared styles
+.button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: $button-bg;
+  color: $button-text;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: darken($button-bg, 10%);
+  }
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px 0;
+}

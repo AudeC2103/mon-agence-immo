@@ -1,0 +1,109 @@
+{
+    "Properties": [
+        {
+            "id": 1,
+            "title": "Appartement moderne avec vue sur la mer",
+            "description": "Bel appartement avec 3 chambres, 2 salles de bain, situé au centre-ville avec vue imprenable sur la mer.",
+            "type": "Appartement",
+            "address": "123 Rue de la Plage",
+            "city": "Nice",
+            "postal_code": "06000",
+            "region": "Provence-Alpes-Côte d'Azur",
+            "country": "France",
+            "latitude": 43.7034,
+            "longitude": 7.2663,
+            "price": 350000,
+            "currency": "EUR",
+            "area": 95,
+            "rooms": 4,
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "floor": 5,
+            "total_floors": 7,
+            "year_built": 2015,
+            "furnished": true,
+            "parking": {
+                "available": true,
+                "type": "Sous-terrain",
+                "spaces": 1
+            },
+            "heating": "Électrique",
+            "cooling": "Climatisation centrale",
+            "garden": false,
+            "balcony": true,
+            "terrace": true,
+            "swimming_pool": false,
+            "elevator": true,
+            "listing_type": "Vente",
+            "agency": "Agence Immo Rennes",
+            "contact_info": {
+                "name": "Aude CAMPILLO",
+                "phone": "06 52 21 37 98",
+                "email": "aude.campillo@gmail.com"
+            },
+            "date_listed": "2024-07-01",
+            "status": "Disponible",
+            "images": [
+                "assets/property1_1.jpg",
+                "assets/property1_2.jpg"
+            ],
+            "videos": [
+                ""
+            ],
+            "virtual_tour": ""
+        },
+        {
+            "id": 2,
+            "title": "Maison de campagne avec grand jardin",
+            "description": "Charmante maison avec 4 chambres, située dans un village tranquille avec un grand jardin et une piscine.",
+            "type": "Maison",
+            "address": "45 Chemin des Fleurs",
+            "city": "Aix-en-Provence",
+            "postal_code": "13090",
+            "region": "Provence-Alpes-Côte d'Azur",
+            "country": "France",
+            "latitude": 43.5297,
+            "longitude": 5.4474,
+            "price": 480000,
+            "currency": "EUR",
+            "area": 150,
+            "area_unit": "m²",
+            "rooms": 5,
+            "bedrooms": 4,
+            "bathrooms": 3,
+            "floor": 1,
+            "total_floors": 1,
+            "year_built": 2000,
+            "furnished": false,
+            "parking": {
+                "available": true,
+                "type": "Garage",
+                "spaces": 2
+            },
+            "heating": "Gaz",
+            "cooling": "Ventilateurs",
+            "garden": true,
+            "balcony": false,
+            "terrace": true,
+            "swimming_pool": true,
+            "elevator": false,
+            "listing_type": "Vente",
+            "agency": "Maison et Campagne",
+            "contact_info": {
+                "name": "Marie Martin",
+                "phone": "+33 4 42 93 94 95",
+                "email": "marie.martin@maisonetcampagne.fr"
+            },
+            "date_listed": "2024-05-15",
+            "status": "Disponible",
+            "images": [
+                "assets/property2_1.jpg",
+                "assets/property2_2.jpg"
+            ],
+            "videos": [
+                ""
+            ],
+            "virtual_tour": ""
+        }
+    ]
+}

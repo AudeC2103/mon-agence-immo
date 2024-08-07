@@ -1,0 +1,15 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: $font-stack;
+  font-size: $font-size-base;
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}

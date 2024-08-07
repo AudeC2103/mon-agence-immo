@@ -1,0 +1,44 @@
+// Mixin pour les polices
+@mixin font-size($size) {
+  font-size: $size;
+}
+
+// Mixin pour les boutons
+@mixin button-style($background, $color) {
+  background-color: $background;
+  color: $color;
+  padding: $spacing-small $spacing-medium;
+  border: none;
+  border-radius: $border-radius;
+  cursor: pointer;
+  transition: background-color $transition-duration;
+
+  &:hover {
+    background-color: darken($background, 10%);
+  }
+}
+
+// Mixin pour centrer avec flexbox
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Mixin pour les media queries
+@mixin responsive($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width: 600px) { @content; }
+  }
+  @else if $breakpoint == tablet {
+    @media (min-width: 601px) and (max-width: 1024px) { @content; }
+  }
+  @else if $breakpoint == desktop {
+    @media (min-width: 1025px) { @content; }
+  }
+}
+
+// Mixin pour les transitions
+@mixin transition($property, $duration, $ease) {
+  transition: $property $duration $ease;
+}
