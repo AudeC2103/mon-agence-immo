@@ -1,9 +1,6 @@
-@import '../../styles/variables';
-@import '../../styles/mixins';
-@import '../../styles/base';
-@import '../../styles/components';
+@import '../../styles/main.scss';
 
 .header {
-  padding: 20px;
-  color: $text-color;
-}
+  padding: 0;
+  background-color: $white ;
+  }

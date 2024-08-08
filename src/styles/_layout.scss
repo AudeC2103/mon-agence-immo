@@ -1,12 +1,32 @@
-// Layout styles
+// _layout.scss
+
 .container {
-  max-width: 1200px;
+  max-width: $container-max-width;
   margin: 0 auto;
-  padding: 0 $base-padding;
+  padding: $base-padding;
 }
 
-.header, .footer {
+.header {
+  height: $header-height;
+  background-color: $white;
+  color: $text-color;
+  @include flex-center;
+}
+
+.footer {
+  height: $footer-height;
   background-color: $primary-color;
   color: $white;
-  padding: 10px 0;
+  @include flex-center;
+}
+
+.sidebar {
+  width: $sidebar-width;
+  background-color: $neutral-color;
+  padding: $base-padding;
+}
+
+.main-content {
+  margin-left: $sidebar-width;
+  padding: $base-padding;
 }

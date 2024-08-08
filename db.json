@@ -105,5 +105,66 @@
             ],
             "virtual_tour": ""
         }
+    ],
+    "Agents": [
+        {
+            "id": 1,
+            "firstName": "Aude",
+            "lastName": "CAMPILLO",
+            "phone": "0652213798",
+            "email": "aude.campillo@mon-agence-immo.bzh",
+            "description": "Description - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus cursus mauris, non tristique turpis sagittis vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+            "experienceYears": 18,
+            "projects": 252,
+            "sales": 271,
+            "photo": "agent1.jpg"
+        },
+        {
+            "id": 2,
+            "firstName": "John",
+            "lastName": "Doe",
+            "phone": "123456789",
+            "email": "john.doe@mon-agence-immo.bzh",
+            "description": "Description - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus cursus mauris, non tristique turpis sagittis vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+            "experienceYears": 5,
+            "projects": 50,
+            "sales": 30,
+            "photo": "agent2.jpg"
+        },
+        {
+            "id": 3,
+            "firstName": "Marie",
+            "lastName": "Dupont",
+            "phone": "123456789",
+            "email": "marie.dupont@mon-agence-immo.bzh",
+            "description": "Description - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus cursus mauris, non tristique turpis sagittis vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+            "experienceYears": 10,
+            "projects": 98,
+            "sales": 115,
+            "photo": "agent3.jpg"
+        }
+    ],
+    "Articles": [
+        {
+            "id": 1,
+            "source": "www.journaldelagence.com",
+            "photo_source": "",
+            "date": "Publié le 05 août 2024",
+            "author": "Bruno ROULEAU",
+            "images": [
+                "assets/property2_1.jpg",
+                "assets/property2_2.jpg"
+            ],
+            "title": "L’EdiTAUX des crédits immobiliers d’août : les taux d’intérêt observent aussi la trêve olympique",
+            "article": "L’atonie actuelle du marché immobilier repose, mais elle inquiète aussi. Les perspectives de véritable volonté politique pour une reprise tardent à se manifester. Cela enfonce encore davantage le marché du neuf dans un marasme historique. Analyse de la conjoncture des crédits immobiliers, par Bruno Rouleau, directeur de la Stratégie et de l’Innovation chez AFR Financement. Quant à l’ancien, chacun se rassure devant une sensible reprise des ventes et des crédits, mais sans oublier que la période estivale se prête chaque année au débouclage des projets de la rentrée, et que la point de référence de l’été 2023 était à un niveau catastrophique. Mais comme le précisait tout récemment un grand spécialiste du logement, l’impact psychologique de chiffres en évolution positive peut aider à contrecarrer la sinistrose du marché et des candidats à l’achat. Sur le front des crédits, les banques restent attentives à l’orientation politique qui pourrait être donnée fin août, et les plans d’action de fin d’année sont radicalement orientés à la reprise commerciale, mais avec une multitude de scénarii possibles. Par contre, les directions générales sont déjà à l’œuvre pour l’année 2025, et là ça devient le casse-tête, à l’instar de ce que risque d’être le Projet de Loi de Finances. Comment conjuguer l’envie de revenir gagner des clients, tout en préservant ses marges, et sans savoir si le coût du refinancement peut se renchérir, et en l’absence totale de visibilité sur la politique fiscale et du logement ? Et tout cela avec des résultats en production globalement inférieurs aux objectifs. Dans ces conditions on se raccroche aux bonnes nouvelles : taux de défaillance des emprunteurs toujours très bien maitrisé, volonté de la BCE de coller à l’évolution négative de l’inflation par un assouplissement des taux directeurs, une appétence pour la propriété qui se maintient à un bon niveau. On devrait donc voir un retour de congés estivaux plutôt sympathique pour les emprunteurs avec des possibilités de négociation pour les bons dossiers. Pour le moment, cela donne un panorama actuel des taux moyens, quasi inchangé (très légère baisse sur les maturités moyennes) qui se présente ainsi : Prêts relais : entre 3,80 et 4,20 % (taux indiqués hors assurance de prêt) Prêts sur 15 ans : entre 3,40 et 3,90 % Prêts sur 20 ans : entre 3,40 et 3,90 % Prêts au-delà de 20 ans : entre 3,50 et 4,00 %. Bonnes vacances à celles et ceux qui y sont ou qui vont l’être.",
+            "summary": "Summary of the article"
+        }
+    ],
+    "FAQ": [
+        {
+            "id": 1,
+            "question": "How to buy a property?",
+            "answer": "Steps to buy a property."
+        }
     ]
 }

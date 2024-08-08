@@ -1,90 +1,49 @@
-@import '../../styles/main';
+@import '../../styles/main.scss';
 
 .carrousel-container {
-  display: flex;
-  gap: 15px;
-  padding: 20px 0;
-  overflow-x: auto;
   background-color: $background-color;
-  box-shadow: $box-shadow-basic;
-  display: inline-block;
-  overflow: hidden;
-
+  box-shadow: $box-shadow-md;
+   
   .carrousel-slide {
-    width: 100%;
-    display: inline-block;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .carrousel-image {
-    width: 100%;
-    height: auto;
-    max-height: 400px;
-    object-fit: cover;
-  }
-  
-  .carrousel-caption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
     padding: 10px;
-    text-align: center;
-    font-size: 1em;
-  }
-  
-  @media (max-width: 768px) {
-    .carrousel-caption {
-      font-size: 0.8em; // Ajuste la taille du texte pour les écrans plus petits
-    }
-  
+
     .carrousel-image {
-      max-height: 300px; // Réduit la taille des images sur les petits écrans
-    }
-  }
-
-  .button {
-    @include button-style($button-bg, $white);
-  }
-
-  .property-card {
-    flex: 0 0 auto;
-    width: 250px;
-    background-color: $card-bg-color;
-    border-radius: $border-radius;
-    box-shadow: $box-shadow-complex;
-    transition: transform 0.3s ease;
-
-    &:hover {
-      transform: translateY(-5px);
+      border-radius: $border-radius-md;
     }
 
-    .property-image {
-      width: 100%;
-      height: 150px;
-      object-fit: cover;
-      border-top-left-radius: $border-radius;
-      border-top-right-radius: $border-radius;
+    .carrousel-caption {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-size: 1em;
     }
 
     .property-details {
-      padding: 15px;
-      background-color: $white;
-
-      h3 {
-        font-size: 1.3rem;
-        margin-bottom: 5px;
-        color: $primary-color;
-      }
-
-      p {
-        font-size: 1rem;
-        color: $text-color;
-        margin-bottom: 5px;
-      }
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-top: 1px solid #ccc;
     }
+  }
+
+  .slick-dots {
+    bottom: -30px;
+    li button:before {
+      font-size: 12px;
+      color: #fff;
+    }
+    li.slick-active button:before {
+      color: #000;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .carrousel-caption {
+    font-size: 0.8em; // Ajuste la taille du texte pour les écrans plus petits
+  }
+
+  .carrousel-image {
+    max-height: 300px; // Réduit la taille des images sur les petits écrans
   }
 }

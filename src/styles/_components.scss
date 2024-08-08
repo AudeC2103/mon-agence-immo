@@ -1,22 +1,24 @@
-// Components shared styles
-.button {
-  padding: 10px 20px;
-  border-radius: 5px;
-  background-color: $button-bg;
-  color: $button-text;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s;
+// _components.scss
 
+.button {
+  @include button-style($btn-primary-color, $button-text);
   &:hover {
-    background-color: darken($button-bg, 10%);
+    background-color: $button-hover-bg;
+  }
+}
+
+.button-secondary {
+  @include button-style($btn-secondary-color, $button-text);
+  &:hover {
+    background-color: darken($btn-secondary-color, 10%);
   }
 }
 
 .card {
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  margin: 10px 0;
+  background-color: $white;
+  border: 1px solid $border-color;
+  border-radius: $border-radius-md;
+  @include box-shadow-complex;
+  padding: $spacing-md;
+  margin-bottom: $spacing-lg;
 }
