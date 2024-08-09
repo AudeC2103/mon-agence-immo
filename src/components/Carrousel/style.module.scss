@@ -1,17 +1,17 @@
 @import '../../styles/main.scss';
 
-.carrousel-container {
+.carrouselContainer {
   background-color: $background-color;
   box-shadow: $box-shadow-md;
    
-  .carrousel-slide {
+  .carrouselSlide {
     padding: 10px;
 
-    .carrousel-image {
+    .carrouselImage {
       border-radius: $border-radius-md;
     }
 
-    .carrousel-caption {
+    .carrouselCaption {
       background-color: rgba(0, 0, 0, 0.5);
       color: #fff;
       padding: 10px;
@@ -19,7 +19,7 @@
       font-size: 1em;
     }
 
-    .property-details {
+    .propertyDetails {
       padding: 10px;
       background-color: rgba(255, 255, 255, 0.8);
       border-top: 1px solid #ccc;
@@ -39,11 +39,11 @@
 }
 
 @media (max-width: 768px) {
-  .carrousel-caption {
+  .carrouselCaption {
     font-size: 0.8em; // Ajuste la taille du texte pour les écrans plus petits
   }
 
-  .carrousel-image {
+  .carrouselImage {
     max-height: 300px; // Réduit la taille des images sur les petits écrans
   }
 }

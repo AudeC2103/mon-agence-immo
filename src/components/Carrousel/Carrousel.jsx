@@ -1,20 +1,24 @@
 import React, { useEffect, useState } from 'react';
 import Slider from 'react-slick';
-import { PropertiesAPI } from '../../api/properties-api';
+import { getProperties } from '../../api/NotesAPI'; // Importation de la fonction getProperties
 import styles from './style.module.scss';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 
 const Carrousel = () => {
   const [properties, setProperties] = useState([]);
 
   useEffect(() => {
-    PropertiesAPI.fetchAllProperties().then(data => {
-      setProperties(data);
-    }).catch(error => {
-      console.error("Erreur lors de la récupération des propriétés:", error);
-    });
+    const fetchProperties = async () => {
+      try {
+        const data = await getProperties();  // Appel à getProperties pour récupérer les données
+        setProperties(data);
+      } catch (error) {
+        console.error("Erreur lors de la récupération des propriétés:", error);
+      }
+    };
+
+    fetchProperties();  // Exécution de la fonction pour récupérer les propriétés
   }, []);
 
   const settings = {

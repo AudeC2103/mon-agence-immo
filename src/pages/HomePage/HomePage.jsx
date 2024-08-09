@@ -1,7 +1,7 @@
 // src/pages/HomePage/HomePage.jsx
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { PropertiesAPI } from '../../api/properties-api';
+import { getProperties } from '../../api/NotesAPI'; // Correction de l'importation
 import Carrousel from '../../components/Carrousel/Carrousel';
 import FilterBar from '../../components/FilterBar/FilterBar';
 import styles from './style.module.scss';
@@ -10,7 +10,7 @@ const HomePage = () => {
   const [properties, setProperties] = useState([]);
 
   useEffect(() => {
-    PropertiesAPI.fetchAllProperties()
+    getProperties() // Utilisation de la fonction getProperties
       .then(data => {
         console.log("Données récupérées :", data);
         // Mise à jour de l'état directement avec le tableau de propriétés
