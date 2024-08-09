@@ -1,3 +1,4 @@
+// _base.scss
 
 *,
 *::before,
@@ -5,11 +6,64 @@
   box-sizing: border-box;
 }
 
-body, html {
-  font-family: $font-stack;
-  font-size: $font-size-base;
-  background-color: $background-color;
+body {
+  font-family: $body-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
   color: $text-color;
+  background-color: $background-color;
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  @include font-size($font-size-h1, $line-height-h1);
+  margin-bottom: $spacing-h1;
+}
+
+h2 {
+  @include font-size($font-size-h2, $line-height-h2);
+  margin-bottom: $spacing-h2;
+}
+
+h3 {
+  @include font-size($font-size-h3, $line-height-h3);
+  margin-bottom: $spacing-h3;
+}
+
+h4 {
+  @include font-size($font-size-h4, $line-height-h4);
+  margin-bottom: $spacing-h4;
+}
+
+h5 {
+  @include font-size($font-size-h5, $line-height-h5);
+  margin-bottom: $spacing-h5;
+}
+
+h6 {
+  @include font-size($font-size-h6, $line-height-h6);
+  margin-bottom: $spacing-h6;
+}
+
+p {
+  margin-bottom: $spacing-md;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+ul, ol {
+  margin: $spacing-md 0;
+  padding-left: $spacing-lg;
+}
+
+li {
+  margin-bottom: $spacing-sm;
 }

@@ -1,12 +1,11 @@
-@import '../../styles/variables';
-@import '../../styles/mixins';
+@import '../../styles/main.scss';
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  background-color: $background-color;
+  background-color: $white;
   border-bottom: 1px solid $neutral-color;
 
   @include responsive(mobile) {
@@ -132,7 +131,7 @@
   font-weight: bold;
 
   &:hover {
-    background-color: $light-accent-color;
+    background-color: $background-color;
   }
 
   @include responsive(mobile) {

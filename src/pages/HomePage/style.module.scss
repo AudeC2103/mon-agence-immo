@@ -20,7 +20,7 @@
     .heroContent {
       background-color: rgba($text-color, 0.7);
       padding: 20px;
-      border-radius: $border-radius;
+      border-radius: $border-radius-md;
 
       h1 {
         font-size: 2.5rem;
@@ -63,15 +63,15 @@
 
       .property-card {
         flex: 0 0 300px;
-        background-color: $card-bg-color;
-        border-radius: $border-radius;
+         background-color: $background-color;;
+        border-radius: $border-radius-md;
         box-shadow: $box-shadow-complex;
         overflow: hidden;
         transition: transform 0.3s ease;
 
         &:hover {
           transform: translateY(-5px);
-          box-shadow: $box-shadow-hover;
+           background-color: $box-shadow-complex;
         }
 
         .property-image {

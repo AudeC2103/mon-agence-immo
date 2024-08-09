@@ -105,5 +105,67 @@
             ],
             "virtual_tour": ""
         }
+    ],
+    "Agents": [
+        {
+            "id": 1,
+            "firstName": "Aude",
+            "lastName": "CAMPILLO",
+            "phone": "0652213798",
+            "email": "aude.campillo@mon-agence-immo.bzh",
+            "description": "Description - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus cursus mauris, non tristique turpis sagittis vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+            "experienceYears": 18,
+            "projects": 252,
+            "sales": 271,
+            "photo": "agent1.jpg"
+        },
+        {
+            "id": 2,
+            "firstName": "John",
+            "lastName": "Doe",
+            "phone": "123456789",
+            "email": "john.doe@mon-agence-immo.bzh",
+            "description": "Description - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus cursus mauris, non tristique turpis sagittis vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+            "experienceYears": 5,
+            "projects": 50,
+            "sales": 30,
+            "photo": "agent2.jpg"
+        },
+        {
+            "id": 3,
+            "firstName": "Marie",
+            "lastName": "Dupont",
+            "phone": "123456789",
+            "email": "marie.dupont@mon-agence-immo.bzh",
+            "description": "Description - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus cursus mauris, non tristique turpis sagittis vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+            "experienceYears": 10,
+            "projects": 98,
+            "sales": 115,
+            "photo": "agent3.jpg"
+        }
+    ],
+    "Articles": [
+        {
+            "id": 1,
+            "source": "www.journaldelagence.com",
+            "photo_source": [
+                ""
+            ],
+            "date": "Publié le 05 août 2024",
+            "author": "Bruno ROULEAU",
+            "images": [
+                ""
+            ],
+            "title": "",
+            "article": "",
+            "summary": "Summary of the article"
+        }
+    ],
+    "FAQ": [
+        {
+            "id": 1,
+            "question": "How to buy a property?",
+            "answer": "Steps to buy a property."
+        }
     ]
 }
