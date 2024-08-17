@@ -67,7 +67,6 @@
             "price": 480000,
             "currency": "EUR",
             "area": 150,
-            "area_unit": "m²",
             "rooms": 5,
             "bedrooms": 4,
             "bathrooms": 3,
@@ -117,7 +116,7 @@
             "experienceYears": 18,
             "projects": 252,
             "sales": 271,
-            "photo": "agent1.jpg"
+            "photo": "assets/agent1.jpg"
         },
         {
             "id": 2,
@@ -129,7 +128,7 @@
             "experienceYears": 5,
             "projects": 50,
             "sales": 30,
-            "photo": "agent2.jpg"
+            "photo": "assets/agent2.jpg"
         },
         {
             "id": 3,
@@ -141,7 +140,7 @@
             "experienceYears": 10,
             "projects": 98,
             "sales": 115,
-            "photo": "agent3.jpg"
+            "photo": "assets/agent3.jpg"
         }
     ],
     "Articles": [
@@ -164,8 +163,131 @@
     "FAQ": [
         {
             "id": 1,
-            "question": "How to buy a property?",
-            "answer": "Steps to buy a property."
+            "catégorie": "Vente",
+            "question": "Quelles sont les étapes pour vendre un bien immobilier ?",
+            "answer": "Les étapes pour vendre un bien immobilier incluent l'estimation du bien, la mise en vente, la réception des offres, la signature du compromis de vente avec fourniture des diagnostics obligatoires, l'obtention du financement par l'acheteur, et enfin la signature de l'acte de vente chez le notaire."
+        },
+        {
+            "id": 2,
+            "catégorie": "Achat",
+            "question": "Quels sont les frais associés à l'achat d'un bien ?",
+            "answer": "Les frais associés à l'achat d'un bien incluent les frais de notaire (7 à 8 % pour un bien ancien, 2 à 3 % pour un bien neuf), les frais d'agence (si applicables), les frais de garantie pour le prêt immobilier, les frais de dossier bancaire, et l'assurance emprunteur."
+        },
+        {
+            "id": 3,
+            "catégorie": "Vente",
+            "question": "Quels sont les frais associés à la vente d'un bien ?",
+            "answer": "Les frais associés à la vente d'un bien comprennent les frais d'agence (3 à 7 % du prix de vente), les coûts des diagnostics immobiliers obligatoires, la taxe sur la plus-value immobilière (si applicable), et d'éventuels frais de libération du bien en cas de remboursement anticipé du prêt."
+        },
+        {
+            "id": 4,
+            "catégorie": "Achat",
+            "question": "Combien de temps dure le processus d'achat d'un bien ?",
+            "answer": "Le processus d'achat d'un bien dure en moyenne entre 3 et 6 mois, incluant la recherche du bien, la négociation, l'obtention du financement, et la finalisation de l'achat par la signature de l'acte de vente chez le notaire."
+        },
+        {
+            "id": 5,
+            "catégorie": ["Vente", "Achat"],
+            "question": "Quels sont les documents nécessaires pour acheter un bien immobilier ?",
+            "answer": "Les documents nécessaires pour acheter un bien immobilier incluent une pièce d'identité, les justificatifs de ressources, un relevé d'identité bancaire, et les documents liés au financement (offre de prêt, assurance emprunteur)."
+        },
+        {
+            "id": 6,
+            "catégorie": "Vente",
+            "question": "Qu'est-ce que la taxe sur la plus-value immobilière?",
+            "answer": "La taxe sur la plus-value immobilière est une taxe applicable sur le gain réalisé entre le prix d'achat et le prix de vente d'un bien immobilier, avec des exonérations possibles notamment pour la résidence principale ou en fonction de la durée de détention du bien."
+        },
+        {
+            "id": 7,
+            "catégorie": "Vente",
+            "question": "Quelles sont les étapes pour vendre un bien immobilier ?",
+            "answer": "Cette question est déjà traitée sous l'ID 1, veuillez consulter la réponse correspondante."
+        },
+        {
+            "id": 8,
+            "catégorie": ["Vente", "Achat"],
+            "question": "Quels sont les délais légaux entre la signature du compromis et de l'acte de vente ?",
+            "answer": "Le délai légal entre la signature du compromis de vente et de l'acte définitif est généralement de 3 mois, mais il peut être prolongé en fonction des conditions spécifiques du contrat ou des besoins de financement de l'acheteur."
+        },
+        {
+            "id": 9,
+            "catégorie": ["Vente", "Achat"],
+            "question": "Qu'est-ce qu'un compromis de vente ?",
+            "answer": "Le compromis de vente est un avant-contrat signé par le vendeur et l'acheteur, engageant les deux parties à conclure la vente du bien sous certaines conditions ; il inclut les diagnostics immobiliers et stipule les clauses suspensives, telles que l'obtention du financement par l'acheteur."
+        },
+        {
+            "id": 10,
+            "catégorie": "Vente",
+            "question": "Puis-je annuler la vente après avoir signé le compromis de vente ?",
+            "answer": "En tant que vendeur, vous ne pouvez pas annuler la vente après avoir signé le compromis de vente, sauf cas exceptionnels prévus dans le contrat ; l'acheteur, quant à lui, dispose de 10 jours pour se rétracter sans pénalité."
+        },
+        {
+            "id": 11,
+            "catégorie": "Vente",
+            "question": "Quels sont les diagnostics immobiliers obligatoires ?",
+            "answer": "Les diagnostics immobiliers obligatoires comprennent le DPE, l'amiante, le plomb, l'électricité et le gaz, les termites, et l'ERP ; ils doivent être fournis au plus tard lors de la signature du compromis de vente."
+        },
+        {
+            "id": 12,
+            "catégorie": "Vente",
+            "question": "Comment est fixé le prix de vente d'une propriété ?",
+            "answer": "Le prix de vente d'une propriété est fixé en fonction de l'état du marché immobilier local, de la localisation du bien, de ses caractéristiques (surface, état général, nombre de pièces), et en se basant sur les transactions récentes de biens similaires dans le secteur."
+        },
+        {
+            "id": 13,
+            "catégorie": ["Vente", "Achat"],
+            "question": "Qu'est-ce que le délai de rétractation et comment fonctionne-t-il ?",
+            "answer": "Le délai de rétractation est une période de 10 jours durant laquelle l'acheteur peut se rétracter sans frais après la signature du compromis de vente ; il commence à courir dès le lendemain de la notification du compromis."
+        },
+        {
+            "id": 14,
+            "catégorie": "Achat",
+            "question": "Quelle est la différence entre un compromis de vente et une promesse de vente ?",
+            "answer": "Le compromis de vente engage les deux parties (acheteur et vendeur) à conclure la vente, tandis que la promesse de vente n'engage que le vendeur à vendre le bien, l'acheteur ayant simplement une option d'achat."
+        },
+        {
+            "id": 15,
+            "catégorie": "Vente",
+            "question": "Dois-je obligatoirement passer par une agence pour vendre mon bien immobilier ?",
+            "answer": "Il n'est pas obligatoire de passer par une agence pour vendre votre bien immobilier ; vous pouvez vendre de particulier à particulier, bien que l'agence puisse vous offrir des services tels que la visibilité, la gestion des visites et l'accompagnement juridique."
+        },
+        {
+            "id": 16,
+            "catégorie": ["Vente", "Achat"],
+            "question": "Qu'est-ce qu'une condition suspensive dans un compromis de vente ?",
+            "answer": "Une condition suspensive est une clause qui doit être remplie pour que la vente soit finalisée, comme l'obtention du prêt par l'acheteur ; si la condition n'est pas remplie, le compromis de vente peut être annulé sans pénalité."
+        },
+        {
+            "id": 17,
+            "catégorie": "Achat",
+            "question": "Comment se déroule la signature de l'acte de vente chez le notaire ?",
+            "answer": "La signature de l'acte de vente chez le notaire consiste en une lecture du document par le notaire, suivie de la signature par les deux parties ; à ce moment, l'acheteur règle le solde du prix et les frais, et devient officiellement propriétaire du bien."
         }
-    ]
+    ],
+    "Slides": [
+        {
+        "id": 1,
+        "image": "/path/to/image1.jpg",
+        "title": "Bienvenue à Notre Agence Immobilière",
+        "categorie": "Home",
+        "subtitle": "Trouvez la maison de vos rêves",
+        "link": "assets/bannerHome"
+        },
+        {
+        "id": 2,
+        "image": "/path/to/image2.jpg",
+        "title": "Découvrez Nos Offres",
+        "categorie": "Home",
+        "subtitle": "Des offres exceptionnelles pour vous",
+        "link": "/offers"
+        },
+        {
+        "id": 3,
+        "image": "/path/to/image3.jpg",
+        "title": "Contactez Nos Agents",
+        "categorie": "Contact",
+        "subtitle": "Nos experts sont là pour vous aider",
+        "link": "/contact"
+        }
+  ]
 }
