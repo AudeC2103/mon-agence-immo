@@ -266,28 +266,68 @@
     ],
     "Slides": [
         {
-        "id": 1,
-        "image": "/path/to/image1.jpg",
-        "title": "Bienvenue à Notre Agence Immobilière",
-        "categorie": "Home",
-        "subtitle": "Trouvez la maison de vos rêves",
-        "link": "assets/bannerHome"
+            "id": 1,
+            "image": "/public/assets/slides/bannerHome.jpg",
+            "title": "Bienvenue à Notre Agence Immobilière",
+            "categorie": "Home",
+            "subtitle": "Trouvez la maison de vos rêves",
+            "link": "/properties"
         },
         {
-        "id": 2,
-        "image": "/path/to/image2.jpg",
-        "title": "Découvrez Nos Offres",
-        "categorie": "Home",
-        "subtitle": "Des offres exceptionnelles pour vous",
-        "link": "/offers"
+            "id": 2,
+            "image": "/public/assets/slides/bannerTeam.jpg",
+            "title": "Trouvez votre conseiller",
+            "categorie": ["Home", "Advice"],
+            "subtitle": "Nos experts sont là pour vous aider",
+            "link": "/agents"
         },
         {
-        "id": 3,
-        "image": "/path/to/image3.jpg",
-        "title": "Contactez Nos Agents",
-        "categorie": "Contact",
-        "subtitle": "Nos experts sont là pour vous aider",
-        "link": "/contact"
+            "id": 3,
+            "image": "/public/assets/slides/bannerAdvice.jpg",
+            "title": "Conseils d'Achat Immobilier",
+            "categorie": ["Agents", "Home"],
+            "subtitle": "Découvrez nos meilleurs conseils pour acheter une propriété.",
+            "link": "/advices"
+        },
+        {
+            "id": 4,
+            "image": "/public/assets/slides/bannerPropertyWeek.jpg",
+            "title": "Propriété de la Semaine",
+            "categorie": "Home",
+            "subtitle": "Découvrez cette magnifique maison !",
+            "link": "/property-of-the-week"
+        },
+        {
+            "id": 5,
+            "image": "/public/assets/slides/bannerMarketTrends.jpg",
+            "title": "Dernier Article : Tendance du Marché",
+            "categorie": "Home",
+            "subtitle": "Découvrez les dernières tendances du marché immobilier en 2024.",
+            "link": "/articles/market-trends-2024"
+        },
+        {
+            "id": 6,
+            "image": "/public/assets/slides/bannerServicePromotion.jpg",
+            "title": "Évaluation Gratuite",
+            "categorie": "Home",
+            "subtitle": "Obtenez une évaluation gratuite de votre bien immobilier en quelques clics.",
+            "link": "/services/free-valuation"
+        },
+        {
+            "id": 7,
+            "image": "/public/assets/slides/bannerRennes.jpg",
+            "title": "Vivre à Rennes",
+            "categorie": "Home",
+            "subtitle": "Découvrez les charmes de Rennes et nos biens disponibles.",
+            "link": "/neighborhoods/rennes"
+        },
+        {
+            "id": 8,
+            "image": "/public/assets/slides/bannerNewsletter.jpg",
+            "title": "Newsletter de l'agence",
+            "categorie": "Home",
+            "subtitle": "Inscrivez-vous et recevez les dernières offres, nos conseils et plus encore !",
+            "link": "/newsletter-signup"
         }
-  ]
+    ]
 }
