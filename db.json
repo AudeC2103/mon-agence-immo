@@ -550,7 +550,7 @@
             "experienceYears": 18,
             "projects": 252,
             "sales": 271,
-            "photo": ["assets/agents/agent1.jpg"]
+            "photo": "assets/agents/agent1.jpg"
         },
         {
             "id": 2,
@@ -562,7 +562,7 @@
             "experienceYears": 5,
             "projects": 50,
             "sales": 60,
-            "photo": ["assets/agents/agent2.jpg"]
+            "photo": "assets/agents/agent2.jpg"
         },
         {
             "id": 3,
@@ -574,7 +574,7 @@
             "experienceYears": 10,
             "projects": 98,
             "sales": 115,
-            "photo": ["assets/agents/agent3.jpg"]
+            "photo": "assets/agents/agent3.jpg"
         },
         {
             "id": 4,
@@ -586,7 +586,7 @@
             "experienceYears": 12,
             "projects": 145,
             "sales": 160,
-            "photo": ["assets/agents/agent4.jpg"]
+            "photo": "assets/agents/agent4.jpg"
         },
         {
             "id": 5,
@@ -598,7 +598,7 @@
             "experienceYears": 15,
             "projects": 200,
             "sales": 225,
-            "photo": ["assets/agents/agent5.jpg"]
+            "photo": "assets/agents/agent5.jpg"
         },
         {
             "id": 6,
@@ -610,7 +610,7 @@
             "experienceYears": 14,
             "projects": 190,
             "sales": 220,
-            "photo": ["assets/agents/agent6.jpg"]
+            "photo": "assets/agents/agent6.jpg"
         },
         {
             "id": 7,
@@ -622,7 +622,7 @@
             "experienceYears": 9,
             "projects": 120,
             "sales": 164,
-            "photo": ["assets/agents/agent7.jpg"]
+            "photo": "assets/agents/agent7.jpg"
         }
     ],
     "Articles": [
