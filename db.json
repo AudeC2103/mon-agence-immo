@@ -5,14 +5,14 @@
             "title": "Appartement moderne avec vue sur la mer",
             "description": "Bel appartement avec 3 chambres, 2 salles de bain, situé au centre-ville avec vue imprenable sur la mer.",
             "type": "Appartement",
-            "address": "123 Rue de la Plage",
-            "city": "Nice",
-            "postal_code": "06000",
-            "region": "Provence-Alpes-Côte d'Azur",
+            "address": "3 boulevard Féart",
+            "city": "Dinard",
+            "postal_code": "35800",
+            "region": "Bretagne",
             "country": "France",
-            "latitude": 43.7034,
-            "longitude": 7.2663,
-            "price": 350000,
+            "latitude": 48.6347728,
+            "longitude": -2.0545769,
+            "price": 550000,
             "currency": "EUR",
             "area": 95,
             "rooms": 4,
@@ -35,17 +35,19 @@
             "swimming_pool": false,
             "elevator": true,
             "listing_type": "Vente",
-            "agency": "Agence Immo Rennes",
+            "agency": "mon-agence-immo",
             "contact_info": {
                 "name": "Aude CAMPILLO",
                 "phone": "06 52 21 37 98",
-                "email": "aude.campillo@gmail.com"
+                "email": "aude.campillo@mon-agence-immo.bzh"
             },
             "date_listed": "2024-07-01",
             "status": "Disponible",
             "images": [
-                "assets/property1_1.jpg",
-                "assets/property1_2.jpg"
+                "assets/properties/property1_1.jpg",
+                "assets/properties/property1_2.jpg",
+                "assets/properties/property1_3.jpg",
+                "assets/properties/property1_4.jpg"
             ],
             "videos": [
                 ""
@@ -58,21 +60,21 @@
             "description": "Charmante maison avec 4 chambres, située dans un village tranquille avec un grand jardin et une piscine.",
             "type": "Maison",
             "address": "45 Chemin des Fleurs",
-            "city": "Aix-en-Provence",
-            "postal_code": "13090",
-            "region": "Provence-Alpes-Côte d'Azur",
+            "city": "Pacé",
+            "postal_code": "35740",
+            "region": "Bretagne",
             "country": "France",
-            "latitude": 43.5297,
-            "longitude": 5.4474,
-            "price": 480000,
+            "latitude": 48.153232,
+            "longitude": -1.768029,
+            "price": 525000,
             "currency": "EUR",
-            "area": 150,
-            "rooms": 5,
+            "area": 145,
+            "rooms": 6,
             "bedrooms": 4,
-            "bathrooms": 3,
-            "floor": 1,
-            "total_floors": 1,
-            "year_built": 2000,
+            "bathrooms": 2,
+            "floor": 0,
+            "total_floors": 2,
+            "year_built": 1985,
             "furnished": false,
             "parking": {
                 "available": true,
@@ -87,17 +89,449 @@
             "swimming_pool": true,
             "elevator": false,
             "listing_type": "Vente",
-            "agency": "Maison et Campagne",
+            "agency": "mon-agence-immo",
             "contact_info": {
                 "name": "Marie Martin",
                 "phone": "+33 4 42 93 94 95",
-                "email": "marie.martin@maisonetcampagne.fr"
+                "email": "marie.martin@mon-agence-immo.bzh"
             },
             "date_listed": "2024-05-15",
             "status": "Disponible",
             "images": [
-                "assets/property2_1.jpg",
-                "assets/property2_2.jpg"
+                "assets/properties/property2_1.jpg",
+                "assets/properties/property2_2.jpg",
+                "assets/properties/property2_3.jpg",
+                "assets/properties/property2_4.jpg"
+            ],
+            "videos": [
+                ""
+            ],
+            "virtual_tour": ""
+        },
+        {
+            "id": 3,
+            "title": "Maison moderne avec piscine",
+            "description": "Maison contemporaine avec 5 chambres, piscine chauffée et grandes baies vitrées donnant sur le jardin.",
+            "type": "Maison",
+            "address": "12 rue des Orchidées",
+            "city": "Cesson-Sévigné",
+            "postal_code": "35510",
+            "region": "Bretagne",
+            "country": "France",
+            "latitude": 48.127847,
+            "longitude": -1.605582,
+            "price": 870000,
+            "currency": "EUR",
+            "area": 200,
+            "rooms": 7,
+            "bedrooms": 5,
+            "bathrooms": 3,
+            "floor": 0,
+            "total_floors": 2,
+            "year_built": 2018,
+            "furnished": false,
+            "parking": {
+                "available": true,
+                "type": "Double garage",
+                "spaces": 2
+            },
+            "heating": "Pompe à chaleur",
+            "cooling": "Climatisation réversible",
+            "garden": true,
+            "balcony": false,
+            "terrace": true,
+            "swimming_pool": true,
+            "elevator": false,
+            "listing_type": "Vente",
+            "agency": "mon-agence-immo",
+            "contact_info": {
+                "name": "Lucas Leclerc",
+                "phone": "+33 6 55 77 88 99",
+                "email": "lucas.leclerc@mon-agence-immo.bzh"
+            },
+            "date_listed": "2024-06-25",
+            "status": "Disponible",
+            "images": [
+                "assets/properties/property3_1.jpg",
+                "assets/properties/property3_2.jpg",
+                "assets/properties/property3_3.jpg",
+                "assets/properties/property3_4.jpg"
+            ],
+            "videos": [
+                ""
+            ],
+            "virtual_tour": ""
+        },
+        {
+            "id": 4,
+            "title": "Appartement ancien rénové au cœur de Rennes",
+            "description": "Superbe appartement de caractère avec 2 chambres, entièrement rénové, situé dans un immeuble historique.",
+            "type": "Appartement",
+            "address": "15 rue du Chapitre",
+            "city": "Rennes",
+            "postal_code": "35000",
+            "region": "Bretagne",
+            "country": "France",
+            "latitude": 48.110216,
+            "longitude": -1.678488,
+            "price": 420000,
+            "currency": "EUR",
+            "area": 90,
+            "rooms": 3,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "floor": 2,
+            "total_floors": 3,
+            "year_built": 1890,
+            "furnished": false,
+            "parking": {
+                "available": false
+            },
+            "heating": "Gaz",
+            "cooling": "Aucun",
+            "garden": false,
+            "balcony": false,
+            "terrace": false,
+            "swimming_pool": false,
+            "elevator": false,
+            "listing_type": "Vente",
+            "agency": "mon-agence-immo",
+            "contact_info": {
+                "name": "Aude CAMPILLO",
+                "phone": "06 52 21 37 98",
+                "email": "aude.campillo@mon-agence-immo.bzh"
+            },
+            "date_listed": "2024-06-12",
+            "status": "Disponible",
+            "images": [
+                "assets/properties/property4_1.jpg",
+                "assets/properties/property4_2.jpg",
+                "assets/properties/property4_3.jpg",
+                "assets/properties/property4_4.jpg"
+            ],
+            "videos": [
+                ""
+            ],
+            "virtual_tour": ""
+        },
+        {
+            "id": 5,
+            "title": "Maison familiale avec jardin à Chantepie",
+            "description": "Grande maison familiale avec 6 chambres, vaste jardin, et proche des écoles et commerces.",
+            "type": "Maison",
+            "address": "27 rue des Écoles",
+            "city": "Chantepie",
+            "postal_code": "35135",
+            "region": "Bretagne",
+            "country": "France",
+            "latitude": 48.093816,
+            "longitude": -1.615322,
+            "price": 675000,
+            "currency": "EUR",
+            "area": 180,
+            "rooms": 8,
+            "bedrooms": 6,
+            "bathrooms": 3,
+            "floor": 0,
+            "total_floors": 2,
+            "year_built": 1995,
+            "furnished": false,
+            "parking": {
+                "available": true,
+                "type": "Garage",
+                "spaces": 2
+            },
+            "heating": "Gaz",
+            "cooling": "Aucun",
+            "garden": true,
+            "balcony": false,
+            "terrace": true,
+            "swimming_pool": false,
+            "elevator": false,
+            "listing_type": "Vente",
+            "agency": "mon-agence-immo",
+            "contact_info": {
+                "name": "Marie Martin",
+                "phone": "+33 4 42 93 94 95",
+                "email": "marie.martin@mon-agence-immo.bzh"
+            },
+            "date_listed": "2024-07-05",
+            "status": "Disponible",
+            "images": [
+                "assets/properties/property5_1.jpg",
+                "assets/properties/property5_2.jpg",
+                "assets/properties/property5_3.jpg",
+                "assets/properties/property5_4.jpg"
+            ],
+            "videos": [
+                ""
+            ],
+            "virtual_tour": ""
+        },
+        {
+            "id": 6,
+            "title": "Maison bretonne traditionnelle à Saint-Grégoire",
+            "description": "Charmante maison bretonne avec 4 chambres, grand terrain arboré, située dans un quartier calme.",
+            "type": "Maison",
+            "address": "18 rue des Hortensias",
+            "city": "Saint-Grégoire",
+            "postal_code": "35760",
+            "region": "Bretagne",
+            "country": "France",
+            "latitude": 48.154548,
+            "longitude": -1.704581,
+            "price": 710000,
+            "currency": "EUR",
+            "area": 165,
+            "rooms": 6,
+            "bedrooms": 4,
+            "bathrooms": 2,
+            "floor": 0,
+            "total_floors": 2,
+            "year_built": 1978,
+            "furnished": false,
+            "parking": {
+                "available": true,
+                "type": "Garage",
+                "spaces": 2
+            },
+            "heating": "Fioul",
+            "cooling": "Aucun",
+            "garden": true,
+            "balcony": true,
+            "terrace": true,
+            "swimming_pool": false,
+            "elevator": false,
+            "listing_type": "Vente",
+            "agency": "mon-agence-immo",
+            "contact_info": {
+                "name": "Aude CAMPILLO",
+                "phone": "06 52 21 37 98",
+                "email": "aude.campillo@mon-agence-immo.bzh"
+            },
+            "date_listed": "2024-06-20",
+            "status": "Disponible",
+            "images": [
+                "assets/properties/property6_1.jpg",
+                "assets/properties/property6_2.jpg",
+                "assets/properties/property6_3.jpg",
+                "assets/properties/property6_4.jpg"
+            ],
+            "videos": [
+                ""
+            ],
+            "virtual_tour": ""
+        },
+        {
+            "id": 7,
+            "title": "Loft industriel rénové avec terrasse à Rennes",
+            "description": "Loft spacieux de style industriel avec 3 chambres, terrasse en rooftop, proche des transports en commun.",
+            "type": "Appartement",
+            "address": "22 rue de la Rosière d'Artois",
+            "city": "Rennes",
+            "postal_code": "35000",
+            "region": "Bretagne",
+            "country": "France",
+            "latitude": 48.107056,
+            "longitude": -1.677932,
+            "price": 590000,
+            "currency": "EUR",
+            "area": 120,
+            "rooms": 4,
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "floor": 3,
+            "total_floors": 4,
+            "year_built": 1930,
+            "furnished": true,
+            "parking": {
+                "available": true,
+                "type": "Sous-terrain",
+                "spaces": 1
+            },
+            "heating": "Électrique",
+            "cooling": "Climatisation réversible",
+            "garden": false,
+            "balcony": false,
+            "terrace": true,
+            "swimming_pool": false,
+            "elevator": true,
+            "listing_type": "Vente",
+            "agency": "mon-agence-immo",
+            "contact_info": {
+                "name": "Lucas Leclerc",
+                "phone": "+33 6 55 77 88 99",
+                "email": "lucas.leclerc@mon-agence-immo.bzh"
+            },
+            "date_listed": "2024-07-10",
+            "status": "Disponible",
+            "images": [
+                "assets/properties/property7_1.jpg",
+                "assets/properties/property7_2.jpg",
+                "assets/properties/property7_3.jpg",
+                "assets/properties/property7_4.jpg"
+            ],
+            "videos": [
+                ""
+            ],
+            "virtual_tour": ""
+        },
+        {
+            "id": 8,
+            "title": "Maison de charme à Betton",
+            "description": "Belle maison en pierre avec 4 chambres, grand jardin et atelier, située en bordure de la Vilaine.",
+            "type": "Maison",
+            "address": "8 rue de la Vilaine",
+            "city": "Betton",
+            "postal_code": "35830",
+            "region": "Bretagne",
+            "country": "France",
+            "latitude": 48.172955,
+            "longitude": -1.636929,
+            "price": 480000,
+            "currency": "EUR",
+            "area": 150,
+            "rooms": 6,
+            "bedrooms": 4,
+            "bathrooms": 2,
+            "floor": 0,
+            "total_floors": 2,
+            "year_built": 1900,
+            "furnished": false,
+            "parking": {
+                "available": true,
+                "type": "Carport",
+                "spaces": 2
+            },
+            "heating": "Bois",
+            "cooling": "Aucun",
+            "garden": true,
+            "balcony": false,
+            "terrace": true,
+            "swimming_pool": false,
+            "elevator": false,
+            "listing_type": "Vente",
+            "agency": "mon-agence-immo",
+            "contact_info": {
+                "name": "Aude CAMPILLO",
+                "phone": "06 52 21 37 98",
+                "email": "aude.campillo@mon-agence-immo.bzh"
+            },
+            "date_listed": "2024-07-15",
+            "status": "Disponible",
+            "images": [
+                "assets/properties/property8_1.jpg",
+                "assets/properties/property8_2.jpg",
+                "assets/properties/property8_3.jpg",
+                "assets/properties/property8_4.jpg"
+            ],
+            "videos": [
+                ""
+            ],
+            "virtual_tour": ""
+        },
+        {
+            "id": 9,
+            "title": "Superbe maison de maître entre Rennes et Dinard",
+            "description": "Cette magnifique maison de maître située entre Rennes et Dinard offre un cadre de vie exceptionnel avec ses 250 m² de surface habitable. ",             
+            "type": "Maison",
+            "address": "Route de Rennes à Dinard",
+            "city": "Entre Rennes et Dinard",
+            "postal_code": "35760",
+            "region": "Bretagne",
+            "country": "France",
+            "latitude": 48.150000,  
+            "longitude": -1.800000, 
+            "price": 850000,
+            "currency": "EUR",
+            "area": 250,
+            "rooms": 8,
+            "bedrooms": 5,
+            "bathrooms": 3,
+            "floor": 2,
+            "total_floors": 3,
+            "year_built": 1870,
+            "furnished": false,
+            "parking": {
+                "available": true,
+                "type": "Garage",
+                "spaces": 2
+            },
+            "heating": "Fioul",
+            "cooling": "Aucun",
+            "garden": true,
+            "balcony": true,
+            "terrace": true,
+            "swimming_pool": false,
+            "elevator": false,
+            "listing_type": "Vente",
+            "agency": "mon-agence-immo",
+            "contact_info": {
+                "name": "Aude CAMPILLO",
+                "phone": "06 52 21 37 98",
+                "email": "aude.campillo@mon-agence-immo.bzh"
+            },
+            "date_listed": "2024-08-10",
+            "status": "Disponible",
+            "images": [
+                "assets/properties/property9_1.jpg",
+                "assets/properties/property9_2.jpg",
+                "assets/properties/property9_3.jpg",
+                "assets/properties/property9_4.jpg"
+            ],
+            "videos": [
+                ""
+            ],
+            "virtual_tour": ""
+        },
+        {
+            "id": 10,
+            "title": "Appartement moderne de 85 m², Quartier Arsenal-Redon",
+            "description": "Situé dans le quartier prisé d'Arsenal-Redon à Rennes, cet appartement moderne de 85 m² offre un confort de vie optimal.",
+            "type": "Appartement",
+            "address": "Quartier Arsenal-Redon",
+            "city": "Rennes",
+            "postal_code": "35000",
+            "region": "Bretagne",
+            "country": "France",
+            "latitude": 48.109, 
+            "longitude": -1.681, 
+            "price": 350000,
+            "currency": "EUR",
+            "area": 85,
+            "rooms": 3,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "floor": 3,
+            "total_floors": 5,
+            "year_built": 2015,
+            "furnished": true,
+            "parking": {
+                "available": true,
+                "type": "Sous-terrain",
+                "spaces": 1
+            },
+            "heating": "Électrique",
+            "cooling": "Climatisation réversible",
+            "garden": false,
+            "balcony": true,
+            "terrace": false,
+            "swimming_pool": false,
+            "elevator": true,
+            "listing_type": "Vente",
+            "agency": "mon-agence-immo",
+            "contact_info": {
+                "name": "Lucas Leclerc",
+                "phone": "06 55 77 88 99",
+                "email": "lucas.leclerc@mon-agence-immo.bzh"
+            },
+            "date_listed": "2024-08-15",
+            "status": "Disponible",
+            "images": [
+                "assets/properties/property10_1.jpg",
+                "assets/properties/property10_2.jpg",
+                "assets/properties/property10_3.jpg",
+                "assets/properties/property10_4.jpg"
             ],
             "videos": [
                 ""
@@ -112,7 +546,7 @@
             "lastName": "CAMPILLO",
             "phone": "0652213798",
             "email": "aude.campillo@mon-agence-immo.bzh",
-            "description": "Description - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus cursus mauris, non tristique turpis sagittis vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+            "description": "Bonjour, je suis Aude CAMPILLO. Avec plus de 18 ans d'expérience dans l'immobilier, je suis passionnée par l'accompagnement de mes clients dans la réalisation de leurs projets. Que vous cherchiez à acheter ou à vendre en Bretagne, je mets mon expertise et ma connaissance approfondie du marché local à votre service.",
             "experienceYears": 18,
             "projects": 252,
             "sales": 271,
@@ -124,7 +558,7 @@
             "lastName": "Doe",
             "phone": "123456789",
             "email": "john.doe@mon-agence-immo.bzh",
-            "description": "Description - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus cursus mauris, non tristique turpis sagittis vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+            "description": "Je m'appelle John Doe, agent immobilier depuis 5 ans. Mon objectif est de comprendre vos besoins pour vous proposer des solutions sur mesure. Ma passion pour l'immobilier et mon sens du détail me permettent de vous accompagner efficacement tout au long de votre projet.",
             "experienceYears": 5,
             "projects": 50,
             "sales": 30,
@@ -136,28 +570,478 @@
             "lastName": "Dupont",
             "phone": "123456789",
             "email": "marie.dupont@mon-agence-immo.bzh",
-            "description": "Description - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus cursus mauris, non tristique turpis sagittis vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+            "description": "Je suis Marie Dupont, avec 10 ans d'expérience dans le secteur immobilier. Mon engagement est de vous offrir un service personnalisé et de qualité, que ce soit pour l'achat ou la vente de votre bien. Je suis là pour vous guider et faire de votre projet immobilier une réussite.",
             "experienceYears": 10,
             "projects": 98,
             "sales": 115,
             "photo": "assets/agent3.jpg"
+        },
+        {
+            "id": 4,
+            "firstName": "Lucas",
+            "lastName": "Leclerc",
+            "phone": "0655778899",
+            "email": "lucas.leclerc@mon-agence-immo.bzh",
+            "description": "Je suis Lucas Leclerc, agent immobilier spécialisé dans les propriétés modernes et les lofts. Fort de 12 ans d'expérience, je m'efforce de vous offrir un service sur mesure, alliant innovation et expertise pour répondre à vos attentes.",
+            "experienceYears": 12,
+            "projects": 145,
+            "sales": 160,
+            "photo": "assets/agent4.jpg"
+        },
+        {
+            "id": 5,
+            "firstName": "Marie",
+            "lastName": "Martin",
+            "phone": "0442939495",
+            "email": "marie.martin@mon-agence-immo.bzh",
+            "description": "Je suis Marie Martin, et je me spécialise dans les maisons familiales et les propriétés de campagne. Avec plus de 15 ans d'expérience, je suis passionnée par l'accompagnement de mes clients pour réaliser leurs rêves immobiliers. Mon approche chaleureuse et mon écoute attentive sont mes priorités pour vous satisfaire.",
+            "experienceYears": 15,
+            "projects": 200,
+            "sales": 225,
+            "photo": "assets/agent5.jpg"
         }
     ],
     "Articles": [
         {
             "id": 1,
+            "source": "www.notaires.fr",
+            "photo_source": [
+                "https://www.notaires.fr/themes/custom/etudes-logo.svg"
+            ],
+            "date": "Publié le 25 janvier 2024",
+            "author": "Notaires de France",
+            "title": "Tendances et évolutions des prix de l'immobilier - Janvier 2024",
+            "summary": "Analyse des tendances des prix de l'immobilier en France, avec un focus sur la baisse continue des prix des logements anciens. Les ajustements de prix deviennent plus répandus, ce qui pourrait inciter certains vendeurs à entrer sur le marché avant une nouvelle baisse des prix.",
+            "link": "https://www.notaires.fr/fr/immobilier/prix-immobilier",
+            "categories": [
+                "Tendances",
+                "Marché immobilier"
+            ]
+        },
+        {
+            "id": 2,
+            "source": "en.savills.fr",
+            "photo_source": [
+                "https://www.savills.com/favicon.ico"
+            ],
+            "date": "Publié le 19 janvier 2024",
+            "author": "Savills France",
+            "title": "Perspectives du marché immobilier 2024",
+            "summary": "Cet article explore les principales tendances du marché immobilier en 2024, y compris l'intérêt croissant pour les matériaux durables, la location saisonnière et l'attrait éternel de la Côte d'Azur. Il fournit des conseils sur l'investissement immobilier en France.",
+            "link": "https://en.savills.fr/blog/article/2024/perspectives-immobilier.aspx",
+            "categories": [
+                "Tendances",
+                "Investissement",
+                "Marché immobilier"
+            ]
+        },
+        {
+            "id": 3,
+            "source": "www.parlezmoideparis.com",
+            "photo_source": [
+                "https://www.parlezmoideparis.com/img/logo-pm-paris.svg"
+            ],
+            "date": "Publié le 10 février 2024",
+            "author": "Parlez-moi de Paris",
+            "title": "L'immobilier à Paris : tendances 2024",
+            "summary": "Cet article examine l'impact de la Loi Climat et Résilience sur le marché immobilier parisien, en particulier pour les biens les moins performants énergétiquement. Il offre également une perspective sur la reprise attendue du marché d'ici 2025.",
+            "link": "https://www.parlezmoideparis.com/immobilier-paris-2024",
+            "categories": [
+                "Tendances",
+                "Marché immobilier",
+                "Loi Climat"
+            ]
+        },
+        {
+            "id": 4,
             "source": "www.journaldelagence.com",
             "photo_source": [
-                ""
+                "https://www.journaldelagence.com/wp-content/uploads/2021/09/journal-de-l-agence-logo.png"
             ],
-            "date": "Publié le 05 août 2024",
+            "date": "Publié le 5 mars 2024",
             "author": "Bruno ROULEAU",
-            "images": [
-                ""
+            "title": "Le marché immobilier français en 2024 : opportunités et défis",
+            "summary": "Analyse des opportunités d'investissement sur le marché immobilier français en 2024, en mettant l'accent sur les défis économiques et les régulations impactant les propriétaires et les développeurs.",
+            "link": "https://www.journaldelagence.com/immobilier-france-2024",
+            "categories": [
+                "Opportunités",
+                "Investissement",
+                "Régulations"
+            ]
+        },
+        {
+            "id": 5,
+            "source": "www.notaires.fr",
+            "photo_source": [
+                "https://www.notaires.fr/themes/custom/etudes-logo.svg"
             ],
-            "title": "",
-            "article": "",
-            "summary": "Summary of the article"
+            "date": "Publié le 15 février 2024",
+            "author": "Notaires de France",
+            "title": "L'impact des politiques économiques sur l'immobilier en 2024",
+            "summary": "Cet article aborde l'impact des politiques économiques, telles que la lutte contre le changement climatique, sur le marché immobilier en France. Il met en lumière les défis pour les propriétaires et les développeurs pour se conformer aux nouvelles normes.",
+            "link": "https://www.notaires.fr/fr/immobilier/politiques-economiques-2024",
+            "categories": [
+                "Fiscalité",
+                "Économie",
+                "Marché immobilier"
+            ]
+        },
+        {
+            "id": 6,
+            "source": "www.savills.fr",
+            "photo_source": [
+                "https://www.savills.com/favicon.ico"
+            ],
+            "date": "Publié le 28 février 2024",
+            "author": "Savills France",
+            "title": "Le marché immobilier de luxe en France : 2024",
+            "summary": "Exploration du marché immobilier de luxe en France, en particulier sur la Côte d'Azur et à Paris, et comment ce secteur s'adapte aux nouvelles préférences des acheteurs et aux conditions du marché.",
+            "link": "https://www.savills.fr/blog/article/2024/immobilier-luxe-france.aspx",
+            "categories": [
+                "Immobilier de luxe",
+                "Tendances",
+                "Investissement"
+            ]
+        },
+        {
+            "id": 7,
+            "source": "www.notaires.fr",
+            "photo_source": [
+                "https://www.notaires.fr/themes/custom/etudes-logo.svg"
+            ],
+            "date": "Publié le 12 mars 2024",
+            "author": "Notaires de France",
+            "title": "Les logements abordables en France : enjeux et opportunités",
+            "summary": "Cet article examine la demande croissante pour des logements abordables en France et le rôle du gouvernement dans la résolution de la pénurie de logements à travers de nouvelles initiatives de construction.",
+            "link": "https://www.notaires.fr/fr/immobilier/logements-abordables-2024",
+            "categories": [
+                "Logement abordable",
+                "Marché immobilier",
+                "Régulations"
+            ]
+        },
+        {
+            "id": 8,
+            "source": "www.savills.fr",
+            "photo_source": [
+                "https://www.savills.com/favicon.ico"
+            ],
+            "date": "Publié le 5 avril 2024",
+            "author": "Savills France",
+            "title": "La location saisonnière : un marché en croissance",
+            "summary": "Cet article discute de la croissance du marché de la location saisonnière en France, notamment dans les zones touristiques comme la Côte d'Azur. Il met en lumière le potentiel d'investissement dans ce secteur en plein essor.",
+            "link": "https://www.savills.fr/blog/article/2024/location-saisonniere-france.aspx",
+            "categories": [
+                "Location saisonnière",
+                "Investissement",
+                "Tendances"
+            ]
+        },
+        {
+            "id": 9,
+            "source": "www.parlezmoideparis.com",
+            "photo_source": [
+                "https://www.parlezmoideparis.com/img/logo-pm-paris.svg"
+            ],
+            "date": "Publié le 1er mai 2024",
+            "author": "Parlez-moi de Paris",
+            "title": "L'avenir des logements durables en France",
+            "summary": "Avec la durabilité au cœur des préoccupations, cet article examine comment les pratiques de construction écologiques et les maisons écoénergétiques façonnent l'avenir de l'immobilier en France. Il discute de la demande croissante pour des logements verts.",
+            "link": "https://www.parlezmoideparis.com/logements-durables-france",
+            "categories": [
+                "Durabilité",
+                "Tendances",
+                "Construction"
+            ]
+        },
+        {
+            "id": 10,
+            "source": "www.journaldelagence.com",
+            "photo_source": [
+                "https://www.journaldelagence.com/wp-content/uploads/2021/09/journal-de-l-agence-logo.png"
+            ],
+            "date": "Publié le 12 avril 2024",
+            "author": "Bruno ROULEAU",
+            "title": "Les cycles du marché immobilier en France",
+            "summary": "Cet article offre une perspective historique sur les cycles du marché immobilier en France, en expliquant comment ces cycles réagissent aux conditions économiques mondiales et à l'évolution des taux d'intérêt.",
+            "link": "https://www.journaldelagence.com/cycles-marche-immobilier-france",
+            "categories": [
+                "Tendances",
+                "Marché immobilier",
+                "Historique"
+            ]
+        },
+        {
+            "id": 11,
+            "source": "www.actual-immo.fr",
+            "photo_source": [
+                "https://www.actual-immo.fr/img/logo.png"
+            ],
+            "date": "Publié le 15 avril 2024",
+            "author": "Actual Immo",
+            "title": "Évolution du marché immobilier à Rennes en 2024",
+            "summary": "Cet article analyse les tendances du marché immobilier rennais en 2024, soulignant une légère baisse des prix de l'immobilier résidentiel, avec une variation selon les quartiers. Il explore également l'impact des récents développements de la ville sur la demande et les prix des biens immobiliers.",
+            "link": "https://www.actual-immo.fr/evolution-marche-immobilier-rennes-2024",
+            "categories": [
+                "Marché immobilier",
+                "Tendances",
+                "Local"
+            ]
+        },
+        {
+            "id": 12,
+            "source": "www.constructeur-rennes.fr",
+            "photo_source": [
+                "https://www.constructeur-rennes.fr/img/logo.png"
+            ],
+            "date": "Publié le 28 avril 2024",
+            "author": "Constructeur Rennes",
+            "title": "Analyse du marché immobilier à Rennes et ses alentours en 2024",
+            "summary": "Cet article offre une analyse détaillée du marché immobilier à Rennes, avec une attention particulière portée aux opportunités dans les communes environnantes comme Cesson-Sévigné et Le Rheu. L’impact du développement des transports en commun sur le marché est également abordé.",
+            "link": "https://www.constructeur-rennes.fr/analyse-marche-immobilier-rennes-2024",
+            "categories": [
+                "Analyse",
+                "Marché immobilier",
+                "Tendances"
+            ]
+        },
+        {
+            "id": 13,
+            "source": "www.france3-regions.francetvinfo.fr",
+            "photo_source": [
+                "https://france3-regions.francetvinfo.fr/logo.png"
+            ],
+            "date": "Publié le 15 mai 2024",
+            "author": "France 3 Régions",
+            "title": "Les nouveaux projets immobiliers à Rennes Métropole en 2024",
+            "summary": "Un aperçu des nouveaux projets immobiliers prévus à Rennes Métropole, avec un accent sur les développements résidentiels, les nouvelles infrastructures de transport, et l’impact de ces projets sur le marché local.",
+            "link": "https://www.france3-regions.francetvinfo.fr/nouveaux-projets-immobiliers-rennes-metropole-2024",
+            "categories": [
+                "Projets immobiliers",
+                "Infrastructures",
+                "Tendances"
+            ]
+        },
+        {
+            "id": 14,
+            "source": "www.destination-bretagne.fr",
+            "photo_source": [
+                "https://www.destination-bretagne.fr/img/logo.png"
+            ],
+            "date": "Publié le 17 mars 2024",
+            "author": "Destination Bretagne",
+            "title": "Tendances du marché immobilier en Bretagne en 2024",
+            "summary": "Cet article explore les dynamiques actuelles du marché immobilier breton, mettant en lumière la demande croissante pour les maisons individuelles et les propriétés atypiques, ainsi que l'impact de la crise sanitaire sur les comportements d'achat.",
+            "link": "https://www.destination-bretagne.fr/tendances-marche-immobilier-2024",
+            "categories": [
+                "Marché immobilier",
+                "Tendances",
+                "Régional"
+            ]
+        },
+        {
+            "id": 15,
+            "source": "www.pap.fr",
+            "photo_source": [
+                "https://www.pap.fr/img/logo.png"
+            ],
+            "date": "Publié le 20 février 2024",
+            "author": "PAP",
+            "title": "Le marché immobilier en France : tendances 2024",
+            "summary": "Cet article offre une vue d'ensemble sur le marché immobilier français en 2024, avec un focus sur la baisse des prix et l’évolution des attentes des acheteurs post-COVID. Il met également en avant la résilience des métropoles françaises et l'attrait croissant des zones littorales.",
+            "link": "https://www.pap.fr/tendances-marche-immobilier-france-2024",
+            "categories": [
+                "Tendances",
+                "Marché immobilier",
+                "Économie"
+            ]
+        },
+        {
+            "id": 16,
+            "source": "www.actual-immo.fr",
+            "photo_source": [
+                "https://www.actual-immo.fr/img/logo.png"
+            ],
+            "date": "Publié le 22 février 2024",
+            "author": "Actual Immo",
+            "title": "Impact de la crise économique sur le marché immobilier breton",
+            "summary": "Un article qui explore comment la crise économique actuelle influence le marché immobilier en Bretagne, avec une analyse des variations de prix dans différentes communes et des opportunités pour les acheteurs à la recherche de biens en dehors des centres urbains.",
+            "link": "https://www.actual-immo.fr/impact-crise-economique-immobilier-bretagne",
+            "categories": [
+                "Économie",
+                "Crise",
+                "Marché immobilier"
+            ]
+        },
+        {
+            "id": 17,
+            "source": "www.ouest-france.fr",
+            "photo_source": [
+                "https://www.ouest-france.fr/img/logo.png"
+            ],
+            "date": "Publié le 28 mars 2024",
+            "author": "Ouest France",
+            "title": "Immobilier en Ille-et-Vilaine : un marché en mutation",
+            "summary": "Cet article se concentre sur les tendances spécifiques à l'Ille-et-Vilaine, soulignant les défis et les opportunités dans un marché immobilier en pleine mutation. Il examine l'impact des nouvelles réglementations environnementales et les attentes des acheteurs pour des logements plus écologiques.",
+            "link": "https://www.ouest-france.fr/immobilier-ille-et-vilaine-mutation-2024",
+            "categories": [
+                "Tendances",
+                "Régulations",
+                "Immobilier écologique"
+            ]
+        },
+        {
+            "id": 18,
+            "source": "www.immonot.com",
+            "photo_source": [
+                "https://www.immonot.com/img/logo.png"
+            ],
+            "date": "Publié le 5 février 2024",
+            "author": "Immonot",
+            "title": "Les prix immobiliers en Bretagne : ce qu’il faut savoir en 2024",
+            "summary": "Une analyse détaillée des prix immobiliers en Bretagne en 2024, abordant les variations régionales et les segments de marché les plus affectés par la conjoncture économique actuelle. L’article propose également des conseils pour les investisseurs potentiels.",
+            "link": "https://www.immonot.com/prix-immobiliers-bretagne-2024",
+            "categories": [
+                "Tendances",
+                "Analyse régionale",
+                "Prix immobiliers"
+            ]
+        },
+        {
+            "id": 19,
+            "source": "www.lefigaro.fr",
+            "photo_source": [
+                "https://www.lefigaro.fr/img/logo.png"
+            ],
+            "date": "Publié le 12 avril 2024",
+            "author": "Le Figaro Immobilier",
+            "title": "L’attractivité des zones littorales françaises en 2024",
+            "summary": "Cet article explore l'attrait des zones littorales en France, en particulier la Bretagne, où l’augmentation de la demande pour des résidences secondaires et des biens en bord de mer est notable. Il discute des tendances post-pandémie qui favorisent ce type d’acquisitions.",
+            "link": "https://www.lefigaro.fr/attractivite-zones-littorales-2024",
+            "categories": [
+                "Immobilier littoral",
+                "Tendances",
+                "Post-pandémie"
+            ]
+        },
+        {
+            "id": 20,
+            "source": "www.lesechos.fr",
+            "photo_source": [
+                "https://www.lesechos.fr/img/logo.png"
+            ],
+            "date": "Publié le 18 février 2024",
+            "author": "Les Echos",
+            "title": "Le marché immobilier des résidences secondaires en Bretagne",
+            "summary": "Un article qui met en lumière la dynamique du marché des résidences secondaires en Bretagne, avec une analyse des prix, de la demande et des profils d’acheteurs, notamment en provenance des grandes métropoles françaises.",
+            "link": "https://www.lesechos.fr/marche-immobilier-residences-secondaires-bretagne-2024",
+            "categories": [
+                "Résidences secondaires",
+                "Marché immobilier",
+                "Tendances"
+            ]
+        },
+        {
+            "id": 21,
+            "source": "www.bienici.com",
+            "photo_source": [
+                "https://www.bienici.com/img/logo.png"
+            ],
+            "date": "Publié le 2 mars 2024",
+            "author": "Bien'ici",
+            "title": "Crédit immobilier 2024 : de nouvelles règles pour vous permettre d'acheter un logement",
+            "summary": "L’article présente les nouvelles règles d'octroi de crédit immobilier en 2024, qui facilitent l'accès à l'achat d'un logement pour de nombreux ménages. Les récentes évolutions législatives et les conditions économiques favorables sont également discutées.",
+            "link": "https://www.bienici.com/article/credit-immobilier-2024-de-nouvelles-regles-pour-vous-permettre-d-acheter-un-logement",
+            "categories": [
+                "Financement",
+                "Crédit immobilier",
+                "Tendances"
+            ]
+        },
+        {
+            "id": 22,
+            "source": "www.meilleurtaux.com",
+            "photo_source": [
+                "https://www.meilleurtaux.com/img/logo.png"
+            ],
+            "date": "Publié le 21 mars 2024",
+            "author": "Meilleurtaux",
+            "title": "Crédit immobilier : 2024, l'année du renouveau pour les emprunteurs",
+            "summary": "Cet article explore les opportunités qui s'ouvrent aux emprunteurs en 2024, grâce à la baisse graduelle des taux d'intérêt et à l'assouplissement des critères d'octroi de crédit. Les perspectives d'achat immobilier pour les ménages sont également abordées.",
+            "link": "https://www.meilleurtaux.com/article/credit-immobilier",
+            "categories": [
+                "Crédit immobilier",
+                "Tendances",
+                "Opportunités"
+            ]
+        },
+        {
+            "id": 23,
+            "source": "www.notaires.fr",
+            "photo_source": [
+                "https://www.notaires.fr/themes/custom/etudes-logo.svg"
+            ],
+            "date": "Publié le 21 mai 2024",
+            "author": "Notaires de France",
+            "title": "Tendances du marché immobilier en France - Mai 2024",
+            "summary": "Analyse des tendances actuelles du marché immobilier français, avec un focus sur les prix des logements anciens et les prévisions pour les prochains trimestres.",
+            "link": "https://www.notaires.fr/fr/immobilier/tendances-mai-2024",
+            "categories": [
+                "Tendances",
+                "Marché immobilier",
+                "France"
+            ]
+        },
+        {
+            "id": 24,
+            "source": "www.leparticulier.fr",
+            "photo_source": [
+                "https://www.leparticulier.fr/favicon.ico"
+            ],
+            "date": "Publié le 30 juin 2024",
+            "author": "Le Particulier",
+            "title": "Fiscalité immobilière 2024 : Ce qui change pour les propriétaires",
+            "summary": "Un article détaillant les nouvelles mesures fiscales pour 2024, impactant les propriétaires et investisseurs immobiliers en France.",
+            "link": "https://www.leparticulier.fr/immobilier/fiscalite-2024",
+            "categories": [
+                "Fiscalité",
+                "Législation",
+                "France"
+            ]
+        },
+        {
+            "id": 25,
+            "source": "france3-regions.francetvinfo.fr",
+            "photo_source": [
+                "https://www.francetvinfo.fr/favicon.ico"
+            ],
+            "date": "Publié le 13 décembre 2023",
+            "author": "Krystel Veillard",
+            "title": "Prix de l’immobilier en Bretagne : les conseils des notaires",
+            "summary": "Un article de France 3 Bretagne qui explore les conseils des notaires pour naviguer un marché immobilier en baisse, en particulier dans l'est de l'Ille-et-Vilaine où les prix commencent à s'infléchir malgré des taux d'intérêt plus élevés.",
+            "link": "https://www.france3-regions.francetvinfo.fr/bretagne/immobilier-prix-conseils-notaires-decembre-2023",
+            "categories": [
+                "Marché immobilier",
+                "Bretagne",
+                "Conseils d'achat"
+            ]
+        },
+        {
+            "id": 26,
+            "source": "ouest-france.fr",
+            "photo_source": [
+                "https://www.ouest-france.fr/favicon.ico"
+            ],
+            "date": "Publié le 10 décembre 2023",
+            "author": "Ouest-France",
+            "title": "Les acheteurs d'immobilier en Ille-et-Vilaine : qui sont-ils ?",
+            "summary": "Ouest-France rapporte que 80 % des acheteurs en Ille-et-Vilaine sont des habitants de la région, soulignant une forte demande locale, malgré un marché en pleine mutation dû à l'augmentation des taux d'intérêt.",
+            "link": "https://www.ouest-france.fr/immobilier/ille-et-vilaine-acheteurs-locaux-2023",
+            "categories": [
+                "Marché immobilier",
+                "Ille-et-Vilaine",
+                "Analyse des acheteurs"
+            ]
         }
     ],
     "FAQ": [
@@ -177,7 +1061,7 @@
             "id": 3,
             "catégorie": "Vente",
             "question": "Quels sont les frais associés à la vente d'un bien ?",
-            "answer": "Les frais associés à la vente d'un bien comprennent les frais d'agence (3 à 7 % du prix de vente), les coûts des diagnostics immobiliers obligatoires, la taxe sur la plus-value immobilière (si applicable), et d'éventuels frais de libération du bien en cas de remboursement anticipé du prêt."
+            "answer": "Les frais associés à la vente d'un bien comprennent les frais d'agence (4 à 7 % du prix de vente), les coûts des diagnostics immobiliers obligatoires, la taxe sur la plus-value immobilière (si applicable), et d'éventuels frais de libération du bien en cas de remboursement anticipé du prêt."
         },
         {
             "id": 4,
@@ -187,7 +1071,10 @@
         },
         {
             "id": 5,
-            "catégorie": ["Vente", "Achat"],
+            "catégorie": [
+                "Vente",
+                "Achat"
+            ],
             "question": "Quels sont les documents nécessaires pour acheter un bien immobilier ?",
             "answer": "Les documents nécessaires pour acheter un bien immobilier incluent une pièce d'identité, les justificatifs de ressources, un relevé d'identité bancaire, et les documents liés au financement (offre de prêt, assurance emprunteur)."
         },
@@ -198,20 +1085,20 @@
             "answer": "La taxe sur la plus-value immobilière est une taxe applicable sur le gain réalisé entre le prix d'achat et le prix de vente d'un bien immobilier, avec des exonérations possibles notamment pour la résidence principale ou en fonction de la durée de détention du bien."
         },
         {
-            "id": 7,
-            "catégorie": "Vente",
-            "question": "Quelles sont les étapes pour vendre un bien immobilier ?",
-            "answer": "Cette question est déjà traitée sous l'ID 1, veuillez consulter la réponse correspondante."
-        },
-        {
             "id": 8,
-            "catégorie": ["Vente", "Achat"],
+            "catégorie": [
+                "Vente",
+                "Achat"
+            ],
             "question": "Quels sont les délais légaux entre la signature du compromis et de l'acte de vente ?",
             "answer": "Le délai légal entre la signature du compromis de vente et de l'acte définitif est généralement de 3 mois, mais il peut être prolongé en fonction des conditions spécifiques du contrat ou des besoins de financement de l'acheteur."
         },
         {
             "id": 9,
-            "catégorie": ["Vente", "Achat"],
+            "catégorie": [
+                "Vente",
+                "Achat"
+            ],
             "question": "Qu'est-ce qu'un compromis de vente ?",
             "answer": "Le compromis de vente est un avant-contrat signé par le vendeur et l'acheteur, engageant les deux parties à conclure la vente du bien sous certaines conditions ; il inclut les diagnostics immobiliers et stipule les clauses suspensives, telles que l'obtention du financement par l'acheteur."
         },
@@ -235,7 +1122,10 @@
         },
         {
             "id": 13,
-            "catégorie": ["Vente", "Achat"],
+            "catégorie": [
+                "Vente",
+                "Achat"
+            ],
             "question": "Qu'est-ce que le délai de rétractation et comment fonctionne-t-il ?",
             "answer": "Le délai de rétractation est une période de 10 jours durant laquelle l'acheteur peut se rétracter sans frais après la signature du compromis de vente ; il commence à courir dès le lendemain de la notification du compromis."
         },
@@ -253,7 +1143,10 @@
         },
         {
             "id": 16,
-            "catégorie": ["Vente", "Achat"],
+            "catégorie": [
+                "Vente",
+                "Achat"
+            ],
             "question": "Qu'est-ce qu'une condition suspensive dans un compromis de vente ?",
             "answer": "Une condition suspensive est une clause qui doit être remplie pour que la vente soit finalisée, comme l'obtention du prêt par l'acheteur ; si la condition n'est pas remplie, le compromis de vente peut être annulé sans pénalité."
         },
@@ -277,7 +1170,10 @@
             "id": 2,
             "image": "/public/assets/slides/bannerTeam.jpg",
             "title": "Trouvez votre conseiller",
-            "categorie": ["Home", "Advice"],
+            "categorie": [
+                "Home",
+                "Advice"
+            ],
             "subtitle": "Nos experts sont là pour vous aider",
             "link": "/agents"
         },
@@ -285,7 +1181,10 @@
             "id": 3,
             "image": "/public/assets/slides/bannerAdvice.jpg",
             "title": "Conseils d'Achat Immobilier",
-            "categorie": ["Agents", "Home"],
+            "categorie": [
+                "Agents",
+                "Home"
+            ],
             "subtitle": "Découvrez nos meilleurs conseils pour acheter une propriété.",
             "link": "/advices"
         },
