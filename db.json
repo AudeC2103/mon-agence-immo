@@ -420,7 +420,6 @@
             "date_listed": "2024-07-15",
             "status": "Disponible",
             "images": [
-                
                 "/assets/properties/property8_1.jpg",
                 "/assets/properties/property8_2.jpg",
                 "/assets/properties/property8_3.jpg",
@@ -434,15 +433,15 @@
         {
             "id": 9,
             "title": "Superbe maison de maître entre Rennes et Dinard",
-            "description": "Cette magnifique maison de maître située entre Rennes et Dinard offre un cadre de vie exceptionnel avec ses 250 m² de surface habitable. ",             
+            "description": "Cette magnifique maison de maître située entre Rennes et Dinard offre un cadre de vie exceptionnel avec ses 250 m² de surface habitable. ",
             "type": "Maison",
             "address": "Route de Rennes à Dinard",
             "city": "Entre Rennes et Dinard",
             "postal_code": "35760",
             "region": "Bretagne",
             "country": "France",
-            "latitude": 48.150000,  
-            "longitude": -1.800000, 
+            "latitude": 48.15,
+            "longitude": -1.8,
             "price": 850000,
             "currency": "EUR",
             "area": 250,
@@ -495,8 +494,8 @@
             "postal_code": "35000",
             "region": "Bretagne",
             "country": "France",
-            "latitude": 48.109, 
-            "longitude": -1.681, 
+            "latitude": 48.109,
+            "longitude": -1.681,
             "price": 350000,
             "currency": "EUR",
             "area": 85,
@@ -551,7 +550,7 @@
             "experienceYears": 18,
             "projects": 252,
             "sales": 271,
-            "photo": "assets/agents/agent1.jpg"
+            "photo": ["assets/agents/agent1.jpg"]
         },
         {
             "id": 2,
@@ -562,20 +561,20 @@
             "description": "Agent immobilier depuis 5 ans, mon objectif est de comprendre vos besoins pour vous proposer des solutions sur mesure. Ma passion pour l'immobilier et mon sens du détail me permettent de vous accompagner efficacement tout au long de votre projet.",
             "experienceYears": 5,
             "projects": 50,
-            "sales": 30,
-            "photo": "assets/agents/agent2.jpg"
+            "sales": 60,
+            "photo": ["assets/agents/agent2.jpg"]
         },
         {
             "id": 3,
             "firstName": "Marie",
             "lastName": "Dupont",
-            "phone": "123456789",
+            "phone": "0654321098",
             "email": "marie.dupont@mon-agence-immo.bzh",
             "description": "Avec 10 ans d'expérience dans le secteur immobilier. Mon engagement est de vous offrir un service personnalisé et de qualité, que ce soit pour l'achat ou la vente de votre bien. Je suis là pour vous guider et faire de votre projet immobilier une réussite.",
             "experienceYears": 10,
             "projects": 98,
             "sales": 115,
-            "photo": "assets/agents/agent3.jpg"
+            "photo": ["assets/agents/agent3.jpg"]
         },
         {
             "id": 4,
@@ -587,19 +586,43 @@
             "experienceYears": 12,
             "projects": 145,
             "sales": 160,
-            "photo": "assets/agents/agent4.jpg"
+            "photo": ["assets/agents/agent4.jpg"]
         },
         {
             "id": 5,
             "firstName": "Marie",
             "lastName": "Martin",
-            "phone": "0442939495",
+            "phone": "0642939495",
             "email": "marie.martin@mon-agence-immo.bzh",
             "description": "Specialisée dans les maisons familiales et les propriétés de campagne. Avec plus de 15 ans d'expérience, je suis passionnée par l'accompagnement de mes clients pour réaliser leurs rêves immobiliers. Mon approche chaleureuse et mon écoute attentive sont mes priorités pour vous satisfaire.",
             "experienceYears": 15,
             "projects": 200,
             "sales": 225,
-            "photo": "assets/agents/agent5.jpg"
+            "photo": ["assets/agents/agent5.jpg"]
+        },
+        {
+            "id": 6,
+            "firstName": "Sophie",
+            "lastName": "Durand",
+            "phone": "0623456789",
+            "email": "sophie.durand@mon-agence-immo.bzh",
+            "description": "Experte en immobilier avec 14 ans d'expérience dans la région bretonne. Spécialisée dans la vente de propriétés de luxe et l'accompagnement des familles dans leur projet immobilier.",
+            "experienceYears": 14,
+            "projects": 190,
+            "sales": 220,
+            "photo": ["assets/agents/agent6.jpg"]
+        },
+        {
+            "id": 7,
+            "firstName": "Pierre",
+            "lastName": "Lemoine",
+            "phone": "0645678901",
+            "email": "pierre.lemoine@mon-agence-immo.bzh",
+            "description": "Avec 9 ans d'expérience dans l'immobilier, je suis un conseiller passionné par le marché breton. Ma priorité est de trouver la maison parfaite pour mes clients tout en offrant un service personnalisé.",
+            "experienceYears": 9,
+            "projects": 120,
+            "sales": 164,
+            "photo": ["assets/agents/agent7.jpg"]
         }
     ],
     "Articles": [
