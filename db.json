@@ -420,10 +420,11 @@
             "date_listed": "2024-07-15",
             "status": "Disponible",
             "images": [
-                "assets/properties/property8_1.jpg",
-                "assets/properties/property8_2.jpg",
-                "assets/properties/property8_3.jpg",
-                "assets/properties/property8_4.jpg"
+                
+                "/assets/properties/property8_1.jpg",
+                "/assets/properties/property8_2.jpg",
+                "/assets/properties/property8_3.jpg",
+                "/assets/properties/property8_4.jpg"
             ],
             "videos": [
                 ""
@@ -546,11 +547,11 @@
             "lastName": "CAMPILLO",
             "phone": "0652213798",
             "email": "aude.campillo@mon-agence-immo.bzh",
-            "description": "Bonjour, je suis Aude CAMPILLO. Avec plus de 18 ans d'expérience dans l'immobilier, je suis passionnée par l'accompagnement de mes clients dans la réalisation de leurs projets. Que vous cherchiez à acheter ou à vendre en Bretagne, je mets mon expertise et ma connaissance approfondie du marché local à votre service.",
+            "description": "Avec plus de 18 ans d'expérience dans l'immobilier, je suis passionnée par l'accompagnement de mes clients dans la réalisation de leurs projets. Que vous cherchiez à acheter ou à vendre en Bretagne, je mets mon expertise et ma connaissance approfondie du marché local à votre service.",
             "experienceYears": 18,
             "projects": 252,
             "sales": 271,
-            "photo": "assets/agent1.jpg"
+            "photo": "assets/agents/agent1.jpg"
         },
         {
             "id": 2,
@@ -558,11 +559,11 @@
             "lastName": "Doe",
             "phone": "123456789",
             "email": "john.doe@mon-agence-immo.bzh",
-            "description": "Je m'appelle John Doe, agent immobilier depuis 5 ans. Mon objectif est de comprendre vos besoins pour vous proposer des solutions sur mesure. Ma passion pour l'immobilier et mon sens du détail me permettent de vous accompagner efficacement tout au long de votre projet.",
+            "description": "Agent immobilier depuis 5 ans, mon objectif est de comprendre vos besoins pour vous proposer des solutions sur mesure. Ma passion pour l'immobilier et mon sens du détail me permettent de vous accompagner efficacement tout au long de votre projet.",
             "experienceYears": 5,
             "projects": 50,
             "sales": 30,
-            "photo": "assets/agent2.jpg"
+            "photo": "assets/agents/agent2.jpg"
         },
         {
             "id": 3,
@@ -570,11 +571,11 @@
             "lastName": "Dupont",
             "phone": "123456789",
             "email": "marie.dupont@mon-agence-immo.bzh",
-            "description": "Je suis Marie Dupont, avec 10 ans d'expérience dans le secteur immobilier. Mon engagement est de vous offrir un service personnalisé et de qualité, que ce soit pour l'achat ou la vente de votre bien. Je suis là pour vous guider et faire de votre projet immobilier une réussite.",
+            "description": "Avec 10 ans d'expérience dans le secteur immobilier. Mon engagement est de vous offrir un service personnalisé et de qualité, que ce soit pour l'achat ou la vente de votre bien. Je suis là pour vous guider et faire de votre projet immobilier une réussite.",
             "experienceYears": 10,
             "projects": 98,
             "sales": 115,
-            "photo": "assets/agent3.jpg"
+            "photo": "assets/agents/agent3.jpg"
         },
         {
             "id": 4,
@@ -582,11 +583,11 @@
             "lastName": "Leclerc",
             "phone": "0655778899",
             "email": "lucas.leclerc@mon-agence-immo.bzh",
-            "description": "Je suis Lucas Leclerc, agent immobilier spécialisé dans les propriétés modernes et les lofts. Fort de 12 ans d'expérience, je m'efforce de vous offrir un service sur mesure, alliant innovation et expertise pour répondre à vos attentes.",
+            "description": "Ma specialité : les propriétés modernes et les lofts. Fort de 12 ans d'expérience, je m'efforce de vous offrir un service sur mesure, alliant innovation et expertise pour répondre à vos attentes.",
             "experienceYears": 12,
             "projects": 145,
             "sales": 160,
-            "photo": "assets/agent4.jpg"
+            "photo": "assets/agents/agent4.jpg"
         },
         {
             "id": 5,
@@ -594,20 +595,18 @@
             "lastName": "Martin",
             "phone": "0442939495",
             "email": "marie.martin@mon-agence-immo.bzh",
-            "description": "Je suis Marie Martin, et je me spécialise dans les maisons familiales et les propriétés de campagne. Avec plus de 15 ans d'expérience, je suis passionnée par l'accompagnement de mes clients pour réaliser leurs rêves immobiliers. Mon approche chaleureuse et mon écoute attentive sont mes priorités pour vous satisfaire.",
+            "description": "Specialisée dans les maisons familiales et les propriétés de campagne. Avec plus de 15 ans d'expérience, je suis passionnée par l'accompagnement de mes clients pour réaliser leurs rêves immobiliers. Mon approche chaleureuse et mon écoute attentive sont mes priorités pour vous satisfaire.",
             "experienceYears": 15,
             "projects": 200,
             "sales": 225,
-            "photo": "assets/agent5.jpg"
+            "photo": "assets/agents/agent5.jpg"
         }
     ],
     "Articles": [
         {
             "id": 1,
             "source": "www.notaires.fr",
-            "photo_source": [
-                "https://www.notaires.fr/themes/custom/etudes-logo.svg"
-            ],
+            "photo_source": "assets/articles/notaires.jpg",
             "date": "Publié le 25 janvier 2024",
             "author": "Notaires de France",
             "title": "Tendances et évolutions des prix de l'immobilier - Janvier 2024",
@@ -620,9 +619,9 @@
         },
         {
             "id": 2,
-            "source": "en.savills.fr",
+            "source": "www.savills.fr",
             "photo_source": [
-                "https://www.savills.com/favicon.ico"
+                "assets/articles/savills"
             ],
             "date": "Publié le 19 janvier 2024",
             "author": "Savills France",
@@ -639,7 +638,7 @@
             "id": 3,
             "source": "www.parlezmoideparis.com",
             "photo_source": [
-                "https://www.parlezmoideparis.com/img/logo-pm-paris.svg"
+                "assets/articles/parlezmoideparis.jpg"
             ],
             "date": "Publié le 10 février 2024",
             "author": "Parlez-moi de Paris",
@@ -656,7 +655,7 @@
             "id": 4,
             "source": "www.journaldelagence.com",
             "photo_source": [
-                "https://www.journaldelagence.com/wp-content/uploads/2021/09/journal-de-l-agence-logo.png"
+                "assets/articles/journaldelagence.jpg"
             ],
             "date": "Publié le 5 mars 2024",
             "author": "Bruno ROULEAU",
@@ -673,7 +672,7 @@
             "id": 5,
             "source": "www.notaires.fr",
             "photo_source": [
-                "https://www.notaires.fr/themes/custom/etudes-logo.svg"
+                "assets/articles/notaires.jpg"
             ],
             "date": "Publié le 15 février 2024",
             "author": "Notaires de France",
@@ -690,7 +689,7 @@
             "id": 6,
             "source": "www.savills.fr",
             "photo_source": [
-                "https://www.savills.com/favicon.ico"
+                "assets/articles/savills.jpg"
             ],
             "date": "Publié le 28 février 2024",
             "author": "Savills France",
@@ -707,7 +706,7 @@
             "id": 7,
             "source": "www.notaires.fr",
             "photo_source": [
-                "https://www.notaires.fr/themes/custom/etudes-logo.svg"
+                "assets/articles/notaires.jpg"
             ],
             "date": "Publié le 12 mars 2024",
             "author": "Notaires de France",
@@ -724,7 +723,7 @@
             "id": 8,
             "source": "www.savills.fr",
             "photo_source": [
-                "https://www.savills.com/favicon.ico"
+                "assets/articles/savills.jpg"
             ],
             "date": "Publié le 5 avril 2024",
             "author": "Savills France",
@@ -741,7 +740,7 @@
             "id": 9,
             "source": "www.parlezmoideparis.com",
             "photo_source": [
-                "https://www.parlezmoideparis.com/img/logo-pm-paris.svg"
+                "assets/articles/parlezmoideparis.jpg"
             ],
             "date": "Publié le 1er mai 2024",
             "author": "Parlez-moi de Paris",
@@ -758,7 +757,7 @@
             "id": 10,
             "source": "www.journaldelagence.com",
             "photo_source": [
-                "https://www.journaldelagence.com/wp-content/uploads/2021/09/journal-de-l-agence-logo.png"
+                "assets/articles/journaldelagence.jpg"
             ],
             "date": "Publié le 12 avril 2024",
             "author": "Bruno ROULEAU",
@@ -775,7 +774,7 @@
             "id": 11,
             "source": "www.actual-immo.fr",
             "photo_source": [
-                "https://www.actual-immo.fr/img/logo.png"
+                "assets/articles/actual-immo.jpg"
             ],
             "date": "Publié le 15 avril 2024",
             "author": "Actual Immo",
@@ -792,7 +791,7 @@
             "id": 12,
             "source": "www.constructeur-rennes.fr",
             "photo_source": [
-                "https://www.constructeur-rennes.fr/img/logo.png"
+                "assets/articles/constructeur-rennes.jpg"
             ],
             "date": "Publié le 28 avril 2024",
             "author": "Constructeur Rennes",
@@ -809,7 +808,7 @@
             "id": 13,
             "source": "www.france3-regions.francetvinfo.fr",
             "photo_source": [
-                "https://france3-regions.francetvinfo.fr/logo.png"
+                "assets/articles/france3-regions.jpg"
             ],
             "date": "Publié le 15 mai 2024",
             "author": "France 3 Régions",
@@ -826,7 +825,7 @@
             "id": 14,
             "source": "www.destination-bretagne.fr",
             "photo_source": [
-                "https://www.destination-bretagne.fr/img/logo.png"
+                "assets/articles/destination-bretagne.jpg"
             ],
             "date": "Publié le 17 mars 2024",
             "author": "Destination Bretagne",
@@ -843,7 +842,7 @@
             "id": 15,
             "source": "www.pap.fr",
             "photo_source": [
-                "https://www.pap.fr/img/logo.png"
+                "assets/articles/pap.jpg"
             ],
             "date": "Publié le 20 février 2024",
             "author": "PAP",
@@ -860,7 +859,7 @@
             "id": 16,
             "source": "www.actual-immo.fr",
             "photo_source": [
-                "https://www.actual-immo.fr/img/logo.png"
+                "assets/articles/actual-immo.jpg"
             ],
             "date": "Publié le 22 février 2024",
             "author": "Actual Immo",
@@ -877,7 +876,7 @@
             "id": 17,
             "source": "www.ouest-france.fr",
             "photo_source": [
-                "https://www.ouest-france.fr/img/logo.png"
+                "assets/articles/ouest-france.jpg"
             ],
             "date": "Publié le 28 mars 2024",
             "author": "Ouest France",
@@ -894,7 +893,7 @@
             "id": 18,
             "source": "www.immonot.com",
             "photo_source": [
-                "https://www.immonot.com/img/logo.png"
+                "assets/articles/immonot.jpg"
             ],
             "date": "Publié le 5 février 2024",
             "author": "Immonot",
@@ -911,7 +910,7 @@
             "id": 19,
             "source": "www.lefigaro.fr",
             "photo_source": [
-                "https://www.lefigaro.fr/img/logo.png"
+                "assets/articles/lefigaro.jpg"
             ],
             "date": "Publié le 12 avril 2024",
             "author": "Le Figaro Immobilier",
@@ -928,7 +927,7 @@
             "id": 20,
             "source": "www.lesechos.fr",
             "photo_source": [
-                "https://www.lesechos.fr/img/logo.png"
+                "assets/articles/lesechos.jpg"
             ],
             "date": "Publié le 18 février 2024",
             "author": "Les Echos",
@@ -945,7 +944,7 @@
             "id": 21,
             "source": "www.bienici.com",
             "photo_source": [
-                "https://www.bienici.com/img/logo.png"
+                "assets/articles/bienici.jpg"
             ],
             "date": "Publié le 2 mars 2024",
             "author": "Bien'ici",
@@ -962,7 +961,7 @@
             "id": 22,
             "source": "www.meilleurtaux.com",
             "photo_source": [
-                "https://www.meilleurtaux.com/img/logo.png"
+                "assets/articles/meilleurtaux.jpg"
             ],
             "date": "Publié le 21 mars 2024",
             "author": "Meilleurtaux",
@@ -979,7 +978,7 @@
             "id": 23,
             "source": "www.notaires.fr",
             "photo_source": [
-                "https://www.notaires.fr/themes/custom/etudes-logo.svg"
+                "assets/articles/notaires.jpg"
             ],
             "date": "Publié le 21 mai 2024",
             "author": "Notaires de France",
@@ -996,7 +995,7 @@
             "id": 24,
             "source": "www.leparticulier.fr",
             "photo_source": [
-                "https://www.leparticulier.fr/favicon.ico"
+                "assets/articles/leparticulier.jpg"
             ],
             "date": "Publié le 30 juin 2024",
             "author": "Le Particulier",
@@ -1013,7 +1012,7 @@
             "id": 25,
             "source": "france3-regions.francetvinfo.fr",
             "photo_source": [
-                "https://www.francetvinfo.fr/favicon.ico"
+                "assets/articles/france3-regions.jpg"
             ],
             "date": "Publié le 13 décembre 2023",
             "author": "Krystel Veillard",
@@ -1030,7 +1029,7 @@
             "id": 26,
             "source": "ouest-france.fr",
             "photo_source": [
-                "https://www.ouest-france.fr/favicon.ico"
+                "assets/articles/ouest-france.jpg"
             ],
             "date": "Publié le 10 décembre 2023",
             "author": "Ouest-France",
@@ -1160,7 +1159,7 @@
     "Slides": [
         {
             "id": 1,
-            "image": "/public/assets/slides/bannerHome.jpg",
+            "image": "assets/slides/bannerHome.jpg",
             "title": "Bienvenue à Notre Agence Immobilière",
             "categorie": "Home",
             "subtitle": "Trouvez la maison de vos rêves",
@@ -1168,7 +1167,7 @@
         },
         {
             "id": 2,
-            "image": "/public/assets/slides/bannerTeam.jpg",
+            "image": "assets/slides/bannerTeam.jpg",
             "title": "Trouvez votre conseiller",
             "categorie": [
                 "Home",
@@ -1179,7 +1178,7 @@
         },
         {
             "id": 3,
-            "image": "/public/assets/slides/bannerAdvice.jpg",
+            "image": "assets/slides/bannerAdvice.jpg",
             "title": "Conseils d'Achat Immobilier",
             "categorie": [
                 "Agents",
@@ -1190,7 +1189,7 @@
         },
         {
             "id": 4,
-            "image": "/public/assets/slides/bannerPropertyWeek.jpg",
+            "image": "assets/slides/bannerPropertyWeek.jpg",
             "title": "Propriété de la Semaine",
             "categorie": "Home",
             "subtitle": "Découvrez cette magnifique maison !",
@@ -1198,7 +1197,7 @@
         },
         {
             "id": 5,
-            "image": "/public/assets/slides/bannerMarketTrends.jpg",
+            "image": "assets/slides/bannerMarketTrends.jpg",
             "title": "Dernier Article : Tendance du Marché",
             "categorie": "Home",
             "subtitle": "Découvrez les dernières tendances du marché immobilier en 2024.",
@@ -1206,7 +1205,7 @@
         },
         {
             "id": 6,
-            "image": "/public/assets/slides/bannerServicePromotion.jpg",
+            "image": "assets/slides/bannerServicePromotion.jpg",
             "title": "Évaluation Gratuite",
             "categorie": "Home",
             "subtitle": "Obtenez une évaluation gratuite de votre bien immobilier en quelques clics.",
@@ -1214,7 +1213,7 @@
         },
         {
             "id": 7,
-            "image": "/public/assets/slides/bannerRennes.jpg",
+            "image": "assets/slides/bannerRennes.jpg",
             "title": "Vivre à Rennes",
             "categorie": "Home",
             "subtitle": "Découvrez les charmes de Rennes et nos biens disponibles.",
@@ -1222,7 +1221,7 @@
         },
         {
             "id": 8,
-            "image": "/public/assets/slides/bannerNewsletter.jpg",
+            "image": "assets/slides/bannerNewsletter.jpg",
             "title": "Newsletter de l'agence",
             "categorie": "Home",
             "subtitle": "Inscrivez-vous et recevez les dernières offres, nos conseils et plus encore !",
