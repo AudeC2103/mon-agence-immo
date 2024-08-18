@@ -1160,9 +1160,9 @@
         {
             "id": 1,
             "image": "assets/slides/bannerHome.jpg",
-            "title": "Bienvenue à Notre Agence Immobilière",
+            "title": "Bienvenue chez Mon agence Immo",
             "categorie": "Home",
-            "subtitle": "Trouvez la maison de vos rêves",
+            "subtitle": "Trouvez la maison de vos rêves avec nous",
             "link": "/properties"
         },
         {
@@ -1198,9 +1198,9 @@
         {
             "id": 5,
             "image": "assets/slides/bannerMarketTrends.jpg",
-            "title": "Dernier Article : Tendance du Marché",
+            "title": "Articles et informations immobilières",
             "categorie": "Home",
-            "subtitle": "Découvrez les dernières tendances du marché immobilier en 2024.",
+            "subtitle": "Découvrez les tendances du marché en 2024.",
             "link": "/articles/market-trends-2024"
         },
         {
