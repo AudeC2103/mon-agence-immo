@@ -1,0 +1,52 @@
+@use "sass:math";
+@import './../../styles/components';
+
+.footer {
+  background-color: $primary-color;
+  color: $white;
+  padding: $base-padding 0;
+  border-top: 1px solid $neutral-color;
+
+  .container {
+    @include flex-center; // Suppose un mixin flex-center pour centrer
+    flex-direction: column;
+    @include responsive(tablet) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  .leftSection, .rightSection {
+    padding: $base-padding;
+    text-align: center;
+
+    @include responsive(tablet) {
+      text-align: left;
+    }
+  }
+
+  .footerLinks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: math.div($base-margin, 2);
+
+    @include responsive(tablet) {
+      flex-direction: row;
+    }
+
+    li {
+      margin: 0;
+
+      a {
+        color: $white;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

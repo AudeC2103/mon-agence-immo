@@ -1,4 +1,7 @@
-// _layout.scss
+// ./src/styles/_layout.scss
+
+@import './variables';  // Assure-toi d'importer les variables
+@import './mixins';     // Si tu utilises des mixins dans ce fichier
 
 .container {
   max-width: $container-max-width;
@@ -6,18 +9,15 @@
   padding: $base-padding;
 }
 
-.header {
-  height: $header-height;
+.header, .footer {
   background-color: $white;
-  color: $text-color;
-  @include flex-center;
-}
-
-.footer {
-  height: $footer-height;
-  background-color: $primary-color;
-  color: $white;
-  @include flex-center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid $neutral-color;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .sidebar {

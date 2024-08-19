@@ -1,4 +1,4 @@
-// _base.scss
+// ./src/styles/_base.scss
 
 *,
 *::before,
@@ -51,7 +51,7 @@ p {
 }
 
 a {
-  color: $primary-color;
+  color: $text-color;
   text-decoration: none;
 
   &:hover {

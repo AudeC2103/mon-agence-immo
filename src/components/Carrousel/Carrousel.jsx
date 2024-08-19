@@ -1,59 +1,58 @@
-import React, { useEffect, useState } from 'react';
-import Slider from 'react-slick';
-import { getProperties } from '../../api/NotesAPI'; // Importation de la fonction getProperties
-import styles from './style.module.scss';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// Carrousel.jsx
+import React, { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
+import s from './style.module.scss';
 
-const Carrousel = () => {
-  const [properties, setProperties] = useState([]);
+const Carrousel = ({ items = [], renderCard, visibleCards = 1, sortFunction, filterFunction }) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [filteredItems, setFilteredItems] = useState(items);
 
   useEffect(() => {
-    const fetchProperties = async () => {
-      try {
-        const data = await getProperties();  // Appel à getProperties pour récupérer les données
-        setProperties(data);
-      } catch (error) {
-        console.error("Erreur lors de la récupération des propriétés:", error);
-      }
-    };
+    let updatedItems = items;
+    if (filterFunction) {
+      updatedItems = updatedItems.filter(filterFunction);
+    }
+    if (sortFunction) {
+      updatedItems = updatedItems.slice().sort(sortFunction);
+    }
+    setFilteredItems(updatedItems);
+  }, [items, sortFunction, filterFunction]);
 
-    fetchProperties();  // Exécution de la fonction pour récupérer les propriétés
-  }, []);
-
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 2, // 2 propriétés visibles en mode desktop
-    slidesToScroll: 1,
-    responsive: [
-      { breakpoint: 1024, settings: { slidesToShow: 2, slidesToScroll: 1 } },
-      { breakpoint: 768, settings: { slidesToShow: 1, slidesToScroll: 1 } },
-      { breakpoint: 480, settings: { slidesToShow: 1, slidesToScroll: 1 } },
-    ]
+  const handleNext = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + visibleCards) % filteredItems.length);
   };
 
+  const handlePrev = () => {
+    setCurrentIndex((prevIndex) => 
+      (prevIndex - visibleCards + filteredItems.length) % filteredItems.length
+    );
+  };
+
+  if (!items || items.length === 0) {
+    return <p>Aucun élément à afficher.</p>;
+  }
+
   return (
-    <div className={styles.carrouselContainer}>
-      <Slider {...settings}>
-        {properties.map(property => (
-          <div key={property.id} className={styles.carrouselSlide}>
-            <img src={property.images[0]} alt={property.title} className={styles.carrouselImage} />
-            <div className={styles.carrouselCaption}>
-              <h3>{property.title}</h3>
-              <p>{property.description}</p>
-              <div className={styles.propertyDetails}>
-                <p>{property.city}</p>
-                <p>{property.price} {property.currency}</p>
-                <p>{property.area} m²</p>
-              </div>
-            </div>
+    <div className={s.carrousel}>
+      <button onClick={handlePrev} className={s.navButton}>{"<"}</button>
+      <div className={s.cardContainer}>
+        {filteredItems.slice(currentIndex, currentIndex + visibleCards).map((item, index) => (
+          <div key={index} className={s.cardWrapper}>
+            {renderCard(item)}
           </div>
         ))}
-      </Slider>
+      </div>
+      <button onClick={handleNext} className={s.navButton}>{">"}</button>
     </div>
   );
+};
+
+Carrousel.propTypes = {
+  items: PropTypes.array.isRequired,
+  renderCard: PropTypes.func.isRequired,
+  visibleCards: PropTypes.number,
+  sortFunction: PropTypes.func,
+  filterFunction: PropTypes.func,
 };
 
 export default Carrousel;

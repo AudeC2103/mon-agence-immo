@@ -1,0 +1,44 @@
+// src/AccordionItem.scss
+
+.accordion-item {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  
+    &:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  
+    .accordion-header {
+      cursor: pointer;
+      padding: 15px;
+      background-color: #007bff;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+  
+      h3 {
+        margin: 0;
+        font-size: 1rem;
+      }
+    }
+  
+    .accordion-content {
+      padding: 15px;
+      background-color: #f8f9fa;
+      color: #343a40;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  }
+  

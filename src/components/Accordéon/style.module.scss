@@ -1,0 +1,28 @@
+// src/FAQAccordion.scss
+
+.faq-accordion {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2rem;
+      color: #343a40;
+    }
+  
+    #categoryFilter {
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #ced4da;
+      border-radius: 5px;
+      outline: none;
+      transition: border-color 0.3s ease;
+  
+      &:focus {
+        border-color: #007bff;
+      }
+    }
+  }
+  

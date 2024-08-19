@@ -1,0 +1,19 @@
+@import './../../styles/components';
+
+.searchBar {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f0f0; // Juste un exemple de style
+
+    .input {
+        padding: 10px;
+        margin-right: 10px;
+        flex-grow: 1;
+        border: 2px solid #ccc;
+    }
+
+    .btn-style {
+      @include btn-secondary;
+    }
+}

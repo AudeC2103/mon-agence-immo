@@ -1,89 +1,60 @@
 import { BASE_URL } from "../config";
 
-// Fonction asynchrone pour récupérer toutes les propriétés
+// Fonction pour récupérer tout le fichier db.json
+const fetchData = async () => {
+    try {
+        const response = await fetch(BASE_URL);
+        if (!response.ok) {
+            throw new Error('Erreur de récupération des données');
+        }
+        const data = await response.json();
+        console.log('Données récupérées:', data);
+
+        return data;
+    } catch (error) {
+        console.error('Erreur lors de la récupération des données:', error.message);
+        throw error;
+    }
+};
+
+// Fonctions spécifiques pour chaque type de données
 export const getProperties = async () => {
-    try {
-        const response = await fetch(BASE_URL);
-        if (!response.ok) {
-            throw new Error('Erreur de récupération des données de Properties');
-        }
-        const data = await response.json();
-        console.log('Data:', data);
-
-        // Vérification de la présence de la clé 'Properties'
-        if (!data.Properties) {
-            throw new Error("Le fichier JSON ne contient pas de clé 'Properties'.");
-        }
-
-        return data.Properties;
-    } catch (error) {
-        console.error('Erreur lors de la récupération des propriétés:', error.message);
-        throw error;
+    const data = await fetchData();
+    if (!data || !data.Properties) {
+        throw new Error("Le fichier JSON ne contient pas de clé 'Properties'.");
     }
+    return data.Properties;
 };
 
-// Fonction asynchrone pour récupérer tous les agents
 export const getAgents = async () => {
-    try {
-        const response = await fetch(BASE_URL);
-        if (!response.ok) {
-            throw new Error('Erreur de récupération des données des Agents');
-        }
-        const data = await response.json();
-        console.log('Data:', data);
-
-        // Vérification de la présence de la clé 'Agents'
-        if (!data.Agents) {
-            throw new Error("Le fichier JSON ne contient pas de clé 'Agents'.");
-        }
-
-        return data.Agents;
-    } catch (error) {
-        console.error('Erreur lors de la récupération des agents:', error.message);
-        throw error;
+    const data = await fetchData();
+    if (!data || !data.Agents) {
+        throw new Error("Le fichier JSON ne contient pas de clé 'Agents'.");
     }
+    return data.Agents;
 };
 
-// Fonction asynchrone pour récupérer tous les articles
 export const getArticles = async () => {
-    try {
-        const response = await fetch(BASE_URL);
-        if (!response.ok) {
-            throw new Error('Erreur de récupération des données des Articles');
-        }
-        const data = await response.json();
-        console.log('Data:', data);
-
-        // Vérification de la présence de la clé 'Articles'
-        if (!data.Articles) {
-            throw new Error("Le fichier JSON ne contient pas de clé 'Articles'.");
-        }
-
-        return data.Articles;
-    } catch (error) {
-        console.error('Erreur lors de la récupération des articles:', error.message);
-        throw error;
+    const data = await fetchData();
+    if (!data || !data.Articles) {
+        throw new Error("Le fichier JSON ne contient pas de clé 'Articles'.");
     }
+    return data.Articles;
 };
 
-// Fonction asynchrone pour récupérer la FAQ
 export const getFAQ = async () => {
-    try {
-        const response = await fetch(BASE_URL);
-        if (!response.ok) {
-            throw new Error('Erreur de récupération des données de la FAQ');
-        }
-        const data = await response.json();
-        console.log('Data:', data);
-
-        // Vérification de la présence de la clé 'FAQ'
-        if (!data.FAQ) {
-            throw new Error("Le fichier JSON ne contient pas de clé 'FAQ'.");
-        }
-
-        return data.FAQ;
-    } catch (error) {
-        console.error('Erreur lors de la récupération de la FAQ:', error.message);
-        throw error;
+    const data = await fetchData();
+    if (!data || !data.FAQ) {
+        throw new Error("Le fichier JSON ne contient pas de clé 'FAQ'.");
     }
+    return data.FAQ;
+};
+
+export const getSlides = async () => {
+    const data = await fetchData();
+    if (!data || !data.Slides) {
+        throw new Error("Le fichier JSON ne contient pas de clé 'Slides'.");
+    }
+  
+    return data.Slides;
 };
