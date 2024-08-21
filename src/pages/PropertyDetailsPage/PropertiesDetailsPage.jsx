@@ -12,7 +12,7 @@ const PropertyDetailsPage = () => {
   return (
     <div className="property-details">
       <h1>{property.title}</h1>
-      <img src={property.images[0]} alt={property.title} />
+      <img src={`/${property.images[0]}`} alt={property.title} className="property-image" />
       <p>{property.description}</p>
       <p>Prix: {property.price} EUR</p>
       <p>Adresse: {property.address}, {property.city}</p>

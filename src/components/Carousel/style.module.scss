@@ -1,0 +1,28 @@
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 10px;
+  padding: 20px 0;
+
+  .navButton {
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .cardContainer {
+    display: flex;
+    gap: 10px;
+  }
+
+  .cardWrapper {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    width: 300px; /* Ajustez selon votre design */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+}

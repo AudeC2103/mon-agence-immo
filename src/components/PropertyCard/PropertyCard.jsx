@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { useFavorites } from './../../hooks/useFavorites';
+import Carousel from './../Carousel/Carousel';
 import s from './style.module.scss';
 
 const PropertyCard = ({ property }) => {
@@ -15,10 +16,28 @@ const PropertyCard = ({ property }) => {
     }
   };
 
+  const carouselSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+  };
+
   return (
     <div className={s.propertyCard}>
       <Link to={`/biens_a_vendre/${property.id}`}>
-        <img src={`${process.env.PUBLIC_URL}/${property.images[0]}`} alt={property.title} className={s.image} />
+        <Carousel 
+          items={property.images} 
+          renderItem={(image, styleOptions) => (
+            <img src={`/${image}`} alt={property.title} className={s.image} style={styleOptions} />
+          )}
+          settings={carouselSettings}
+          width="100%"
+          height="200px" // Ajustez cette valeur selon vos besoins
+          borderRadius="8px"
+        />
         <div className={s.details}>
           <h3>{property.title}</h3>
           <p>{property.city}, {property.region}</p>
