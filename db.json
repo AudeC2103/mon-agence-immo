@@ -420,10 +420,10 @@
             "date_listed": "2024-07-15",
             "status": "Disponible",
             "images": [
-                "/assets/properties/property8_1.jpg",
-                "/assets/properties/property8_2.jpg",
-                "/assets/properties/property8_3.jpg",
-                "/assets/properties/property8_4.jpg"
+                "assets/properties/property8_1.jpg",
+                "assets/properties/property8_2.jpg",
+                "assets/properties/property8_3.jpg",
+                "assets/properties/property8_4.jpg"
             ],
             "videos": [
                 ""
