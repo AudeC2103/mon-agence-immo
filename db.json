@@ -625,447 +625,6 @@
             "photo": "assets/agents/agent7.jpg"
         }
     ],
-    "Articles": [
-        {
-            "id": 1,
-            "source": "www.notaires.fr",
-            "photo_source": "assets/articles/notaires.jpg",
-            "date": "Publié le 25 janvier 2024",
-            "author": "Notaires de France",
-            "title": "Tendances et évolutions des prix de l'immobilier - Janvier 2024",
-            "summary": "Analyse des tendances des prix de l'immobilier en France, avec un focus sur la baisse continue des prix des logements anciens. Les ajustements de prix deviennent plus répandus, ce qui pourrait inciter certains vendeurs à entrer sur le marché avant une nouvelle baisse des prix.",
-            "link": "https://www.notaires.fr/fr/immobilier/prix-immobilier",
-            "categories": [
-                "Tendances",
-                "Marché immobilier"
-            ]
-        },
-        {
-            "id": 2,
-            "source": "www.savills.fr",
-            "photo_source": [
-                "assets/articles/savills"
-            ],
-            "date": "Publié le 19 janvier 2024",
-            "author": "Savills France",
-            "title": "Perspectives du marché immobilier 2024",
-            "summary": "Cet article explore les principales tendances du marché immobilier en 2024, y compris l'intérêt croissant pour les matériaux durables, la location saisonnière et l'attrait éternel de la Côte d'Azur. Il fournit des conseils sur l'investissement immobilier en France.",
-            "link": "https://en.savills.fr/blog/article/2024/perspectives-immobilier.aspx",
-            "categories": [
-                "Tendances",
-                "Investissement",
-                "Marché immobilier"
-            ]
-        },
-        {
-            "id": 3,
-            "source": "www.parlezmoideparis.com",
-            "photo_source": [
-                "assets/articles/parlezmoideparis.jpg"
-            ],
-            "date": "Publié le 10 février 2024",
-            "author": "Parlez-moi de Paris",
-            "title": "L'immobilier à Paris : tendances 2024",
-            "summary": "Cet article examine l'impact de la Loi Climat et Résilience sur le marché immobilier parisien, en particulier pour les biens les moins performants énergétiquement. Il offre également une perspective sur la reprise attendue du marché d'ici 2025.",
-            "link": "https://www.parlezmoideparis.com/immobilier-paris-2024",
-            "categories": [
-                "Tendances",
-                "Marché immobilier",
-                "Loi Climat"
-            ]
-        },
-        {
-            "id": 4,
-            "source": "www.journaldelagence.com",
-            "photo_source": [
-                "assets/articles/journaldelagence.jpg"
-            ],
-            "date": "Publié le 5 mars 2024",
-            "author": "Bruno ROULEAU",
-            "title": "Le marché immobilier français en 2024 : opportunités et défis",
-            "summary": "Analyse des opportunités d'investissement sur le marché immobilier français en 2024, en mettant l'accent sur les défis économiques et les régulations impactant les propriétaires et les développeurs.",
-            "link": "https://www.journaldelagence.com/immobilier-france-2024",
-            "categories": [
-                "Opportunités",
-                "Investissement",
-                "Régulations"
-            ]
-        },
-        {
-            "id": 5,
-            "source": "www.notaires.fr",
-            "photo_source": [
-                "assets/articles/notaires.jpg"
-            ],
-            "date": "Publié le 15 février 2024",
-            "author": "Notaires de France",
-            "title": "L'impact des politiques économiques sur l'immobilier en 2024",
-            "summary": "Cet article aborde l'impact des politiques économiques, telles que la lutte contre le changement climatique, sur le marché immobilier en France. Il met en lumière les défis pour les propriétaires et les développeurs pour se conformer aux nouvelles normes.",
-            "link": "https://www.notaires.fr/fr/immobilier/politiques-economiques-2024",
-            "categories": [
-                "Fiscalité",
-                "Économie",
-                "Marché immobilier"
-            ]
-        },
-        {
-            "id": 6,
-            "source": "www.savills.fr",
-            "photo_source": [
-                "assets/articles/savills.jpg"
-            ],
-            "date": "Publié le 28 février 2024",
-            "author": "Savills France",
-            "title": "Le marché immobilier de luxe en France : 2024",
-            "summary": "Exploration du marché immobilier de luxe en France, en particulier sur la Côte d'Azur et à Paris, et comment ce secteur s'adapte aux nouvelles préférences des acheteurs et aux conditions du marché.",
-            "link": "https://www.savills.fr/blog/article/2024/immobilier-luxe-france.aspx",
-            "categories": [
-                "Immobilier de luxe",
-                "Tendances",
-                "Investissement"
-            ]
-        },
-        {
-            "id": 7,
-            "source": "www.notaires.fr",
-            "photo_source": [
-                "assets/articles/notaires.jpg"
-            ],
-            "date": "Publié le 12 mars 2024",
-            "author": "Notaires de France",
-            "title": "Les logements abordables en France : enjeux et opportunités",
-            "summary": "Cet article examine la demande croissante pour des logements abordables en France et le rôle du gouvernement dans la résolution de la pénurie de logements à travers de nouvelles initiatives de construction.",
-            "link": "https://www.notaires.fr/fr/immobilier/logements-abordables-2024",
-            "categories": [
-                "Logement abordable",
-                "Marché immobilier",
-                "Régulations"
-            ]
-        },
-        {
-            "id": 8,
-            "source": "www.savills.fr",
-            "photo_source": [
-                "assets/articles/savills.jpg"
-            ],
-            "date": "Publié le 5 avril 2024",
-            "author": "Savills France",
-            "title": "La location saisonnière : un marché en croissance",
-            "summary": "Cet article discute de la croissance du marché de la location saisonnière en France, notamment dans les zones touristiques comme la Côte d'Azur. Il met en lumière le potentiel d'investissement dans ce secteur en plein essor.",
-            "link": "https://www.savills.fr/blog/article/2024/location-saisonniere-france.aspx",
-            "categories": [
-                "Location saisonnière",
-                "Investissement",
-                "Tendances"
-            ]
-        },
-        {
-            "id": 9,
-            "source": "www.parlezmoideparis.com",
-            "photo_source": [
-                "assets/articles/parlezmoideparis.jpg"
-            ],
-            "date": "Publié le 1er mai 2024",
-            "author": "Parlez-moi de Paris",
-            "title": "L'avenir des logements durables en France",
-            "summary": "Avec la durabilité au cœur des préoccupations, cet article examine comment les pratiques de construction écologiques et les maisons écoénergétiques façonnent l'avenir de l'immobilier en France. Il discute de la demande croissante pour des logements verts.",
-            "link": "https://www.parlezmoideparis.com/logements-durables-france",
-            "categories": [
-                "Durabilité",
-                "Tendances",
-                "Construction"
-            ]
-        },
-        {
-            "id": 10,
-            "source": "www.journaldelagence.com",
-            "photo_source": [
-                "assets/articles/journaldelagence.jpg"
-            ],
-            "date": "Publié le 12 avril 2024",
-            "author": "Bruno ROULEAU",
-            "title": "Les cycles du marché immobilier en France",
-            "summary": "Cet article offre une perspective historique sur les cycles du marché immobilier en France, en expliquant comment ces cycles réagissent aux conditions économiques mondiales et à l'évolution des taux d'intérêt.",
-            "link": "https://www.journaldelagence.com/cycles-marche-immobilier-france",
-            "categories": [
-                "Tendances",
-                "Marché immobilier",
-                "Historique"
-            ]
-        },
-        {
-            "id": 11,
-            "source": "www.actual-immo.fr",
-            "photo_source": [
-                "assets/articles/actual-immo.jpg"
-            ],
-            "date": "Publié le 15 avril 2024",
-            "author": "Actual Immo",
-            "title": "Évolution du marché immobilier à Rennes en 2024",
-            "summary": "Cet article analyse les tendances du marché immobilier rennais en 2024, soulignant une légère baisse des prix de l'immobilier résidentiel, avec une variation selon les quartiers. Il explore également l'impact des récents développements de la ville sur la demande et les prix des biens immobiliers.",
-            "link": "https://www.actual-immo.fr/evolution-marche-immobilier-rennes-2024",
-            "categories": [
-                "Marché immobilier",
-                "Tendances",
-                "Local"
-            ]
-        },
-        {
-            "id": 12,
-            "source": "www.constructeur-rennes.fr",
-            "photo_source": [
-                "assets/articles/constructeur-rennes.jpg"
-            ],
-            "date": "Publié le 28 avril 2024",
-            "author": "Constructeur Rennes",
-            "title": "Analyse du marché immobilier à Rennes et ses alentours en 2024",
-            "summary": "Cet article offre une analyse détaillée du marché immobilier à Rennes, avec une attention particulière portée aux opportunités dans les communes environnantes comme Cesson-Sévigné et Le Rheu. L’impact du développement des transports en commun sur le marché est également abordé.",
-            "link": "https://www.constructeur-rennes.fr/analyse-marche-immobilier-rennes-2024",
-            "categories": [
-                "Analyse",
-                "Marché immobilier",
-                "Tendances"
-            ]
-        },
-        {
-            "id": 13,
-            "source": "www.france3-regions.francetvinfo.fr",
-            "photo_source": [
-                "assets/articles/france3-regions.jpg"
-            ],
-            "date": "Publié le 15 mai 2024",
-            "author": "France 3 Régions",
-            "title": "Les nouveaux projets immobiliers à Rennes Métropole en 2024",
-            "summary": "Un aperçu des nouveaux projets immobiliers prévus à Rennes Métropole, avec un accent sur les développements résidentiels, les nouvelles infrastructures de transport, et l’impact de ces projets sur le marché local.",
-            "link": "https://www.france3-regions.francetvinfo.fr/nouveaux-projets-immobiliers-rennes-metropole-2024",
-            "categories": [
-                "Projets immobiliers",
-                "Infrastructures",
-                "Tendances"
-            ]
-        },
-        {
-            "id": 14,
-            "source": "www.destination-bretagne.fr",
-            "photo_source": [
-                "assets/articles/destination-bretagne.jpg"
-            ],
-            "date": "Publié le 17 mars 2024",
-            "author": "Destination Bretagne",
-            "title": "Tendances du marché immobilier en Bretagne en 2024",
-            "summary": "Cet article explore les dynamiques actuelles du marché immobilier breton, mettant en lumière la demande croissante pour les maisons individuelles et les propriétés atypiques, ainsi que l'impact de la crise sanitaire sur les comportements d'achat.",
-            "link": "https://www.destination-bretagne.fr/tendances-marche-immobilier-2024",
-            "categories": [
-                "Marché immobilier",
-                "Tendances",
-                "Régional"
-            ]
-        },
-        {
-            "id": 15,
-            "source": "www.pap.fr",
-            "photo_source": [
-                "assets/articles/pap.jpg"
-            ],
-            "date": "Publié le 20 février 2024",
-            "author": "PAP",
-            "title": "Le marché immobilier en France : tendances 2024",
-            "summary": "Cet article offre une vue d'ensemble sur le marché immobilier français en 2024, avec un focus sur la baisse des prix et l’évolution des attentes des acheteurs post-COVID. Il met également en avant la résilience des métropoles françaises et l'attrait croissant des zones littorales.",
-            "link": "https://www.pap.fr/tendances-marche-immobilier-france-2024",
-            "categories": [
-                "Tendances",
-                "Marché immobilier",
-                "Économie"
-            ]
-        },
-        {
-            "id": 16,
-            "source": "www.actual-immo.fr",
-            "photo_source": [
-                "assets/articles/actual-immo.jpg"
-            ],
-            "date": "Publié le 22 février 2024",
-            "author": "Actual Immo",
-            "title": "Impact de la crise économique sur le marché immobilier breton",
-            "summary": "Un article qui explore comment la crise économique actuelle influence le marché immobilier en Bretagne, avec une analyse des variations de prix dans différentes communes et des opportunités pour les acheteurs à la recherche de biens en dehors des centres urbains.",
-            "link": "https://www.actual-immo.fr/impact-crise-economique-immobilier-bretagne",
-            "categories": [
-                "Économie",
-                "Crise",
-                "Marché immobilier"
-            ]
-        },
-        {
-            "id": 17,
-            "source": "www.ouest-france.fr",
-            "photo_source": [
-                "assets/articles/ouest-france.jpg"
-            ],
-            "date": "Publié le 28 mars 2024",
-            "author": "Ouest France",
-            "title": "Immobilier en Ille-et-Vilaine : un marché en mutation",
-            "summary": "Cet article se concentre sur les tendances spécifiques à l'Ille-et-Vilaine, soulignant les défis et les opportunités dans un marché immobilier en pleine mutation. Il examine l'impact des nouvelles réglementations environnementales et les attentes des acheteurs pour des logements plus écologiques.",
-            "link": "https://www.ouest-france.fr/immobilier-ille-et-vilaine-mutation-2024",
-            "categories": [
-                "Tendances",
-                "Régulations",
-                "Immobilier écologique"
-            ]
-        },
-        {
-            "id": 18,
-            "source": "www.immonot.com",
-            "photo_source": [
-                "assets/articles/immonot.jpg"
-            ],
-            "date": "Publié le 5 février 2024",
-            "author": "Immonot",
-            "title": "Les prix immobiliers en Bretagne : ce qu’il faut savoir en 2024",
-            "summary": "Une analyse détaillée des prix immobiliers en Bretagne en 2024, abordant les variations régionales et les segments de marché les plus affectés par la conjoncture économique actuelle. L’article propose également des conseils pour les investisseurs potentiels.",
-            "link": "https://www.immonot.com/prix-immobiliers-bretagne-2024",
-            "categories": [
-                "Tendances",
-                "Analyse régionale",
-                "Prix immobiliers"
-            ]
-        },
-        {
-            "id": 19,
-            "source": "www.lefigaro.fr",
-            "photo_source": [
-                "assets/articles/lefigaro.jpg"
-            ],
-            "date": "Publié le 12 avril 2024",
-            "author": "Le Figaro Immobilier",
-            "title": "L’attractivité des zones littorales françaises en 2024",
-            "summary": "Cet article explore l'attrait des zones littorales en France, en particulier la Bretagne, où l’augmentation de la demande pour des résidences secondaires et des biens en bord de mer est notable. Il discute des tendances post-pandémie qui favorisent ce type d’acquisitions.",
-            "link": "https://www.lefigaro.fr/attractivite-zones-littorales-2024",
-            "categories": [
-                "Immobilier littoral",
-                "Tendances",
-                "Post-pandémie"
-            ]
-        },
-        {
-            "id": 20,
-            "source": "www.lesechos.fr",
-            "photo_source": [
-                "assets/articles/lesechos.jpg"
-            ],
-            "date": "Publié le 18 février 2024",
-            "author": "Les Echos",
-            "title": "Le marché immobilier des résidences secondaires en Bretagne",
-            "summary": "Un article qui met en lumière la dynamique du marché des résidences secondaires en Bretagne, avec une analyse des prix, de la demande et des profils d’acheteurs, notamment en provenance des grandes métropoles françaises.",
-            "link": "https://www.lesechos.fr/marche-immobilier-residences-secondaires-bretagne-2024",
-            "categories": [
-                "Résidences secondaires",
-                "Marché immobilier",
-                "Tendances"
-            ]
-        },
-        {
-            "id": 21,
-            "source": "www.bienici.com",
-            "photo_source": [
-                "assets/articles/bienici.jpg"
-            ],
-            "date": "Publié le 2 mars 2024",
-            "author": "Bien'ici",
-            "title": "Crédit immobilier 2024 : de nouvelles règles pour vous permettre d'acheter un logement",
-            "summary": "L’article présente les nouvelles règles d'octroi de crédit immobilier en 2024, qui facilitent l'accès à l'achat d'un logement pour de nombreux ménages. Les récentes évolutions législatives et les conditions économiques favorables sont également discutées.",
-            "link": "https://www.bienici.com/article/credit-immobilier-2024-de-nouvelles-regles-pour-vous-permettre-d-acheter-un-logement",
-            "categories": [
-                "Financement",
-                "Crédit immobilier",
-                "Tendances"
-            ]
-        },
-        {
-            "id": 22,
-            "source": "www.meilleurtaux.com",
-            "photo_source": [
-                "assets/articles/meilleurtaux.jpg"
-            ],
-            "date": "Publié le 21 mars 2024",
-            "author": "Meilleurtaux",
-            "title": "Crédit immobilier : 2024, l'année du renouveau pour les emprunteurs",
-            "summary": "Cet article explore les opportunités qui s'ouvrent aux emprunteurs en 2024, grâce à la baisse graduelle des taux d'intérêt et à l'assouplissement des critères d'octroi de crédit. Les perspectives d'achat immobilier pour les ménages sont également abordées.",
-            "link": "https://www.meilleurtaux.com/article/credit-immobilier",
-            "categories": [
-                "Crédit immobilier",
-                "Tendances",
-                "Opportunités"
-            ]
-        },
-        {
-            "id": 23,
-            "source": "www.notaires.fr",
-            "photo_source": [
-                "assets/articles/notaires.jpg"
-            ],
-            "date": "Publié le 21 mai 2024",
-            "author": "Notaires de France",
-            "title": "Tendances du marché immobilier en France - Mai 2024",
-            "summary": "Analyse des tendances actuelles du marché immobilier français, avec un focus sur les prix des logements anciens et les prévisions pour les prochains trimestres.",
-            "link": "https://www.notaires.fr/fr/immobilier/tendances-mai-2024",
-            "categories": [
-                "Tendances",
-                "Marché immobilier",
-                "France"
-            ]
-        },
-        {
-            "id": 24,
-            "source": "www.leparticulier.fr",
-            "photo_source": [
-                "assets/articles/leparticulier.jpg"
-            ],
-            "date": "Publié le 30 juin 2024",
-            "author": "Le Particulier",
-            "title": "Fiscalité immobilière 2024 : Ce qui change pour les propriétaires",
-            "summary": "Un article détaillant les nouvelles mesures fiscales pour 2024, impactant les propriétaires et investisseurs immobiliers en France.",
-            "link": "https://www.leparticulier.fr/immobilier/fiscalite-2024",
-            "categories": [
-                "Fiscalité",
-                "Législation",
-                "France"
-            ]
-        },
-        {
-            "id": 25,
-            "source": "france3-regions.francetvinfo.fr",
-            "photo_source": [
-                "assets/articles/france3-regions.jpg"
-            ],
-            "date": "Publié le 13 décembre 2023",
-            "author": "Krystel Veillard",
-            "title": "Prix de l’immobilier en Bretagne : les conseils des notaires",
-            "summary": "Un article de France 3 Bretagne qui explore les conseils des notaires pour naviguer un marché immobilier en baisse, en particulier dans l'est de l'Ille-et-Vilaine où les prix commencent à s'infléchir malgré des taux d'intérêt plus élevés.",
-            "link": "https://www.france3-regions.francetvinfo.fr/bretagne/immobilier-prix-conseils-notaires-decembre-2023",
-            "categories": [
-                "Marché immobilier",
-                "Bretagne",
-                "Conseils d'achat"
-            ]
-        },
-        {
-            "id": 26,
-            "source": "ouest-france.fr",
-            "photo_source": [
-                "assets/articles/ouest-france.jpg"
-            ],
-            "date": "Publié le 10 décembre 2023",
-            "author": "Ouest-France",
-            "title": "Les acheteurs d'immobilier en Ille-et-Vilaine : qui sont-ils ?",
-            "summary": "Ouest-France rapporte que 80 % des acheteurs en Ille-et-Vilaine sont des habitants de la région, soulignant une forte demande locale, malgré un marché en pleine mutation dû à l'augmentation des taux d'intérêt.",
-            "link": "https://www.ouest-france.fr/immobilier/ille-et-vilaine-acheteurs-locaux-2023",
-            "categories": [
-                "Marché immobilier",
-                "Ille-et-Vilaine",
-                "Analyse des acheteurs"
-            ]
-        }
-    ],
     "FAQ": [
         {
             "id": 1,
@@ -1249,6 +808,978 @@
             "categorie": "Home",
             "subtitle": "Inscrivez-vous et recevez les dernières offres, nos conseils et plus encore !",
             "link": "/newsletter-signup"
+        }
+    ],
+    "Missions": [
+        {
+            "categories": [
+                {
+                    "categorie": "Avant la vente",
+                    "services": [
+                        {
+                            "id": 1,
+                            "titre": "Évaluation et estimation du bien",
+                            "image": "assets/missions/evaluation.jpg",
+                            "description": "Obtenez une évaluation précise de la valeur marchande de votre bien grâce à notre expertise locale."
+                        },
+                        {
+                            "id": 2,
+                            "titre": "Promotion et publicité",
+                            "image": "assets/missions/promotionn.jpg",
+                            "description": "Maximisez la visibilité de votre bien grâce à des campagnes publicitaires ciblées et des supports de qualité."
+                        }
+                    ]
+                },
+                {
+                    "categorie": "Pendant la vente",
+                    "services": [
+                        {
+                            "id": 3,
+                            "titre": "Organisation des visites",
+                            "image": "assets/missions/visites.jpg",
+                            "description": "Nous organisons et présentons des visites professionnelles pour séduire les acheteurs potentiels."
+                        },
+                        {
+                            "id": 4,
+                            "titre": "Négociation et médiation",
+                            "image": "assets/missions/negociation.jpg",
+                            "description": "Profitez de notre savoir-faire pour négocier les meilleures conditions de vente."
+                        },
+                        {
+                            "id": 5,
+                            "titre": "Rédaction et gestion des documents légaux",
+                            "image": "assets/missions/redaction.jpg",
+                            "description": "Nous gérons toute la documentation juridique pour une transaction sans tracas."
+                        }
+                    ]
+                },
+                {
+                    "categorie": "Après la vente",
+                    "services": [
+                        {
+                            "id": 6,
+                            "titre": "Conseil juridique et fiscal",
+                            "image": "assets/missions/conseil.jpg",
+                            "description": "Recevez des conseils avisés pour naviguer dans les implications juridiques et fiscales."
+                        },
+                        {
+                            "id": 7,
+                            "titre": "Accompagnement jusqu’à la finalisation",
+                            "image": "assets/missions/accompagnement.jpg",
+                            "description": "Un suivi personnalisé jusqu’à la signature finale chez le notaire."
+                        },
+                        {
+                            "id": 8,
+                            "titre": "Services après-vente",
+                            "image": "assets/missions/services_apres.jpg",
+                            "description": "Nous restons disponibles pour toute assistance post-vente, garantissant votre satisfaction."
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Articles": [
+        {
+            "id": 1,
+            "source": "www.notaires.fr",
+            "photo_source": "assets/articles/notaires.jpg",
+            "date": "Publié le 25 janvier 2024",
+            "author": "Notaires de France",
+            "title": "Tendances et évolutions des prix de l'immobilier - Janvier 2024",
+            "summary": "Analyse des tendances des prix de l'immobilier en France, avec un focus sur la baisse continue des prix des logements anciens. Les ajustements de prix deviennent plus répandus, ce qui pourrait inciter certains vendeurs à entrer sur le marché avant une nouvelle baisse des prix.",
+            "link": "https://www.notaires.fr/fr/immobilier/prix-immobilier",
+            "categories": [
+                "Tendances",
+                "Marché immobilier",
+                "France"
+            ]
+        },
+        {
+            "id": 2,
+            "source": "www.savills.fr",
+            "photo_source": "assets/articles/savills.jpg",
+            "date": "Publié le 19 janvier 2024",
+            "author": "Savills France",
+            "title": "Perspectives du marché immobilier 2024",
+            "summary": "Cet article explore les principales tendances du marché immobilier en 2024, y compris l'intérêt croissant pour les matériaux durables, la location saisonnière et l'attrait éternel de la Côte d'Azur. Il fournit des conseils sur l'investissement immobilier en France.",
+            "link": "https://www.savills.fr/blog/article/2024/perspectives-immobilier.aspx",
+            "categories": [
+                "Tendances",
+                "Investissement",
+                "Marché immobilier",
+                "France"
+            ]
+        },
+        {
+            "id": 3,
+            "source": "www.parlezmoideparis.com",
+            "photo_source": "assets/articles/parlezmoideparis.jpg",
+            "date": "Publié le 10 février 2024",
+            "author": "Parlez-moi de Paris",
+            "title": "L'immobilier à Paris : tendances 2024",
+            "summary": "Cet article examine l'impact de la Loi Climat et Résilience sur le marché immobilier parisien, en particulier pour les biens les moins performants énergétiquement. Il offre également une perspective sur la reprise attendue du marché d'ici 2025.",
+            "link": "https://www.parlezmoideparis.com/immobilier-paris-2024",
+            "categories": [
+                "Tendances",
+                "Marché immobilier",
+                "Loi Climat",
+                "Paris"
+            ]
+        },
+        {
+            "id": 4,
+            "source": "www.journaldelagence.com",
+            "photo_source": "assets/articles/journaldelagence.jpg",
+            "date": "Publié le 5 mars 2024",
+            "author": "Bruno ROULEAU",
+            "title": "Le marché immobilier français en 2024 : opportunités et défis",
+            "summary": "Analyse des opportunités d'investissement sur le marché immobilier français en 2024, en mettant l'accent sur les défis économiques et les régulations impactant les propriétaires et les développeurs.",
+            "link": "https://www.journaldelagence.com/immobilier-france-2024",
+            "categories": [
+                "Opportunités",
+                "Investissement",
+                "Régulations",
+                "France"
+            ]
+        },
+        {
+            "id": 5,
+            "source": "www.notaires.fr",
+            "photo_source": "assets/articles/notaires.jpg",
+            "date": "Publié le 15 février 2024",
+            "author": "Notaires de France",
+            "title": "L'impact des politiques économiques sur l'immobilier en 2024",
+            "summary": "Cet article aborde l'impact des politiques économiques, telles que la lutte contre le changement climatique, sur le marché immobilier en France. Il met en lumière les défis pour les propriétaires et les développeurs pour se conformer aux nouvelles normes.",
+            "link": "https://www.notaires.fr/fr/immobilier/politiques-economiques-2024",
+            "categories": [
+                "Fiscalité",
+                "Économie",
+                "Marché immobilier",
+                "France"
+            ]
+        },
+        {
+            "id": 6,
+            "source": "www.savills.fr",
+            "photo_source": "assets/articles/savills.jpg",
+            "date": "Publié le 28 février 2024",
+            "author": "Savills France",
+            "title": "Le marché immobilier de luxe en France : 2024",
+            "summary": "Exploration du marché immobilier de luxe en France, en particulier sur la Côte d'Azur et à Paris, et comment ce secteur s'adapte aux nouvelles préférences des acheteurs et aux conditions du marché.",
+            "link": "https://www.savills.fr/blog/article/2024/immobilier-luxe-france.aspx",
+            "categories": [
+                "Immobilier de luxe",
+                "Tendances",
+                "Investissement",
+                "France"
+            ]
+        },
+        {
+            "id": 7,
+            "source": "www.notaires.fr",
+            "photo_source": "assets/articles/notaires.jpg",
+            "date": "Publié le 12 mars 2024",
+            "author": "Notaires de France",
+            "title": "Les logements abordables en France : enjeux et opportunités",
+            "summary": "Cet article examine la demande croissante pour des logements abordables en France et le rôle du gouvernement dans la résolution de la pénurie de logements à travers de nouvelles initiatives de construction.",
+            "link": "https://www.notaires.fr/fr/immobilier/logements-abordables-2024",
+            "categories": [
+                "Logement abordable",
+                "Marché immobilier",
+                "Régulations",
+                "France"
+            ]
+        },
+        {
+            "id": 8,
+            "source": "www.savills.fr",
+            "photo_source": "assets/articles/savills.jpg",
+            "date": "Publié le 5 avril 2024",
+            "author": "Savills France",
+            "title": "La location saisonnière : un marché en croissance",
+            "summary": "Cet article discute de la croissance du marché de la location saisonnière en France, notamment dans les zones touristiques comme la Côte d'Azur. Il met en lumière le potentiel d'investissement dans ce secteur en plein essor.",
+            "link": "https://www.savills.fr/blog/article/2024/location-saisonniere-france.aspx",
+            "categories": [
+                "Location saisonnière",
+                "Investissement",
+                "Tendances",
+                "France"
+            ]
+        },
+        {
+            "id": 9,
+            "source": "www.parlezmoideparis.com",
+            "photo_source": "assets/articles/parlezmoideparis.jpg",
+            "date": "Publié le 1er mai 2024",
+            "author": "Parlez-moi de Paris",
+            "title": "L'avenir des logements durables en France",
+            "summary": "Avec la durabilité au cœur des préoccupations, cet article examine comment les pratiques de construction écologiques et les maisons écoénergétiques façonnent l'avenir de l'immobilier en France. Il discute de la demande croissante pour des logements verts.",
+            "link": "https://www.parlezmoideparis.com/logements-durables-france",
+            "categories": [
+                "Durabilité",
+                "Tendances",
+                "Construction",
+                "France"
+            ]
+        },
+        {
+            "id": 10,
+            "source": "www.journaldelagence.com",
+            "photo_source": "assets/articles/journaldelagence.jpg",
+            "date": "Publié le 12 avril 2024",
+            "author": "Bruno ROULEAU",
+            "title": "Les cycles du marché immobilier en France",
+            "summary": "Cet article offre une perspective historique sur les cycles du marché immobilier en France, en expliquant comment ces cycles réagissent aux conditions économiques mondiales et à l'évolution des taux d'intérêt.",
+            "link": "https://www.journaldelagence.com/cycles-marche-immobilier-france",
+            "categories": [
+                "Tendances",
+                "Marché immobilier",
+                "Historique",
+                "France"
+            ]
+        },
+        {
+                "id": 11,
+                "source": "www.actual-immo.fr",
+                "photo_source": "assets/articles/actual-immo.jpg",
+                "date": "Publié le 15 avril 2024",
+                "author": "Actual Immo",
+                "title": "Évolution du marché immobilier à Rennes en 2024",
+                "summary": "Cet article analyse les tendances du marché immobilier rennais en 2024, soulignant une légère baisse des prix de l'immobilier résidentiel, avec une variation selon les quartiers. Il explore également l'impact des récents développements de la ville sur la demande et les prix des biens immobiliers.",
+                "link": "https://www.actual-immo.fr/evolution-marche-immobilier-rennes-2024",
+                "categories": [
+                    "Marché immobilier",
+                    "Tendances",
+                    "Rennes",
+                    "France"
+                ]
+            },
+            {
+                "id": 12,
+                "source": "www.constructeur-rennes.fr",
+                "photo_source": "assets/articles/constructeur-rennes.jpg",
+                "date": "Publié le 28 avril 2024",
+                "author": "Constructeur Rennes",
+                "title": "Analyse du marché immobilier à Rennes et ses alentours en 2024",
+                "summary": "Cet article offre une analyse détaillée du marché immobilier à Rennes, avec une attention particulière portée aux opportunités dans les communes environnantes comme Cesson-Sévigné et Le Rheu. L’impact du développement des transports en commun sur le marché est également abordé.",
+                "link": "https://www.constructeur-rennes.fr/analyse-marche-immobilier-rennes-2024",
+                "categories": [
+                    "Analyse",
+                    "Marché immobilier",
+                    "Tendances",
+                    "Rennes",
+                    "France"
+                ]
+            },
+            {
+                "id": 13,
+                "source": "www.france3-regions.francetvinfo.fr",
+                "photo_source": "assets/articles/france3-regions.jpg",
+                "date": "Publié le 15 mai 2024",
+                "author": "France 3 Régions",
+                "title": "Les nouveaux projets immobiliers à Rennes Métropole en 2024",
+                "summary": "Un aperçu des nouveaux projets immobiliers prévus à Rennes Métropole, avec un accent sur les développements résidentiels, les nouvelles infrastructures de transport, et l’impact de ces projets sur le marché local.",
+                "link": "https://www.france3-regions.francetvinfo.fr/nouveaux-projets-immobiliers-rennes-metropole-2024",
+                "categories": [
+                    "Projets immobiliers",
+                    "Infrastructures",
+                    "Tendances",
+                    "Rennes",
+                    "France"
+                ]
+            },
+            {
+                "id": 14,
+                "source": "www.destination-bretagne.fr",
+                "photo_source": "assets/articles/destination-bretagne.jpg",
+                "date": "Publié le 17 mars 2024",
+                "author": "Destination Bretagne",
+                "title": "Tendances du marché immobilier en Bretagne en 2024",
+                "summary": "Cet article explore les dynamiques actuelles du marché immobilier breton, mettant en lumière la demande croissante pour les maisons individuelles et les propriétés atypiques, ainsi que l'impact de la crise sanitaire sur les comportements d'achat.",
+                "link": "https://www.destination-bretagne.fr/tendances-marche-immobilier-2024",
+                "categories": [
+                    "Marché immobilier",
+                    "Tendances",
+                    "Bretagne",
+                    "France"
+                ]
+            },
+            {
+                "id": 15,
+                "source": "www.pap.fr",
+                "photo_source": "assets/articles/pap.jpg",
+                "date": "Publié le 20 février 2024",
+                "author": "PAP",
+                "title": "Le marché immobilier en France : tendances 2024",
+                "summary": "Cet article offre une vue d'ensemble sur le marché immobilier français en 2024, avec un focus sur la baisse des prix et l’évolution des attentes des acheteurs post-COVID. Il met également en avant la résilience des métropoles françaises et l'attrait croissant des zones littorales.",
+                "link": "https://www.pap.fr/tendances-marche-immobilier-france-2024",
+                "categories": [
+                    "Tendances",
+                    "Marché immobilier",
+                    "Économie",
+                    "France"
+                ]
+            },
+            {
+                "id": 16,
+                "source": "www.actual-immo.fr",
+                "photo_source": "assets/articles/actual-immo.jpg",
+                "date": "Publié le 22 février 2024",
+                "author": "Actual Immo",
+                "title": "Impact de la crise économique sur le marché immobilier breton",
+                "summary": "Un article qui explore comment la crise économique actuelle influence le marché immobilier en Bretagne, avec une analyse des variations de prix dans différentes communes et des opportunités pour les acheteurs à la recherche de biens en dehors des centres urbains.",
+                "link": "https://www.actual-immo.fr/impact-crise-economique-immobilier-bretagne",
+                "categories": [
+                    "Économie",
+                    "Crise",
+                    "Marché immobilier",
+                    "Bretagne",
+                    "France"
+                ]
+            },
+            {
+                "id": 17,
+                "source": "www.ouest-france.fr",
+                "photo_source": "assets/articles/ouest-france.jpg",
+                "date": "Publié le 28 mars 2024",
+                "author": "Ouest France",
+                "title": "Immobilier en Ille-et-Vilaine : un marché en mutation",
+                "summary": "Cet article se concentre sur les tendances spécifiques à l'Ille-et-Vilaine, soulignant les défis et les opportunités dans un marché immobilier en pleine mutation. Il examine l'impact des nouvelles réglementations environnementales et les attentes des acheteurs pour des logements plus écologiques.",
+                "link": "https://www.ouest-france.fr/immobilier-ille-et-vilaine-mutation-2024",
+                "categories": [
+                    "Tendances",
+                    "Régulations",
+                    "Immobilier écologique",
+                    "Ille-et-Vilaine",
+                    "Bretagne",
+                    "France"
+                ]
+            },
+            {
+                "id": 18,
+                "source": "www.immonot.com",
+                "photo_source": "assets/articles/immonot.jpg",
+                "date": "Publié le 5 février 2024",
+                "author": "Immonot",
+                "title": "Les prix immobiliers en Bretagne : ce qu’il faut savoir en 2024",
+                "summary": "Une analyse détaillée des prix immobiliers en Bretagne en 2024, abordant les variations régionales et les segments de marché les plus affectés par la conjoncture économique actuelle. L’article propose également des conseils pour les investisseurs potentiels.",
+                "link": "https://www.immonot.com/prix-immobiliers-bretagne-2024",
+                "categories": [
+                    "Tendances",
+                    "Analyse régionale",
+                    "Prix immobiliers",
+                    "Bretagne",
+                    "France"
+                ]
+            },
+            {
+                "id": 19,
+                "source": "www.lefigaro.fr",
+                "photo_source": "assets/articles/lefigaro.jpg",
+                "date": "Publié le 12 avril 2024",
+                "author": "Le Figaro Immobilier",
+                "title": "L’attractivité des zones littorales françaises en 2024",
+                "summary": "Cet article explore l'attrait des zones littorales en France, en particulier la Bretagne, où l’augmentation de la demande pour des résidences secondaires et des biens en bord de mer est notable. Il discute des tendances post-pandémie qui favorisent ce type d’acquisitions.",
+                "link": "https://www.lefigaro.fr/attractivite-zones-littorales-2024",
+                "categories": [
+                    "Immobilier littoral",
+                    "Tendances",
+                    "Post-pandémie",
+                    "France"
+                ]
+            },
+            {
+                "id": 20,
+                "source": "www.lesechos.fr",
+                "photo_source": "assets/articles/lesechos.jpg",
+                "date": "Publié le 18 février 2024",
+                "author": "Les Echos",
+                "title": "Le marché immobilier des résidences secondaires en Bretagne",
+                "summary": "Un article qui met en lumière la dynamique du marché des résidences secondaires en Bretagne, avec une analyse des prix, de la demande et des profils d’acheteurs, notamment en provenance des grandes métropoles françaises.",
+                "link": "https://www.lesechos.fr/marche-immobilier-residences-secondaires-bretagne-2024",
+                "categories": [
+                    "Résidences secondaires",
+                    "Marché immobilier",
+                    "Tendances",
+                    "Bretagne",
+                    "France"
+                ]
+            },
+            {
+                "id": 21,
+                "source": "www.bienici.com",
+                "photo_source": "assets/articles/bienici.jpg",
+                "date": "Publié le 2 mars 2024",
+                "author": "Bien'ici",
+                "title": "Crédit immobilier 2024 : de nouvelles règles pour vous permettre d'acheter un logement",
+                "summary": "L’article présente les nouvelles règles d'octroi de crédit immobilier en 2024, qui facilitent l'accès à l'achat d'un logement pour de nombreux ménages. Les récentes évolutions législatives et les conditions économiques favorables sont également discutées.",
+                "link": "https://www.bienici.com/article/credit-immobilier-2024-de-nouvelles-regles-pour-vous-permettre-d-acheter-un-logement",
+                "categories": [
+                    "Financement",
+                    "Crédit immobilier",
+                    "Tendances",
+                    "France"
+                ]
+            },
+            {
+                "id": 22,
+                "source": "www.meilleurtaux.com",
+                "photo_source": "assets/articles/meilleurtaux.jpg",
+                "date": "Publié le 21 mars 2024",
+                "author": "Meilleurtaux",
+                "title": "Crédit immobilier : 2024, l'année du renouveau pour les emprunteurs",
+                "summary": "Cet article explore les opportunités qui s'ouvrent aux emprunteurs en 2024, grâce à la baisse graduelle des taux d'intérêt et à l'assouplissement des critères d'octroi de crédit. Les perspectives d'achat immobilier pour les ménages sont également abordées.",
+                "link": "https://www.meilleurtaux.com/article/credit-immobilier",
+                "categories": [
+                    "Crédit immobilier",
+                    "Tendances",
+                    "Opportunités",
+                    "France"
+                ]
+            },
+            {
+                "id": 23,
+                "source": "www.notaires.fr",
+                "photo_source": "assets/articles/notaires.jpg",
+                "date": "Publié le 21 mai 2024",
+                "author": "Notaires de France",
+                "title": "Tendances du marché immobilier en France - Mai 2024",
+                "summary": "Analyse des tendances actuelles du marché immobilier français, avec un focus sur les prix des logements anciens et les prévisions pour les prochains trimestres.",
+                "link": "https://www.notaires.fr/fr/immobilier/tendances-mai-2024",
+                "categories": [
+                    "Tendances",
+                    "Marché immobilier",
+                    "France"
+                ]
+            },
+            {
+                "id": 24,
+                "source": "www.leparticulier.fr",
+                "photo_source": "assets/articles/leparticulier.jpg",
+                "date": "Publié le 30 juin 2024",
+                "author": "Le Particulier",
+                "title": "Fiscalité immobilière 2024 : Ce qui change pour les propriétaires",
+                "summary": "Un article détaillant les nouvelles mesures fiscales pour 2024, impactant les propriétaires et investisseurs immobiliers en France.",
+                "link": "https://www.leparticulier.fr/immobilier/fiscalite-2024",
+                "categories": [
+                    "Fiscalité",
+                    "Législation",
+                    "France"
+                ]
+            },
+            {
+                "id": 25,
+                "source": "france3-regions.francetvinfo.fr",
+                "photo_source": "assets/articles/france3-regions.jpg",
+                "date": "Publié le 13 décembre 2023",
+                "author": "Krystel Veillard",
+                "title": "Prix de l’immobilier en Bretagne : les conseils des notaires",
+                "summary": "Un article de France 3 Bretagne qui explore les conseils des notaires pour naviguer un marché immobilier en baisse, en particulier dans l'est de l'Ille-et-Vilaine où les prix commencent à s'infléchir malgré des taux d'intérêt plus élevés.",
+                "link": "https://www.france3-regions.francetvinfo.fr/bretagne/immobilier-prix-conseils-notaires-decembre-2023",
+                "categories": [
+                    "Marché immobilier",
+                    "Bretagne",
+                    "Conseils d'achat",
+                    "France"
+                ]
+            },
+            {
+                "id": 26,
+                "source": "ouest-france.fr",
+                "photo_source": "assets/articles/ouest-france.jpg",
+                "date": "Publié le 10 décembre 2023",
+                "author": "Ouest-France",
+                "title": "Les acheteurs d'immobilier en Ille-et-Vilaine : qui sont-ils ?",
+                "summary": "Ouest-France rapporte que 80 % des acheteurs en Ille-et-Vilaine sont des habitants de la région, soulignant une forte demande locale, malgré un marché en pleine mutation dû à l'augmentation des taux d'intérêt.",
+                "link": "https://www.ouest-france.fr/immobilier/ille-et-vilaine-acheteurs-locaux-2023",
+                "categories": [
+                    "Marché immobilier",
+                    "Ille-et-Vilaine",
+                    "Analyse des acheteurs",
+                    "France"
+                ]
+            },
+            {
+                "id": 27,
+                "source": "www.rennesdecoeur.fr",
+                "photo_source": "assets/articles/rennesdecoeur.jpg",
+                "date": "Publié le 10 août 2024",
+                "author": "Rennes de Coeur",
+                "title": "Rennes : la ville où il fait bon vivre... mais dans quel quartier ?",
+                "summary": "Cet article offre un aperçu des différents quartiers de Rennes, en mettant l'accent sur les projets immobiliers en cours et les options pour trouver des logements neufs ou rénovés.",
+                "link": "https://www.rennesdecoeur.fr",
+                "categories": [
+                    "Nouveaux logements",
+                    "Qualité de vie",
+                    "Rennes",
+                    "France"
+                ]
+            },
+            {
+                "id": 28,
+                "source": "edito.seloger.com",
+                "photo_source": "assets/articles/seloger.jpg",
+                "date": "Publié le 25 juillet 2024",
+                "author": "SeLoger",
+                "title": "Acheter à Rennes : les quartiers à considérer",
+                "summary": "Cet article détaille le processus d'achat à Rennes, en conseillant sur les quartiers à considérer en fonction de l'offre immobilière et de la qualité de vie.",
+                "link": "https://edito.seloger.com",
+                "categories": [
+                    "Processus d'achat",
+                    "Conseils",
+                    "Rennes",
+                    "France"
+                ]
+            },
+            {
+                "id": 29,
+                "source": "www.cabinet-i-immobilier.fr",
+                "photo_source": "assets/articles/cabinet-i-immobilier.jpg",
+                "date": "Publié le 15 août 2024",
+                "author": "I-Immobilier",
+                "title": "Les meilleurs quartiers pour investir à Rennes en 2024",
+                "summary": "Cet article examine les quartiers de Rennes, comme Cleunay et Sud-Gare, où les nouveaux projets d'urbanisme offrent des opportunités pour investir dans des logements écologiques et modernes.",
+                "link": "https://cabinet-i-immobilier.fr/meilleurs-quartiers-de-rennes/",
+                "categories": [
+                    "Nouveaux logements",
+                    "Investissement",
+                    "Rennes",
+                    "France"
+                ]
+            },
+            {
+                "id": 30,
+                "source": "www.rennesimmo9.com",
+                "photo_source": "assets/articles/rennesimmo9.jpg",
+                "date": "Publié le 28 novembre 2023",
+                "author": "Hervé Koffel",
+                "title": "Rennes : où et comment acheter en 2024 ?",
+                "summary": "Cet article offre un guide complet pour l'achat immobilier à Rennes en 2024, en couvrant les étapes clés, les obligations légales, et les quartiers à surveiller pour éviter les erreurs courantes.",
+                "link": "https://www.rennesimmo9.com/actualites/investissement/ou-investir-rennes-2024",
+                "categories": [
+                    "Processus d'achat",
+                    "Conseils",
+                    "Rennes",
+                    "France"
+                ]
+            },
+            {
+                "id": 31,
+                "source": "www.cafpi.fr",
+                "photo_source": "assets/articles/cafpi.jpg",
+                "date": "Publié le 17 août 2024",
+                "author": "CAFPI",
+                "title": "Critères pour choisir un bien immobilier",
+                "summary": "Cet article de CAFPI guide les primo-accédants à travers les critères essentiels pour choisir un bien immobilier, tels que la localisation, la proximité des commodités, et les aspects techniques du bien.",
+                "link": "https://www.cafpi.fr/credit-immobilier/guide-premier-achat-immobilier/etapes-achat-immobilier/criteres-pour-choisir-bien-immobilier",
+                "categories": [
+                    "Processus d'achat",
+                    "Conseils",
+                    "France"
+                ]
+            },
+            {
+                "id": 32,
+                "source": "www.monmarcheimmobilier.fr",
+                "photo_source": "assets/articles/monmarcheimmobilier.jpg",
+                "date": "Publié le 15 août 2024",
+                "author": "Mon Marché Immobilier",
+                "title": "Dans quel quartier investir à Rennes ?",
+                "summary": "Mon Marché Immobilier explore les meilleurs quartiers de Rennes pour un investissement immobilier, en fonction de la demande locative, des projets d'urbanisme, et de la qualité de vie.",
+                "link": "https://www.monmarcheimmobilier.fr/conseil/dans-quel-quartier-investir-a-rennes",
+                "categories": [
+                    "Investissement",
+                    "Localisation",
+                    "Rennes",
+                    "France"
+                ]
+            },
+            {
+                "id": 33,
+                "source": "www.capital.fr",
+                "photo_source": "assets/articles/capital.jpg",
+                "date": "Publié le 1er août 2024",
+                "author": "Capital",
+                "title": "Prix de l'immobilier à Rennes : indices à l'achat et à la location",
+                "summary": "Capital fournit un état des lieux des prix de l'immobilier à Rennes, incluant les indices pour l'achat et la location, permettant aux acheteurs et locataires potentiels de mieux comprendre le marché actuel.",
+                "link": "https://www.capital.fr/immobilier/prix-de-l-immobilier-a-rennes-les-indices-a-l-achat-et-a-la-location-du-mois-1",
+                "categories": [
+                    "Tendances",
+                    "Prix",
+                    "Rennes",
+                    "France"
+                ]
+            },
+            {
+                "id": 34,
+                "source": "www.leparisien.fr",
+                "photo_source": "assets/articles/leparisien.jpg",
+                "date": "Publié le 17 août 2024",
+                "author": "Le Parisien",
+                "title": "Proximité de la mer : où acheter près de Rennes ?",
+                "summary": "Le Parisien propose un classement des meilleures zones pour acheter une maison près de Rennes, avec un focus sur la proximité de la mer, les prix immobiliers, et la qualité de vie.",
+                "link": "https://www.leparisien.fr/societe/prix-de-limmobilier-proximite-de-la-mer-ou-acheter-une-maison-pres-de-rennes-notre-classement-exclusif-17-08-2024-PBMLJC2MAZBPVPH56YPUNSTPR4.php",
+                "categories": [
+                    "Localisation",
+                    "Investissement",
+                    "Rennes",
+                    "France"
+                ]
+            },
+            {
+                "id": 35,
+                "source": "metropole.rennes.fr",
+                "photo_source": "assets/articles/rennes-metropole.jpg",
+                "date": "Publié le 20 juillet 2024",
+                "author": "Rennes Métropole",
+                "title": "Les aides à l'achat d'un logement à Rennes",
+                "summary": "Rennes Métropole présente les différentes aides disponibles pour l'achat d'un logement à Rennes, destinées à aider les primo-accédants et les familles à s'installer dans la ville.",
+                "link": "https://metropole.rennes.fr/les-aides-lachat-dun-logement",
+                "categories": [
+                    "Processus d'achat",
+                    "Aides financières",
+                    "Rennes",
+                    "France"
+                ]
+            },
+            {
+                "id": 36,
+                "source": "www.ouest-france.fr",
+                "photo_source": "assets/articles/ouest-france.jpg",
+                "date": "Publié le 20 août 2024",
+                "author": "Ouest-France",
+                "title": "Conseils pour bien acheter ou vendre dans l'Ouest",
+                "summary": "Cet article de Ouest-France offre des conseils pratiques pour bien acheter ou vendre un bien immobilier dans l'Ouest de la France, en se concentrant sur les marchés de Nantes, Rennes, et Brest.",
+                "link": "https://www.ouest-france.fr/economie/immobilier/immobilier-nantes-rennes-brest-voici-les-conseils-pour-bien-acheter-ou-vendre-dans-louest-62665e48-2a5c-11ef-8172-3705d92ae677",
+                "categories": [
+                    "Processus d'achat",
+                    "Conseils",
+                    "Rennes",
+                    "Nantes",
+                    "Brest",
+                    "France"
+                ]
+            },
+            {
+                "id": 37,
+                "source": "edito.seloger.com",
+                "photo_source": "assets/articles/seloger.jpg",
+                "date": "Publié le 1er août 2024",
+                "author": "SeLoger",
+                "title": "Le marché rennais affiche des signaux contradictoires",
+                "summary": "SeLoger analyse les dynamiques du marché immobilier rennais, mettant en évidence les signaux contradictoires en termes de prix, de demande, et de projets d'urbanisme.",
+                "link": "https://edito.seloger.com/actualites/villes/marche-rennais-affiche-signaux-contradictoires-article-18289.html",
+                "categories": [
+                    "Tendances",
+                    "Investissement",
+                    "Rennes",
+                    "France"
+                ]
+            },
+            {
+                "id": 38,
+                "source": "immobilier.lefigaro.fr",
+                "photo_source": "assets/articles/lefigaro.jpg",
+                "date": "Publié le 10 août 2024",
+                "author": "Le Figaro",
+                "title": "Prix de l'immobilier à Rennes",
+                "summary": "Le Figaro Immobilier présente une analyse des prix de l'immobilier à Rennes, en détaillant les variations par quartier et en fournissant des conseils pour les investisseurs.",
+                "link": "https://immobilier.lefigaro.fr/prix-immobilier/rennes/ville-35238",
+                "categories": [
+                    "Tendances",
+                    "Prix",
+                    "Rennes",
+                    "France"
+                ]
+            }
+
+
+    ],
+    "Temoignages": [
+        {
+            "client": "Jean P.",
+            "catégorie": "Achat",
+            "commentaire": "Un service impeccable du début à la fin. L’équipe a été réactive et professionnelle."
+        },
+        {
+            "client": "Marie D.",
+            "catégorie": "Vente",
+            "commentaire": "Grâce à eux, j'ai vendu mon bien rapidement et à un excellent prix."
+        },
+        {
+            "client": "Claire Z.",
+            "catégorie": ["Vente", "Achat"],
+            "commentaire": "Nous avons, grâce à votre aide, réussi l'exploit d'acheter le bien dont nous avions besoin, et de vendre rapidement notre ancien logement."
+        },
+        {
+            "client": "Pierre L.",
+            "catégorie": "Achat",
+            "commentaire": "L'accompagnement pour l'achat de notre maison a été exceptionnel. Nous sommes ravis !"
+        },
+        {
+            "client": "Sophie M.",
+            "catégorie": "Vente",
+            "commentaire": "La vente de notre appartement s'est faite en un temps record, merci à toute l'équipe."
+        },
+        {
+            "client": "Luc T.",
+            "catégorie": ["Vente", "Achat"],
+            "commentaire": "Une expérience sans stress grâce à leur professionnalisme, tant pour l'achat que pour la vente."
+        },
+        {
+            "client": "Isabelle R.",
+            "catégorie": "Achat",
+            "commentaire": "Un service personnalisé et attentif, nous avons trouvé la maison parfaite pour notre famille."
+        },
+        {
+            "client": "Marc B.",
+            "catégorie": "Vente",
+            "commentaire": "Vendre ma maison a été simple et efficace grâce à votre expertise mais egalement votre bienveillance envers vos clients."
+        },
+        {
+            "client": "Nathalie K.",
+            "catégorie": "Achat",
+            "commentaire": "Le processus d'achat a été clair et fluide, nous sommes très satisfaits."
+        },
+        {
+            "client": "Philippe G.",
+            "catégorie": "Vente",
+            "commentaire": "Une vente réussie grâce à une équipe compétente et dynamique."
+        },
+        {
+            "client": "Aline J.",
+            "catégorie": ["Vente", "Achat"],
+            "commentaire": "Nous avons trouvé la maison de nos rêves et vendu l'ancienne dans un délai très court."
+        },
+        {
+            "client": "Olivier F.",
+            "catégorie": "Achat",
+            "commentaire": "Un accompagnement impeccable pour l'achat de notre premier bien immobilier."
+        },
+        {
+            "client": "Céline V.",
+            "catégorie": "Vente",
+            "commentaire": "La vente de notre maison a été une réussite grâce à leur stratégie marketing."
+        },
+        {
+            "client": "Denis H.",
+            "catégorie": ["Vente", "Achat"],
+            "commentaire": "Grâce à eux, nous avons vendu et acheté au meilleur prix, sans aucun stress."
+        },
+        {
+            "client": "Laurent E.",
+            "catégorie": "Achat",
+            "commentaire": "L'achat de notre maison a été un vrai plaisir, tout a été pris en charge avec professionnalisme."
+        }
+    ],
+    "Advices": [
+        {
+            "id": 1,
+            "title": "Eclairage sur le processus d’estimation d’un bien immobilier",
+            "catégorie": "Vente, Achat",
+            "author": "Aude CAMPILLO",
+            "image": "assets/advices/eclairage_estimation.jpg",
+            "summary": "Ce guide vous aide à comprendre le processus d’estimation d’un bien immobilier, en abordant les raisons pour lesquelles il est important, les professionnels impliqués, les critères d’évaluation, et les erreurs à éviter pour réussir votre transaction.",
+            "sections": [
+              {
+                "header": "Pourquoi estimer un bien immobilier ?",
+                "text": "Pour les acquéreurs, une estimation précise du bien permet d’assurer que le prix demandé est juste et conforme au marché. Cela aide également à sécuriser un financement, les banques requérant souvent une évaluation pour approuver un prêt immobilier. Pour les vendeurs, une bonne estimation garantit une vente rapide en évitant de fixer un prix trop élevé ou trop bas."
+              },
+              {
+                "header": "Qui peut estimer un bien immobilier ?",
+                "text": "En France, l’estimation peut être réalisée par différents professionnels :",
+                "subsections": [
+                  {
+                    "subheader": "Les agents immobiliers :",
+                    "text": "Ils utilisent leur connaissance du marché local et des ventes récentes pour estimer la valeur d’un bien."
+                  },
+                  {
+                    "subheader": "Les notaires :",
+                    "text": "Leur expertise est souvent sollicitée pour des estimations officielles, surtout dans le cadre de successions ou de divorces."
+                  },
+                  {
+                    "subheader": "Les experts immobiliers :",
+                    "text": "Ce sont des professionnels indépendants spécialisés dans l’estimation, particulièrement utiles pour des biens atypiques ou de haute valeur."
+                  }
+                ]
+              },
+              {
+                "header": "Comment est estimée la valeur d’un bien ?",
+                "text": "Le processus d’estimation se base sur plusieurs critères :",
+                "subsections": [
+                  {
+                    "subheader": "L’emplacement :",
+                    "text": "C’est le facteur le plus influent. Un bien situé dans une zone recherchée ou centrale aura une valeur plus élevée."
+                  },
+                  {
+                    "subheader": "La superficie et la configuration :",
+                    "text": "La taille du bien et le nombre de pièces influencent directement son prix."
+                  },
+                  {
+                    "subheader": "L’état général du bien :",
+                    "text": "Un logement rénové ou bien entretenu sera mieux valorisé."
+                  },
+                  {
+                    "subheader": "Les caractéristiques du marché local :",
+                    "text": "L’offre et la demande actuelles dans la région sont également prises en compte."
+                  }
+                ]
+              },
+              {
+                "header": "Les pièges à éviter",
+                "subsections": [
+                  {
+                    "subheader": "Surévaluation :",
+                    "text": "Évitez de fixer un prix trop élevé par rapport au marché, ce qui peut ralentir la vente."
+                  },
+                  {
+                    "subheader": "Sous-évaluation :",
+                    "text": "Un prix trop bas peut entraîner une perte financière importante."
+                  },
+                  {
+                    "subheader": "Négliger les tendances du marché :",
+                    "text": "Il est essentiel de rester informé des évolutions du marché immobilier pour ajuster le prix en conséquence."
+                  }
+                ]
+              },
+              {
+                "header": "Conclusion",
+                "text": "Que vous envisagiez d’acheter ou de vendre, une estimation précise est la clé pour une transaction réussie. En vous appuyant sur des professionnels compétents et en tenant compte des multiples facteurs qui influencent la valeur d’un bien, vous pouvez naviguer avec assurance sur le marché immobilier français. N’hésitez pas à solliciter plusieurs avis et à comparer les estimations pour obtenir une vision la plus objective possible de la valeur d’un bien. Votre investissement en sera d’autant plus sécurisé et vos décisions immobilières plus judicieuses. Nous sommes à votre disposition et à votre écoute !"
+              }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Guide simplifié : Vendre un bien immobilier",
+            "catégorie": "Vente",
+            "author": "Aude CAMPILLO",
+            "image": "assets/advices/guide_vendre.jpg",
+            "summary": "Ce guide simplifié vous accompagne dans les différentes étapes pour vendre un bien immobilier en France, de l’évaluation du prix à la signature chez le notaire.",
+            "sections": [
+                {
+                "header": "Évaluer votre capacité d’achat et obtenir un prêt",
+                "text": "Avant de commencer votre recherche, il est essentiel de déterminer votre budget. Rencontrez votre banquier ou un courtier en prêt immobilier pour évaluer votre capacité d’emprunt. Ce professionnel peut vous aider à obtenir une pré-approbation de prêt, ce qui renforcera votre crédibilité auprès des vendeurs. N’oubliez pas de prendre en compte d’autres frais comme les notaires, les taxes, et les éventuels travaux de rénovation."
+                },
+                {
+                "header": "La recherche du bien idéal",
+                "text": "Une fois votre budget établi, la recherche peut commencer. Utilisez des sites de listings immobiliers, travaillez avec des agents immobiliers ou explorez les annonces dans les journaux locaux. Pensez à vos critères prioritaires comme la localisation, le nombre de chambres, les commodités et, bien sûr, le prix. Visitez plusieurs propriétés pour mieux comprendre le marché et affiner vos préférences."
+                },
+                {
+                "header": "Faire une offre et négocier",
+                "text": "Lorsque vous trouvez le bien qui vous convient, il est temps de faire une offre. Votre agent immobilier peut vous conseiller sur le montant approprié à proposer, en tenant compte des prix du marché local. Une fois l’offre acceptée, vous entrez en phase de négociation. Cette étape peut inclure plusieurs allers-retours avec le vendeur pour convenir des termes du contrat de vente, y compris le prix final, la date de clôture, et d’autres conditions."
+                },
+                {
+                "header": "La promesse de vente et la recherche de financement",
+                "text": "Après avoir convenu d’un prix, vous signerez une promesse de vente. Ce document légalement contraignant fixe les conditions de la vente et vous donne généralement de 60 à 90 jours pour finaliser votre financement. Profitez de ce temps pour finaliser votre prêt immobilier et effectuer les vérifications nécessaires, comme l’inspection de la propriété et l’évaluation."
+                },
+                {
+                "header": "La signature chez le notaire et la remise des clés",
+                "text": "La dernière étape est la signature de l’acte de vente chez le notaire. Le notaire, un officier public, s’assure que toutes les conditions légales sont remplies et enregistre la transaction. Vous devrez payer les frais de notaire et les taxes à ce moment. Une fois l’acte signé, vous recevrez les clés de votre nouveau chez-vous."
+                },
+                {
+                "header": "Conclusion",
+                "text": "L’achat d’un bien immobilier est un processus complexe mais structuré qui peut être grandement simplifié avec une bonne préparation et le soutien de professionnels. En suivant ces étapes, vous pourrez réaliser votre acquisition avec une plus grande assurance et, surtout, avec l’excitation et la joie qu’apporte une nouvelle maison. N’hésitez pas à nous consulter pour vous accompagner dans chaque étape de votre achat immobilier."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Maximiser la Vente de Votre Bien : Le HOME-STAGING",
+            "catégorie": "Vente",
+            "author": "Aude CAMPILLO",
+            "image": "assets/advices/home_staging.jpg",
+            "summary": "Ce guide met en lumière l’importance du home staging pour vendre rapidement et au meilleur prix votre bien immobilier en France.",
+            "sections": [
+                {
+                "header": "Le Home Staging : Votre Atout Majeur",
+                "text": "Le home staging consiste à préparer une résidence à la vente en la rendant aussi attrayante que possible pour un large éventail d’acheteurs potentiels. L’objectif est de permettre aux visiteurs de se projeter dans le bien, favorisant ainsi une décision d’achat rapide et à un prix avantageux."
+                },
+                {
+                "header": "Pourquoi le Home Staging est-il Essentiel ?",
+                "subsections": [
+                    {
+                    "subheader": "Augmentation de l’Attrait du Bien :",
+                    "text": "Un bien soigneusement aménagé et décoré est plus susceptible d’attirer l’attention des acheteurs, ce qui peut réduire significativement le temps de vente."
+                    },
+                    {
+                    "subheader": "Valorisation des Espaces :",
+                    "text": "Le home staging met en valeur les volumes et la luminosité des pièces, permettant aux acheteurs de mieux apprécier le potentiel du bien."
+                    },
+                    {
+                    "subheader": "Des Photos Plus Impactantes :",
+                    "text": "Dans un marché où la première impression est souvent digitale, les biens mis en scène produisent des images plus attractives pour les annonces en ligne."
+                    },
+                    {
+                    "subheader": "Une Négociation Avantageuse :",
+                    "text": "Un bien attractif peut réduire les marges de négociation des acheteurs, car ils sont généralement moins enclins à chercher des défauts pour diminuer le prix."
+                    }
+                ]
+            },
+            {
+            "header": "Comment Mettre en Œuvre le Home Staging ?",
+            "subsections": [
+                {
+                "subheader": "Dépersonnalisation :",
+                "text": "Retirez les objets personnels (photos, souvenirs) pour permettre aux acheteurs de s’imaginer vivre dans le bien."
+                },
+                {
+                "subheader": "Désencombrement :",
+                "text": "Une maison ou un appartement encombré semble plus petit. Libérez de l’espace pour montrer le vrai potentiel de chaque pièce."
+                },
+                {
+                "subheader": "Petites Réparations et Rafraîchissements :",
+                "text": "Une couche de peinture fraîche ou la réparation de petits défauts peut faire une grande différence."
+                },
+                {
+                "subheader": "Mise en Lumière :",
+                "text": "Assurez-vous que votre bien soit bien éclairé, tant naturellement qu’artificiellement, pour créer une ambiance chaleureuse et accueillante."
+                },
+                {
+                "subheader": "Aménagement et Décoration :",
+                "text": "Utilisez des meubles et des décorations pour mettre en scène chaque espace de manière fonctionnelle et attrayante."
+                }
+            ]
+            },
+            {
+            "header": "Conclusion",
+            "text": "Le home staging est un investissement relativement modeste qui peut significativement augmenter vos chances de vendre rapidement et au meilleur prix. Avant de mettre votre bien sur le marché, considérez cette approche pour maximiser son potentiel et attirer les meilleurs acquéreurs."
+            }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Guide simplifié : Acheter un bien immobilier",
+            "catégorie": "Achat",
+            "author": "Aude CAMPILLO",
+            "image": "assets/advices/guide_achat.jpg",
+            "summary": "Ce guide simplifié vous accompagne dans les étapes clés pour acheter un bien immobilier en France, de l'évaluation de votre capacité d'achat à la signature chez le notaire.",
+            "sections": [
+                {
+                "header": "Estimer la valeur de votre propriété",
+                "text": "La première étape dans la vente de votre bien est de déterminer son prix de marché. Pour cela, vous pouvez faire appel à un agent immobilier ou à un expert en évaluation immobilière. Ils prendront en compte la situation géographique, l’état du bien, les prix des propriétés similaires vendues récemment dans votre région et d’autres facteurs pour fixer un prix juste et compétitif."
+                },
+                {
+                "header": "Préparer le bien à la vente",
+                "text": "Avant de mettre votre bien sur le marché, il est important de le présenter sous son meilleur jour. Cela peut impliquer des réparations mineures, un rafraîchissement de la peinture ou même un home staging pour rendre le lieu plus attrayant. Assurez-vous que la propriété soit propre, bien éclairée et dépersonnalisée pour que les potentiels acheteurs puissent s’y projeter facilement."
+                },
+                {
+                "header": "Commercialiser votre propriété",
+                "text": "Pour atteindre le plus grand nombre d’acheteurs potentiels, une stratégie de commercialisation efficace est essentielle. Cela inclut la prise de photos professionnelles, la création de descriptions attrayantes pour les annonces, et la diffusion sur divers canaux tels que des sites d’annonces immobilières, des réseaux sociaux et des plateformes spécialisées. Un agent immobilier peut également organiser des visites et gérer les interactions avec les acheteurs."
+                },
+                {
+                "header": "Négocier l’offre",
+                "text": "Une fois que vous recevez des offres, il est temps de négocier. Votre agent peut vous aider à comprendre les termes de chaque offre et à choisir la meilleure selon vos intérêts. La négociation peut également inclure des contre-offres pour ajuster le prix ou les conditions de la vente."
+                },
+                {
+                "header": "Conclure la vente",
+                "text": "Après avoir accepté une offre, vous passerez à la phase de finalisation. Cela inclut la signature d’un compromis de vente, qui est un accord préliminaire détaillant les conditions de la vente et fixant une date pour la signature définitive. Pendant ce temps, l’acheteur peut réaliser des vérifications supplémentaires, comme une inspection de la propriété. Enfin, la vente est conclue chez le notaire où l’acte de vente est signé et les fonds sont transférés."
+                },
+                {
+                "header": "Conclusion",
+                "text": "Vendre une propriété demande de la préparation, de la patience et souvent un peu de travail de rénovation. En suivant ces étapes, vous maximiserez vos chances de vendre rapidement et au meilleur prix. N’hésitez pas à vous entourer de professionnels compétents pour vous guider à chaque étape du processus."
+                }
+            ]
         }
     ]
 }

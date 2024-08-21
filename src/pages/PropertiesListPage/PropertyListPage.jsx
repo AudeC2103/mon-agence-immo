@@ -1,28 +1,44 @@
-// src/pages/PropertyListPage/PropertyListPage.jsx
-import React, { useState } from 'react';
-import FilterBar from '../../components/FilterBar/FilterBar';
-import PropertyList from '../../components/PropertyList/PropertyList';
+import React, { useState, useEffect } from 'react';
+import { getProperties } from './../../api/NotesAPI';
+import PropertyCard from './../../components/PropertyCard/PropertyCard';
+import SearchBar from './../../components/SearchBar/SearchBar';
+import s from './style.module.scss';
 
-const PropertyListPage = () => {
-  const [filters, setFilters] = useState({
-    price: '',
-    city: '',
-    propertyType: '',
-  });
+const PropertiesListPage = () => {
+  const [properties, setProperties] = useState([]);
+  const [filteredProperties, setFilteredProperties] = useState([]);
 
-  const handleFilterChange = (newFilters) => {
-    setFilters(newFilters);
-    // Utilisez les filtres pour filtrer les propriétés
+  useEffect(() => {
+    async function fetchProperties() {
+      const data = await getProperties();
+      setProperties(data);
+      setFilteredProperties(data);
+    }
+    fetchProperties();
+  }, []);
+
+  const handleSearch = (criteria) => {
+    const filtered = properties.filter(property => {
+      return (
+        (criteria.location ? property.city.toLowerCase().includes(criteria.location.toLowerCase()) : true) &&
+        (criteria.price ? property.price <= criteria.price : true) &&
+        (criteria.propertyType ? property.type === criteria.propertyType : true)
+      );
+    });
+    setFilteredProperties(filtered);
+>>>>>>> Stashed changes
   };
 
   return (
     <div>
-      <h1>Liste des Propriétés</h1>
-      <FilterBar onFilterChange={handleFilterChange} />
-      {/* Le composant PropertyList pourrait être filtré en fonction de l'état des filtres */}
-      <PropertyList filters={filters} />
+      <SearchBar onSearch={handleSearch} />
+      <div className={s.propertiesList}>
+        {filteredProperties.map((property) => (
+          <PropertyCard key={property.id} property={property} />
+        ))}
+      </div>
     </div>
   );
 };
 
-export default PropertyListPage;
+export default PropertiesListPage;
