@@ -1,4 +1,4 @@
-import React from 'react';
+// ./src/App;jsximport React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
 import ArticleDetailsPage from './pages/ArticleDetailsPage/ArticleDetailsPage';
@@ -33,6 +33,6 @@ export function App() {
             </Route>
         </Routes>
     );
-};
+}
 
 export default App;

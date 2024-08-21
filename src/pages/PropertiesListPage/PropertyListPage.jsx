@@ -1,3 +1,4 @@
+//./pages/PropertyListPage/PropertyListPage.jsx
 import React, { useState, useEffect } from 'react';
 import { getProperties } from './../../api/NotesAPI';
 import PropertyCard from './../../components/PropertyCard/PropertyCard';
@@ -26,7 +27,6 @@ const PropertiesListPage = () => {
       );
     });
     setFilteredProperties(filtered);
->>>>>>> Stashed changes
   };
 
   return (

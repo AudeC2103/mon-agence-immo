@@ -1,0 +1,62 @@
+@import './../../styles/mixins';
+@import './../../styles/variables';
+
+.mainBanner {
+  width: 100%;
+  height: 330px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  position: relative;
+
+  .slide {
+      position: absolute;  // Positionne les diapositives au centre de la bannière
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: $base-padding;
+      color: #ffffff;  // Couleur du texte (blanc en général pour contraste)
+      text-align: center;
+      opacity: 0;  // Par défaut, les diapositives sont invisibles
+      transition: opacity 1s ease-in-out;  // Transition pour l'apparition/disparition des diapositives
+  }
+
+  .active {
+      opacity: 1;  // La diapositive active est visible
+  }
+
+  .content {
+      z-index: 2;  // S'assure que le texte est bien par-dessus l'image de fond
+      max-width: 800px;  // Limite la largeur du texte pour une meilleure lisibilité
+      padding: 20px;
+      background-color: rgba($tertiary-color, 0.6);
+      border-radius: $border-radius-md;
+
+      h2 {
+          font-size: 2.5rem;  // Taille du titre
+          margin-bottom: 20px;
+      }
+
+      p {
+          font-size: 1.25rem;  // Taille du sous-titre
+          margin-bottom: 40px;
+      }
+
+      a {
+          font-size: 1rem;  // Taille du lien
+          color: #ffffff;
+          text-decoration: none;
+          border: 2px solid #ffffff;  // Bordure autour du lien pour le faire ressortir
+          padding: 10px 20px;
+          transition: background-color 0.3s, color 0.3s;  // Effet de transition pour le lien
+
+          &:hover {
+              background-color: #ffffff;
+              color: #000000;  // Inversion des couleurs au survol
+          }
+      }
+  }
+}

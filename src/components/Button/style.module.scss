@@ -1,0 +1,39 @@
+@import './../../styles/variables';
+@import './../../styles/mixins';
+
+.btn {
+  @include btn-style(primary); // Applique par défaut le style primaire
+
+  &.secondary {
+    @include btn-style(secondary); // Applique le style secondaire si la classe "secondary" est ajoutée
+  }
+
+  &.accent {
+    @include btn-style(accent); // Applique le style d'accentuation
+  }
+
+  &.neutral {
+    @include btn-style(neutral); // Applique le style neutre
+  }
+
+  // Ajouter des media queries pour la responsivité
+  @include responsive(xs) {
+    padding: $spacing-xs;
+  }
+  
+  @include responsive(sm) {
+    padding: $spacing-sm;
+  }
+
+  @include responsive(md) {
+    padding: $spacing-md;
+  }
+
+  @include responsive(lg) {
+    padding: $spacing-lg;
+  }
+
+  @include responsive(xl) {
+    padding: $spacing-xl;
+  }
+}

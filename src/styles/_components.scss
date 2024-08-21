@@ -1,22 +1,10 @@
-// _components.scss
-
-.button {
-  @include button-style($btn-primary-color, $button-text);
-  &:hover {
-    background-color: $button-hover-bg;
-  }
-}
-
-.button-secondary {
-  @include button-style($btn-secondary-color, $button-text);
-  &:hover {
-    background-color: darken($btn-secondary-color, 10%);
-  }
-}
+// ./src/styles/_components.scss
+@import './variables';  // Assure-toi d'importer les variables
+@import './mixins';     // Si tu utilises des mixins dans ce fichier
 
 .card {
   background-color: $white;
-  border: 1px solid $border-color;
+  border: 1px solid $tertiary-color;
   border-radius: $border-radius-md;
   @include box-shadow-complex;
   padding: $spacing-md;

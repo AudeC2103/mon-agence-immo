@@ -1,8 +1,7 @@
 // src/components/HeaderNavBar/HeaderNavBar.jsx
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import styles from './style.module.scss';
-import logo from '../../assets/logo.png'; // Remplacez par le chemin de votre logo
+import s from './style.module.scss';
 
 const HeaderNavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,59 +11,47 @@ const HeaderNavBar = () => {
   };
 
   return (
-    <header className={styles.header}>
-      <div className={styles.logo}>
-        <Link to="/">
-          <img src={logo} alt="Logo de l'agence" />
-        </Link>
-      </div>
-      <button className={styles.menuToggle} onClick={toggleMenu}>
+    <nav className={s.header}>
+      <button className={s.menuToggle} onClick={toggleMenu} aria-label="Toggle navigation menu">
         ☰
       </button>
-      <nav className={`${styles.nav} ${menuOpen ? styles.open : ''}`}>
-        <ul className={styles.navList}>
+      <div className={`${s.nav} ${menuOpen ? s.open : ''}`}>
+        <ul className={s.navList}>
           <li>
-            <Link to="/properties">Biens à vendre</Link>
-            <ul className={styles.subMenu}>
-              <li><Link to="/properties/maison">Maison</Link></li>
-              <li><Link to="/properties/appartement">Appartement</Link></li>
-              <li><Link to="/properties/terrain">Terrain</Link></li>
+            <Link to="/biens_a_vendre">Biens à vendre</Link>
+            <ul className={s.subMenu}>
+              <li><Link to="/biens_a_vendre/maisons">Maison</Link></li>
+              <li><Link to="/biens_a_vendre/appartements">Appartement</Link></li>
+              <li><Link to="/biens_a_vendre/terrains">Terrain</Link></li>
             </ul>
           </li>
           <li>
-            <Link to="/advice">Conseils</Link>
-            <ul className={styles.subMenu}>
-              <li><Link to="/advice/achat">Achat</Link></li>
-              <li><Link to="/advice/vente">Vente</Link></li>
+            <Link to="/conseils">Conseils</Link>
+            <ul className={s.subMenu}>
+              <li><Link to="/conseils/achat">Achat</Link></li>
+              <li><Link to="/conseils/vente">Vente</Link></li>
             </ul>
           </li>
-          <li><Link to="/articles">Articles</Link>
-          </li>
+          <li><Link to="/liste_des_articles">Articles</Link></li>
           <li>
-            <Link to="/about">L'agence</Link>
-            <ul className={styles.subMenu}>
-              <li><Link to="/about/mission">Mission</Link></li>
-              <li><Link to="/about/services">Services</Link></li>
-              <li><Link to="/about/team">L'équipe</Link></li>
-            </ul>
-          </li>
-          <li>
-            <Link to="/about/success">Succès</Link>
-            <ul className={styles.subMenu}>
-              <li><Link to="/about/success/vendu">Vendu</Link></li>
-              <li><Link to="/about/success/avis">Avis</Link></li>
+            <Link to="/l_agence">L'agence</Link>
+            <ul className={s.subMenu}>
+              <li><Link to="/l_agence/mission">Mission</Link></li>
+              <li><Link to="/l_agence/services">Services</Link></li>
+              <li><Link to="/l_agence/les_conseillers">L'équipe</Link></li>
             </ul>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/succes">Succès</Link>
+            <ul className={s.subMenu}>
+              <li><Link to="/succes/nos_ventes">Vendu</Link></li>
+              <li><Link to="/succes/avis">Avis</Link></li>
+            </ul>
           </li>
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
-      </nav>
-      <div className={styles.buttons}>
-        <Link to="/signup" className={styles.button}>Inscription</Link>
-        <Link to="/login" className={styles.button}>Connexion</Link>
       </div>
-    </header>
+    </nav>
   );
 };
 

@@ -1,49 +1,28 @@
-@import '../../styles/main.scss';
+.carrousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 10px;
+  padding: 20px 0;
 
-.carrouselContainer {
-  background-color: $background-color;
-  box-shadow: $box-shadow-md;
-   
-  .carrouselSlide {
+  .navButton {
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
     padding: 10px;
-
-    .carrouselImage {
-      border-radius: $border-radius-md;
-    }
-
-    .carrouselCaption {
-      background-color: rgba(0, 0, 0, 0.5);
-      color: #fff;
-      padding: 10px;
-      text-align: center;
-      font-size: 1em;
-    }
-
-    .propertyDetails {
-      padding: 10px;
-      background-color: rgba(255, 255, 255, 0.8);
-      border-top: 1px solid #ccc;
-    }
   }
 
-  .slick-dots {
-    bottom: -30px;
-    li button:before {
-      font-size: 12px;
-      color: #fff;
-    }
-    li.slick-active button:before {
-      color: #000;
-    }
-  }
-}
-
-@media (max-width: 768px) {
-  .carrouselCaption {
-    font-size: 0.8em; // Ajuste la taille du texte pour les écrans plus petits
+  .cardContainer {
+    display: flex;
+    gap: 10px;
   }
 
-  .carrouselImage {
-    max-height: 300px; // Réduit la taille des images sur les petits écrans
+  .cardWrapper {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    width: 300px; /* Ajustez selon votre design */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
   }
 }

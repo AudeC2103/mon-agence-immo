@@ -1,17 +1,15 @@
+//./pages/MissionPage/MissionPage.jsx
 import React from 'react';
-import '../../styles/pages/MissionPage.css';
+import s from './style.module.scss';
 
-function App() {
-    return (
-  
-      <div className="MissionPage">
-        <main>
-         
-          {/* Autres composants ou sections de votre application */}
-  
-        </main>
-      </div>
-    );
-  } 
-  
-  export default App;
+const MissionPage = () => {
+  return (
+    <div className={s.page}>
+        <div className={s.page__Mission}>
+        "MissionPage"
+        </div>
+    </div>
+  );
+};
+
+export default MissionPage;

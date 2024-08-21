@@ -1,0 +1,42 @@
+.agentDetailsCard {
+  display: flex;
+  align-items: flex-start;
+  padding: $spacing-md;
+  border: 1px solid $border-color-primary;
+  border-radius: $border-radius-md;
+  box-shadow: $box-shadow-sm;
+  background-color: $background-color;
+
+  &__photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: $spacing-md;
+  }
+
+  &__info {
+    flex: 1;
+
+    &__name {
+      font-size: $font-size-h3;
+      margin-bottom: $spacing-sm;
+      color: $text-color;
+    }
+
+    &__description {
+      margin-bottom: $spacing-sm;
+      color: $text-color;
+    }
+
+    &__contact {
+      margin-bottom: $spacing-xs;
+      color: $text-color;
+    }
+
+    &__experience, &__projects, &__sales {
+      margin-bottom: $spacing-xs;
+      color: $text-color;
+    }
+  }
+}

@@ -1,48 +1,57 @@
-// _variables.scss
+// ./src/styles/_variables.scss
 
 // Palette de couleurs
-$primary-color: #A0A603; // Couleur primaire
-$secondary-color: #D6D58E; // Couleur secondaire
-$accent-color: #D9F501; // Couleur d'accentuation
-$highlight-color: #04ADBF; // Couleur de mise en évidence
-$secondary-highlight-color: #04BFBF; // Couleur de mise en évidence secondaire
-$background-color: #F5F5F5; // Couleur de fond
-$background-highlight-color: lighten($background-color, 10%); // Variation éclaircie du fond
+$primary-color: #A0A603;
+$primary-color-light: lighten($primary-color, 20%);
+$primary-color-dark: darken($primary-color, 20%);
 
-$text-color: #003E49; // Couleur du texte principal
-$neutral-color: #F2E0C9; // Couleur neutre
-$black: #000000; // Noir
-$white: #ffffff; // Blanc
+$secondary-color: #04ADBF;
+$secondary-color-light: lighten($secondary-color, 20%);
+$secondary-color-dark: darken($secondary-color, 20%);
 
-// Couleurs pour les états (success, warning, danger, etc.)
+$tertiary-color: #003E49;
+$tertiary-color-light: lighten($tertiary-color, 20%);
+$tertiary-color-dark: darken($tertiary-color, 20%);
+
+$accent-color: #D9F501;
+$highlight-color: #04ADBF;
+$secondary-highlight-color: #04BFBF;
+
+$background-color: #F5F5F5;
+$background-highlight-color: lighten($background-color, 10%);
+
+$text-color: #003E49;
+$neutral-color: #F2E0C9;
+$black: #000000;
+$white: #ffffff;
+
+// Couleurs pour les états
 $success-color: #198754;
 $warning-color: #ffc107;
 $danger-color: #dc3545;
 $info-color: #0dcaf0;
 
 // Typographie
-$base-font-size: 16px; // Taille de police de base
-$heading-font-family: 'Arial, sans-serif'; // Police pour les titres
-$body-font-family: 'Georgia, serif'; // Police pour le texte principal
-$monospace-font-family: 'Courier New, monospace'; // Police pour le texte monospace
-$base-line-height: 1.5; // Interligne pour une meilleure lisibilité
+$base-font-size: 16px;
+$heading-font-family: 'Arial, sans-serif';
+$body-font-family: 'Georgia, serif';
+$monospace-font-family: 'Courier New, monospace';
+$base-line-height: 1.5;
 
 // Intégration de la police "Tahu!"
 @font-face {
     font-family: 'Tahu!';
     src: url('https://www.dafont.com/tahu.font') format('truetype');
-  }
-  
-  // Utilisation de la police "Tahu!" pour des éléments spécifiques
-  $special-font-family: 'Tahu!'; 
+}
+$special-font-family: 'Tahu!';
 
 // Tailles de police pour les titres
-$font-size-h1: 2.5rem; // Taille de h1
-$font-size-h2: 2rem; // Taille de h2
-$font-size-h3: 1.75rem; // Taille de h3
-$font-size-h4: 1.5rem; // Taille de h4
-$font-size-h5: 1.25rem; // Taille de h5
-$font-size-h6: 1rem; // Taille de h6
+$font-size-h1: 2.5rem;
+$font-size-h2: 2rem;
+$font-size-h3: 1.75rem;
+$font-size-h4: 1.5rem;
+$font-size-h5: 1.25rem;
+$font-size-h6: 1rem;
 
 // Lignes de base pour les titres
 $line-height-h1: 1.2;
@@ -53,71 +62,123 @@ $line-height-h5: 1.6;
 $line-height-h6: 1.7;
 
 // Espacement pour les titres
-$spacing-h1: 0.5rem; // Espacement pour h1
-$spacing-h2: 0.45rem; // Espacement pour h2
-$spacing-h3: 0.4rem; // Espacement pour h3
-$spacing-h4: 0.35rem; // Espacement pour h4
-$spacing-h5: 0.3rem; // Espacement pour h5
-$spacing-h6: 0.25rem; // Espacement pour h6
+$spacing-h1: 0.5rem;
+$spacing-h2: 0.45rem;
+$spacing-h3: 0.4rem;
+$spacing-h4: 0.35rem;
+$spacing-h5: 0.3rem;
+$spacing-h6: 0.25rem;
 
 // Espacement général
-$spacing-unit: 8px; // Unité de base pour l'espacement
-$spacing-xs: $spacing-unit * 0.5; // 4px
-$spacing-sm: $spacing-unit; // 8px
-$spacing-md: $spacing-unit * 2; // 16px
-$spacing-lg: $spacing-unit * 3; // 24px
-$spacing-xl: $spacing-unit * 4; // 32px
+$spacing-unit: 8px;
+$spacing-xs: $spacing-unit * 0.5;
+$spacing-sm: $spacing-unit;
+$spacing-md: $spacing-unit * 2;
+$spacing-lg: $spacing-unit * 3;
+$spacing-xl: $spacing-unit * 4;
 
-$base-padding: 15px; // Padding de base
-$base-margin: 15px; // Margin de base
-$spacing-small: 8px; // Espacement petit
-$spacing-medium: 16px; // Espacement moyen
-$spacing-large: 32px; // Espacement grand
+$base-padding: 15px;
+$base-margin: 15px;
 
 // Dimensions fixes
-$container-max-width: 1200px; // Largeur maximale du conteneur principal
-$sidebar-width: 300px; // Largeur de la barre latérale
-$header-height: 60px; // Hauteur de l'en-tête
-$footer-height: 40px; // Hauteur du pied de page
+$container-max-width: 1200px;
+$sidebar-width: 300px;
+$header-height: 60px;
+$footer-height: 40px;
 
 // Bordures et rayons
-$border-radius-sm: 4px; // Rayon de bordure petit
-$border-radius-md: 8px; // Rayon de bordure moyen
-$border-radius-lg: 12px; // Rayon de bordure grand
-$border-width: 1px; // Largeur de bordure standard
-$border-color:$black;
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+$border-width: 1px;
+$border-color-primary: $black;
+$border-color-secondary: $white;
+$border-color-tertiary: $tertiary-color;
 
 // Ombres
-$box-shadow-sm: 0 1px 2px rgba($black, 0.1); // Ombre petite
-$box-shadow-md: 0 2px 4px rgba($black, 0.1); // Ombre moyenne
-$box-shadow-lg: 0 4px 8px rgba($black, 0.1); // Ombre grande
-$box-shadow-complex: 0 10px 15px rgba($black, 0.1), 0 4px 6px rgba($black, 0.05); // Ombre complexe
+$box-shadow-sm: 0 1px 2px rgba($black, 0.1);
+$box-shadow-md: 0 2px 4px rgba($black, 0.1);
+$box-shadow-lg: 0 4px 8px rgba($black, 0.1);
+$box-shadow-complex: 0 10px 15px rgba($black, 0.1), 0 4px 6px rgba($black, 0.05);
 
 // Animations
-$transition-duration: 0.3s; // Durée des transitions
-$transition-timing-function: ease-in-out; // Fonction de timing pour des transitions fluides
+$transition-duration: 0.3s;
+$transition-timing-function: ease-in-out;
 
-// Breakpoints pour la responsivité
-$breakpoint-xs: 480px; // Taille d'écran très petite (mobile)
-$breakpoint-sm: 576px; // Taille d'écran petite (mobile)
-$breakpoint-md: 768px; // Taille d'écran moyenne (tablette)
-$breakpoint-lg: 992px; // Taille d'écran large (desktop)
-$breakpoint-xl: 1200px; // Taille d'écran très large (grand desktop)
-$breakpoint-xxl: 1400px; // Taille d'écran extra large
+// Breakpoints
+$breakpoints: (
+  xs: 480px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
 
 // Z-index pour gérer les niveaux de superposition
-$z-index-base: 0; // Niveau de base
-$z-index-dropdown: 1000; // Dropdowns
-$z-index-sticky: 1020; // Éléments collants
-$z-index-fixed: 1030; // Éléments fixés
-$z-index-modal-backdrop: 1040; // Fond de modal
-$z-index-modal: 1050; // Modals
-$z-index-popover: 1060; // Popovers
-$z-index-tooltip: 1070; // Tooltips
+$z-index-base: 0;
+$z-index-dropdown: 1000;
+$z-index-sticky: 1020;
+$z-index-fixed: 1030;
+$z-index-modal-backdrop: 1040;
+$z-index-modal: 1050;
+$z-index-popover: 1060;
+$z-index-tooltip: 1070;
 
-// Autres variables utiles
-$button-text: $black; // Couleur du texte des boutons
-$btn-primary-color: $primary-color; // Couleur du bouton primaire
-$btn-secondary-color: $secondary-color; // Couleur du bouton secondaire
-$button-bg: $primary-color; // Couleur de fond des boutons
-$button-hover-bg: darken($primary-color, 10%); // Couleur de fond des boutons au survol
+// Définition des variables de bouton
+
+// Bouton primaire
+$btn-primary-bg: $primary-color;
+$btn-primary-text: $white;
+
+// Bouton secondaire
+$btn-secondary-bg: $secondary-color;
+$btn-secondary-text: $white;
+
+// Bouton d'accentuation
+$btn-accent-bg: $accent-color;
+$btn-accent-text: $tertiary-color;
+
+// Bouton neutre
+$btn-neutral-bg: $neutral-color;
+$btn-neutral-text: $tertiary-color;
+
+// map des styles des boutons
+$btn-styles: (
+  primary: (
+    bg: $btn-primary-bg,
+    text: $white,
+    hover-bg: darken($btn-primary-bg, 10%),
+    hover-text: $white,
+    active-bg: darken($btn-primary-bg, 15%),
+    disabled-bg: lighten($btn-primary-bg, 20%),
+    disabled-text: lighten($btn-primary-text, 30%)
+  ),
+  secondary: (
+    bg: $secondary-color,
+    text: $white,
+    hover-bg: darken($secondary-color, 10%),
+    hover-text: $white,
+    active-bg: darken($secondary-color, 15%),
+    disabled-bg: lighten($secondary-color, 20%),
+    disabled-text: lighten($secondary-color, 30%)
+  ),
+  accent: (
+    bg: $accent-color,
+    text: $tertiary-color,
+    hover-bg: darken($accent-color, 10%),
+    hover-text: $tertiary-color,
+    active-bg: darken($accent-color, 15%),
+    disabled-bg: lighten($accent-color, 20%),
+    disabled-text: lighten($accent-color, 30%)
+  ),
+  neutral: (
+    bg: $neutral-color,
+    text: $tertiary-color,
+    hover-bg: darken($neutral-color, 10%),
+    hover-text: $tertiary-color,
+    active-bg: darken($neutral-color, 15%),
+    disabled-bg: lighten($neutral-color, 20%),
+    disabled-text: lighten($neutral-color, 30%)
+  )
+);

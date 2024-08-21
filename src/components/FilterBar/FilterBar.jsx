@@ -1,67 +1,29 @@
 // src/components/FilterBar/FilterBar.jsx
-import React, { useState } from 'react';
-import styles from './style.module.scss';
-
+import React from 'react';
 
 const FilterBar = ({ onFilterChange }) => {
-  // États locaux pour les filtres
-  const [price, setPrice] = useState('');
-  const [city, setCity] = useState('');
-  const [propertyType, setPropertyType] = useState('');
+  const handleCityChange = (e) => {
+    onFilterChange({ city: e.target.value });
+  };
 
-  // Fonction pour gérer les changements de filtres
-  const handleFilterChange = () => {
-    onFilterChange({
-      price,
-      city,
-      propertyType,
-    });
+  const handlePriceChange = (range) => {
+    onFilterChange({ priceRange: range });
+  };
+
+  const handleTypeChange = (e) => {
+    onFilterChange({ type: e.target.value });
   };
 
   return (
-    <div className={styles.filterBar}>
-      <div className={styles.filter}>
-        <label htmlFor="price">Prix:</label>
-        <input
-          type="text"
-          id="price"
-          value={price}
-          onChange={(e) => {
-            setPrice(e.target.value);
-            handleFilterChange();
-          }}
-        />
-      </div>
-
-      <div className={styles.filter}>
-        <label htmlFor="city">Ville:</label>
-        <input
-          type="text"
-          id="city"
-          value={city}
-          onChange={(e) => {
-            setCity(e.target.value);
-            handleFilterChange();
-          }}
-        />
-      </div>
-
-      <div className={styles.filter}>
-        <label htmlFor="propertyType">Type de Bien:</label>
-        <select
-          id="propertyType"
-          value={propertyType}
-          onChange={(e) => {
-            setPropertyType(e.target.value);
-            handleFilterChange();
-          }}
-        >
-          <option value="">Sélectionnez un type</option>
-          <option value="appartement">Appartement</option>
-          <option value="maison">Maison</option>
-          <option value="terrain">Terrain</option>
-        </select>
-      </div>
+    <div>
+      <input type="text" placeholder="Ville" onChange={handleCityChange} />
+      <input type="range" min="0" max="1000000" onChange={(e) => handlePriceChange([0, e.target.value])} />
+      <select onChange={handleTypeChange}>
+        <option value="">Tous</option>
+        <option value="Appartement">Appartement</option>
+        <option value="Maison">Maison</option>
+        {/* Ajouter d'autres types de propriétés ici */}
+      </select>
     </div>
   );
 };
