@@ -12,6 +12,9 @@ const HeaderNavBar = () => {
 
   return (
     <nav className={s.header}>
+      <button className={s.menuToggle} onClick={toggleMenu} aria-label="Toggle navigation menu">
+        ☰
+      </button>
       <div className={`${s.nav} ${menuOpen ? s.open : ''}`}>
         <ul className={s.navList}>
           <li>

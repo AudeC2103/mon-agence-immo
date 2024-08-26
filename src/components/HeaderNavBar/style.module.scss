@@ -1,74 +1,93 @@
 @import './../../styles/components';
 
-.nav {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  .navList {
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
+  .menuToggle {
+    display: none; // Cacher le bouton burger par défaut
 
-    li {
-      position: relative;
-
-      a {
-        color: $text-color;
-        text-decoration: none;
-        font-size: $base-font-size;
-        font-family: $body-font-family;
-
-        &:hover {
-          color: $secondary-color;
-          transition: color 0.3s ease;
-        }
-      }
-
-      .subMenu {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        background-color: $primary-color;
-        list-style: none;
-        padding: 0.5rem 0;
-        border-radius: 4px;
-
-        li {
-          padding: 0.5rem 1rem;
-
-          a {
-            color: $text-color;
-            text-decoration: none;
-
-            &:hover {
-              color: $secondary-color;
-            }
-          }
-        }
-      }
-
-      &:hover .subMenu {
-        display: block;
-      }
+    @media (max-width: 768px) {
+      display: block; // Afficher le bouton burger sur mobile
+      background: none;
+      border: none;
+      font-size: 2rem;
+      cursor: pointer;
+      color: $text-color;
     }
   }
 
-  &.open {
-    display: block;
-  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-  @media (max-width: 768px) {
-    display: none;
+    .navList {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+
+      li {
+        position: relative;
+
+        a {
+          color: $text-color;
+          text-decoration: none;
+          font-size: $base-font-size;
+          font-family: $body-font-family;
+
+          &:hover {
+            color: $secondary-color;
+            transition: color 0.3s ease;
+          }
+        }
+
+        .subMenu {
+          display: none;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          background-color: $primary-color;
+          list-style: none;
+          padding: 0.5rem 0;
+          border-radius: 4px;
+
+          li {
+            padding: 0.5rem 1rem;
+
+            a {
+              color: $text-color;
+              text-decoration: none;
+
+              &:hover {
+                color: $secondary-color;
+              }
+            }
+          }
+        }
+
+        &:hover .subMenu {
+          display: block;
+        }
+      }
+    }
 
     &.open {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
+      display: block;
+    }
 
-      .navList {
+    @media (max-width: 768px) {
+      display: none; // Cacher la navList par défaut sur mobile
+
+      &.open {
+        display: flex;
         flex-direction: column;
+        gap: 1rem;
+
+        .navList {
+          flex-direction: column;
+        }
       }
     }
   }
