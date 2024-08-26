@@ -58,3 +58,28 @@ export const getSlides = async () => {
   
     return data.Slides;
 };
+
+export const getMissions = async () => {
+    const data = await fetchData();
+    if (!data || !data.Missions) {
+        throw new Error("Le fichier JSON ne contient pas de clé 'Missions'.");
+    }
+    return data.Missions;
+};
+
+export const getTemoignages = async () => {
+    const data = await fetchData();
+    if (!data || !data.Temoignages) {
+        throw new Error("Le fichier JSON ne contient pas de clé 'Temoignages'.");
+    }
+    return data.Temoignages;
+};
+
+export const getAdvices = async () => {
+    const data = await fetchData();
+    if (!data || !data.Advices) {
+        throw new Error("Le fichier JSON ne contient pas de clé 'Advices'.");
+    }
+    return data.Advices;
+};
+
