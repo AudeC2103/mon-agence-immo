@@ -41,74 +41,80 @@ Mon-Agence-Immo est une application web développée en React pour rechercher et
    ```bash
    git clone https://github.com/Aude2103/mon-agence-immo.git
 
-mon-agence-immo
+## Structure
+
+mon-agence-immo/
 │
-├── node_modules/
 ├── public/
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── logo192.png
-│   ├── logo512.png
-│   ├── manifest.json
-│   └── robots.txt
+│
 ├── src/
+│   ├── api/
+│   │   └── NotesApi.json
+│   │
 │   ├── assets/
+│   │
 │   ├── components/
-│   │   ├── FilterBar/
-│   │   │   ├── FilterBar.jsx
-│   │   │   └── FilterBar.module.scss
-│   │   ├── Footer/
-│   │   │   ├── Footer.jsx
-│   │   │   └── Footer.module.scss
-│   │   ├── Header/
-│   │   │   ├── Header.jsx
-│   │   │   └── Header.module.scss
-│   │   └── HeaderNavBar/
-│   │       ├── HeaderNavBar.jsx
-│   │       └── HeaderNavBar.module.scss
+│   │   ├── AccordionItem/
+│   │   │   ├── AccordionItem.jsx
+│   │   │   └── style.module.scss
+│   │   ├── AgentCard/
+│   │   │   ├── AgentCard.jsx
+│   │   │   └── style.module.scss
+│   │   └── ... (autres dossiers de composants)
+│   │
+│   ├── containers/
+│   │   ├── AdviceOverView/
+│   │   │   ├── AdviceOverView.jsx
+│   │   │   └── style.module.scss
+│   │   ├── ContactOverview/
+│   │   │   ├── ContactOverview.jsx
+│   │   │   └── style.module.scss
+│   │   └── ... (autres dossiers de conteneurs)
+│   │
+│   ├── context/
+│   │   └── (Aucun fichier spécifique mentionné)
+│   │
+│   ├── hooks/
+│   │   ├── useAgents.js
+│   │   ├── useFAQ.js
+│   │   ├── useProperties.js
+│   │   └── useSlides.js
+│   │
+│   ├── layouts/
+│   │   ├── AdminLayout/
+│   │   │   ├── AdminLayout.jsx
+│   │   │   └── style.module.scss
+│   │   ├── AuthLayout/
+│   │   │   ├── AuthLayout.jsx
+│   │   │   └── style.module.scss
+│   │   └── ... (autres dossiers de layouts)
+│   │
 │   ├── pages/
 │   │   ├── ArticleDetailsPage/
 │   │   │   ├── ArticleDetailsPage.jsx
-│   │   │   └── ArticleDetailsPage.module.scss
-│   │   ├── ArticleListPage/
-│   │   │   ├── ArticleListPage.jsx
-│   │   │   └── ArticleListPage.module.scss
-│   │   ├── ContactFormPage/
-│   │   │   ├── ContactFormPage.jsx
-│   │   │   └── ContactFormPage.module.scss
+│   │   │   └── style.module.scss
 │   │   ├── HomePage/
 │   │   │   ├── HomePage.jsx
-│   │   │   └── HomePage.module.scss
-│   │   ├── MissionPage/
-│   │   │   ├── MissionPage.jsx
-│   │   │   └── MissionPage.module.scss
-│   │   ├── NotFoundPage/
-│   │   │   ├── NotFoundPage.jsx
-│   │   │   └── NotFoundPage.module.scss
-│   │   ├── PropertyDetailsPage/
-│   │   │   ├── PropertyDetailsPage.jsx
-│   │   │   └── PropertyDetailsPage.module.scss
-│   │   ├── PropertyListPage/
-│   │   │   ├── PropertyListPage.jsx
-│   │   │   └── PropertyListPage.module.scss
-│   │   ├── ServiceListPage/
-│   │   │   ├── ServiceListPage.jsx
-│   │   │   └── ServiceListPage.module.scss
-│   │   ├── SuccessPage/
-│   │   │   ├── SuccessPage.jsx
-│   │   │   └── SuccessPage.module.scss
-│   │   └── TeamPage/
-│   │       ├── TeamPage.jsx
-│   │       └── TeamPage.module.scss
+│   │   │   └── style.module.scss
+│   │   └── ... (autres dossiers de pages)
+│   │
 │   ├── styles/
+│   │   ├── _base.scss
+│   │   ├── _components.scss
+│   │   ├── _layout.scss
+│   │   ├── _mixins.scss
+│   │   └── _variables.scss
+│   │
 │   ├── App.jsx
 │   ├── App.test.js
+│   ├── config.js
 │   ├── index.css
 │   ├── index.js
-│   ├── logo.svg
 │   ├── reportWebVitals.js
 │   └── setupTests.js
+│
 ├── .gitignore
+├── db.json
 ├── package-lock.json
 ├── package.json
 └── README.md

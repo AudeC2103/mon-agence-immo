@@ -1,9 +1,12 @@
 @import 'variables';
 
 // Mixin pour les polices
-@mixin font-size($size, $line-height: $base-line-height) {
-  font-size: $size;
-  line-height: $line-height;
+@mixin font-style($element) {
+  font-family: map-get($font-family-map, $element);
+  font-size: map-get($font-size-map, $element);
+  line-height: map-get($line-height-map, $element);
+  margin-bottom: map-get($spacing-map, $element);
+  color: map-get($color-map, $element);
 }
 
 // Nouveau mixin pour les boutons en utilisant la map
@@ -15,7 +18,6 @@
   border: none;
   border-radius: $border-radius-md;
   padding: 0.5rem 1rem;
-  font-size: $base-font-size;
   cursor: pointer;
   transition: background-color $transition-duration, color $transition-duration;
 

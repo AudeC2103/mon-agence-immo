@@ -40,13 +40,13 @@
       border-radius: $border-radius-md;
 
       h2 {
-          font-size: 2.5rem;  // Taille du titre
-          margin-bottom: 20px;
+        @include font-style('h2');
+        color: #ffffff;
       }
 
       p {
-          font-size: 1.25rem;  // Taille du sous-titre
-          margin-bottom: 40px;
+        @include font-style('p');
+        color: white;
       }
 
       a {

@@ -1,3 +1,55 @@
 @import './../../styles/variables';
 @import './../../styles/mixins';
-@import './../../styles/layout'
+
+.teamOverview {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        @include font-style('h2')
+    }
+
+    &__containers {
+        display: flex;
+
+
+        &_agency {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            padding: 5%;
+
+            &_Title {
+                // Titre de la section de l'agence
+            }
+
+            &_Text {
+                // Texte descriptif de l'agence
+            }
+
+            &_img {
+                width: 50%;
+                
+            }
+
+            &_ctaLink {
+                // Boutons CTA pour la section de l'agence
+
+                &:hover {
+                    // Styles pour le hover des boutons
+                }
+            }
+        }
+
+        &_agents {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            padding: 5%;
+
+            &Title {
+                // Titre de la section des conseillers
+            }
+        }
+    }
+}
