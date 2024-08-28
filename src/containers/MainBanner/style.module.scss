@@ -39,14 +39,15 @@
       background-color: rgba($tertiary-color, 0.6);
       border-radius: $border-radius-md;
 
-      h2 {
-        @include font-style('h2');
+      h1 {
+        @include font-style('h1');
         color: #ffffff;
       }
 
-      p {
-        @include font-style('p');
-        color: white;
+      h3 {
+        @include font-style('h3');
+        color:$white;
+        margin-bottom: 2rem;
       }
 
       a {

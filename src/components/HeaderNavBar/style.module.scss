@@ -37,7 +37,8 @@
           
 
           &:hover {
-            color: $secondary-color;
+            color: $secondary-color-dark;
+            font-weight: bolder;
             transition: color 0.3s ease;
           }
         }
@@ -47,10 +48,11 @@
           position: absolute;
           top: 100%;
           left: 0;
-          background-color: $primary-color;
+          background-color: $background-color;
           list-style: none;
           padding: 0.5rem 0;
           border-radius: 4px;
+          border: solid 2px $white;
 
           li {
             padding: 0.5rem 1rem;

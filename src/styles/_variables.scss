@@ -51,37 +51,45 @@ $font-family-map: (
   'p': 'Arial, sans-serif',
 );
 
-// Map des tailles de police
+:root {
+  --font-size-base: clamp(0.875rem, 1.5vw, 1rem); /* Base de 14px à 16px */
+  --font-size-h1: clamp(2rem, 6vw, 3rem);         /* 32px à 48px */
+  --font-size-h2: clamp(1.5rem, 4vw, 2.25rem);    /* 24px à 36px */
+  --font-size-h3: clamp(1.25rem, 3vw, 1.75rem);   /* 20px à 28px */
+  --font-size-h4: clamp(1.125rem, 2.5vw, 1.5rem); /* 18px à 24px */
+  --font-size-h5: clamp(1rem, 2vw, 1.25rem);      /* 16px à 20px */
+  --font-size-h6: clamp(0.875rem, 1.5vw, 1.125rem); /* 14px à 18px */
+  --font-size-p: clamp(0.875rem, 1.5vw, 1rem);    /* 14px à 16px */
+
+
+  --line-height-base: 1.7;
+  --spacing-base: 1.2rem;
+  --font-size-base: 1.8rem
+}
+
+// Autres tailles en rem pour un meilleur contrôle en combinaison avec les mots-clés
+$font-size-base: 1.8rem;
+$line-height-base: 1.7rem;
+$spacing-base: 1,2rem;
+
 $font-size-map: (
-  'h1': 2.5rem,
-  'h2': 2rem,
-  'h3': 1.75rem,
-  'h4': 1.5rem,
-  'h5': 1.25rem,
-  'h6': 1rem,
-  'p': 1rem,
+  'h1': var(--font-size-h1),
+  'h2': var(--font-size-h2),
+  'h3': var(--font-size-h3),
+  'h4': var(--font-size-h4),
+  'h5': var(--font-size-h5),
+  'h6': var(--font-size-h6),
+  'p': var(--font-size-p),
 );
 
-// Map des hauteurs de ligne
 $line-height-map: (
-  'h1': 1.2,
-  'h2': 1.3,
-  'h3': 1.4,
-  'h4': 1.5,
-  'h5': 1.6,
-  'h6': 1.7,
-  'p': 1.5,
-);
-
-// Map des espacements
-$spacing-map: (
-  'h1': 0.5rem,
-  'h2': 0.45rem,
-  'h3': 0.4rem,
-  'h4': 0.35rem,
-  'h5': 0.3rem,
-  'h6': 0.25rem,
-  'p': 0.5rem,
+  'h1': var(--line-height-base),
+  'h2': var(--line-height-base),
+  'h3': var(--line-height-base),
+  'h4': var(--line-height-base),
+  'h5': var(--line-height-base),
+  'h6': var(--line-height-base),
+  'p': var(--line-height-base),
 );
 
 // Map des couleurs
@@ -93,6 +101,17 @@ $color-map: (
   'h5': $tertiary-color-light,
   'h6': $tertiary-color-light,
   'p': $black,
+);
+
+// Map des espacements
+$spacing-map: (
+  'h1': 1.5rem,
+  'h2': 1.25rem,
+  'h3': 1rem,
+  'h4': 0.75rem,
+  'h5': 0.5rem,
+  'h6': 0.25rem,
+  'p': 1rem,
 );
 
 // Espacement général

@@ -1,7 +1,7 @@
 @import 'variables';
-
 // Mixin pour les polices
 @mixin font-style($element) {
+  // Assurez-vous que toutes les variables sont bien définies
   font-family: map-get($font-family-map, $element);
   font-size: map-get($font-size-map, $element);
   line-height: map-get($line-height-map, $element);

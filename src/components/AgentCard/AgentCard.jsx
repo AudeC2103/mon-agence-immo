@@ -6,11 +6,15 @@ import s from './style.module.scss';
 const AgentCard = ({ agent }) => {
   return (
     <div className={s.agentCard}>
-      <img src={agent.photo} alt={`${agent.firstName} ${agent.lastName}`} className={s.image} />
-      <div className={s.details}>
-        <h3>{agent.firstName} {agent.lastName}</h3>
-        <p>{agent.phone}</p>
-        <p>{agent.email}</p>
+      <div className={s.contact}>
+        <img src={agent.photo} alt={`${agent.firstName} ${agent.lastName}`} className={s.image} />
+        <div className={s.details}>
+          <h4 className={s.name}>{agent.firstName} {agent.lastName}</h4>
+          <h5 className={s.phone}>{agent.phone}</h5>
+        </div>
+      </div>
+      <div className={s.description}>
+        <h6 className={s.email}>{agent.email}</h6>
         <p>{agent.description}</p>
       </div>
     </div>
@@ -25,7 +29,7 @@ AgentCard.propTypes = {
     phone: PropTypes.string.isRequired,
     email: PropTypes.string.isRequired,
     photo: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired
+    description: PropTypes.string.isRequired,
   }).isRequired,
 };
 

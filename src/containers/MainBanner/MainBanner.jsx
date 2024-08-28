@@ -33,8 +33,8 @@ const MainBanner = ({ categorie }) => {
                     style={{ backgroundImage: `url(${slide.image})` }}
                 >
                     <div className={s.content}>
-                        <h2>{slide.title}</h2>
-                        <p>{slide.subtitle}</p>
+                        <h1>{slide.title}</h1>
+                        <h3>{slide.subtitle}</h3>
                         <a href={slide.link} className={s.link}>En savoir plus</a>
                     </div>
                 </div>

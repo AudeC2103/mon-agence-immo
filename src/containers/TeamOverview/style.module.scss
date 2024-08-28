@@ -6,34 +6,34 @@
     flex-direction: column;
 
     h2 {
-        @include font-style('h2')
+        @include font-style('h2');
     }
 
     &__containers {
         display: flex;
 
-
         &_agency {
             display: flex;
             flex-direction: column;
             width: 50%;
-            padding: 5%;
+            padding: 2%;
+            box-shadow: $box-shadow-complex;
+            border-radius: $border-radius-md;
 
-            &_Title {
+            &Title {
                 // Titre de la section de l'agence
             }
 
-            &_Text {
+            &Text {
                 // Texte descriptif de l'agence
             }
 
-            &_img {
-                width: 50%;
-                
+            &img {
+                border-radius: 50%;
             }
 
-            &_ctaLink {
-                // Boutons CTA pour la section de l'agence
+            &ctaLink {
+                @include btn-style('primary'); // Appliquez correctement le mixin
 
                 &:hover {
                     // Styles pour le hover des boutons
@@ -46,10 +46,36 @@
             flex-direction: column;
             width: 50%;
             padding: 5%;
+            box-shadow: $box-shadow-complex;
+            border-radius: $border-radius-md;
 
             &Title {
                 // Titre de la section des conseillers
             }
         }
     }
+
+    // Ajout de media queries pour la responsivité
+    @include responsive(xs) {
+        padding: $spacing-xs;
+    }
+
+    @include responsive(sm) {
+        padding: $spacing-sm;
+    }
+
+    @include responsive(md) {
+        padding: $spacing-md;
+    }
+
+    @include responsive(lg) {
+        padding: $spacing-lg;
+    }
+
+    @include responsive(xl) {
+        padding: $spacing-xl;
+    }
 }
+
+
+
