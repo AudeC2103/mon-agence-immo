@@ -4,17 +4,21 @@ import { useSlides } from './../../hooks/useSlides';
 import s from './style.module.scss';
 
 const MainBanner = ({ categorie }) => {
+    console.log("Categorie passed to MainBanner:", categorie);
+
     const { slides, loading, error } = useSlides(categorie);
     const [activeIndex, setActiveIndex] = useState(0);
 
     useEffect(() => {
+        console.log("Slides in MainBanner:", slides);
+
         if (slides.length > 0) {
             const interval = setInterval(() => {
                 setActiveIndex(prevIndex => (prevIndex + 1) % slides.length);
             }, 5000);
             return () => clearInterval(interval);
         }
-    }, [slides.length]);
+    }, [slides]);
 
     if (loading) {
         return <div>Chargement en cours...</div>;

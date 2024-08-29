@@ -745,7 +745,7 @@
             "title": "Bienvenue chez Mon agence Immo",
             "categorie": "Home",
             "subtitle": "Trouvez la maison de vos rêves avec nous",
-            "link": "/properties"
+            "link": "https://mon-agence-immo.wouafwouaf.ovh/biens_a_vendre/"
         },
         {
             "id": 2,
@@ -756,7 +756,7 @@
                 "Advice"
             ],
             "subtitle": "Nos experts sont là pour vous aider",
-            "link": "/agents"
+            "link": "https://mon-agence-immo.wouafwouaf.ovh/l_agence"
         },
         {
             "id": 3,
@@ -767,7 +767,7 @@
                 "Home"
             ],
             "subtitle": "Découvrez nos meilleurs conseils pour acheter une propriété.",
-            "link": "/advices"
+            "link": "https://mon-agence-immo.wouafwouaf.ovh/conseils"
         },
         {
             "id": 4,
@@ -775,7 +775,7 @@
             "title": "Propriété de la Semaine",
             "categorie": "Home",
             "subtitle": "Découvrez cette magnifique maison !",
-            "link": "/property-of-the-week"
+            "link": "https://mon-agence-immo.wouafwouaf.ovh/biens_a_vendre/8"
         },
         {
             "id": 5,
@@ -783,7 +783,7 @@
             "title": "Articles et informations immobilières",
             "categorie": "Home",
             "subtitle": "Découvrez les tendances du marché en 2024.",
-            "link": "/articles/market-trends-2024"
+            "link": "https://mon-agence-immo.wouafwouaf.ovh/liste_des_articles"
         },
         {
             "id": 6,
@@ -791,7 +791,7 @@
             "title": "Évaluation Gratuite",
             "categorie": "Home",
             "subtitle": "Obtenez une évaluation gratuite de votre bien immobilier en quelques clics.",
-            "link": "/services/free-valuation"
+            "link": "https://mon-agence-immo.wouafwouaf.ovh/l_agence"
         },
         {
             "id": 7,
@@ -799,7 +799,7 @@
             "title": "Vivre à Rennes",
             "categorie": "Home",
             "subtitle": "Découvrez les charmes de Rennes et nos biens disponibles.",
-            "link": "/neighborhoods/rennes"
+            "link": "https://mon-agence-immo.wouafwouaf.ovh/l_agence"
         },
         {
             "id": 8,
@@ -807,7 +807,7 @@
             "title": "Newsletter de l'agence",
             "categorie": "Home",
             "subtitle": "Inscrivez-vous et recevez les dernières offres, nos conseils et plus encore !",
-            "link": "/newsletter-signup"
+            "link": "/conseils"
         }
     ],
     "Missions": [

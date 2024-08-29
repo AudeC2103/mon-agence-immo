@@ -56,6 +56,8 @@ export const getSlides = async () => {
         throw new Error("Le fichier JSON ne contient pas de clé 'Slides'.");
     }
   
+    console.log('Slides récupérées:', data.Slides);
+
     return data.Slides;
 };
 
