@@ -4,6 +4,8 @@
 .teamOverview {
     display: flex;
     flex-direction: column;
+    padding : 1%;
+   
 
     h2 {
         @include font-style('h2');
@@ -11,14 +13,48 @@
 
     &__containers {
         display: flex;
+        justify-content: space-between;
+        @include responsive(xs) {
+        padding: 1%;
+        flex-direction: column;
+        }
+    
+        @include responsive(sm) {
+            padding: $spacing-sm;
+            flex-direction: column;
+        }
+    
+        @include responsive(md) {
+            padding: $spacing-md;
+        }
+    
+        @include responsive(lg) {
+            padding: $spacing-lg;
+        }
+    
+        @include responsive(xl) {
+            padding: $spacing-xl;
+        }
 
         &_agency {
             display: flex;
             flex-direction: column;
-            width: 50%;
+            width: 45%;
             padding: 2%;
-            box-shadow: $box-shadow-complex;
+            margin : 2%;
             border-radius: $border-radius-md;
+            box-shadow: $box-shadow-complex;
+            
+            @include responsive(xs) {
+                padding: $spacing-xs;
+                width: 100%;
+            }
+        
+            @include responsive(sm) {
+                padding: $spacing-sm;
+                flex-direction: column;
+                width: 100%;
+            }
 
             &Title {
                 // Titre de la section de l'agence
@@ -44,10 +80,22 @@
         &_agents {
             display: flex;
             flex-direction: column;
-            width: 50%;
-            padding: 5%;
+            width: 45%;
+            padding: 2%;
+            margin : 2%;
             box-shadow: $box-shadow-complex;
             border-radius: $border-radius-md;
+
+            @include responsive(xs) {
+                padding: $spacing-xs;
+                width: 100%;
+            }
+        
+            @include responsive(sm) {
+                padding: $spacing-sm;
+                flex-direction: column;
+                width: 100%;
+            }
 
             &Title {
                 // Titre de la section des conseillers
