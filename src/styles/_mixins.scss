@@ -5,7 +5,6 @@
   font-family: map-get($font-family-map, $element);
   font-size: map-get($font-size-map, $element);
   line-height: map-get($line-height-map, $element);
-  margin-bottom: map-get($spacing-map, $element);
   color: map-get($color-map, $element);
 }
 

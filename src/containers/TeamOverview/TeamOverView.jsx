@@ -29,18 +29,20 @@ const TeamOverview = () => {
     return (
         <div className={s.teamOverview}>
             <h2>L'équipe</h2>
-            <div className={s.teamOverview__containers}>
-                <div className={s.teamOverview__containers_agency}>
-                    <h3 className={s.teamOverview__containers_agencyTitle}>Notre mission</h3>
-                    <img src={Team} alt="équipe" className={s.teamOverview__containers_img} />
-                    <p className={s.teamOverview__containers_agencyText}>
+            <div className={s.containers}>
+                <div className={s.agency}>
+                    <h3 className={s.agencyTitle}>Notre mission</h3>
+                    <img src={Team} alt="équipe" className={s.teamImg} />
+                    <p className={s.agencyText}>
                         Experte en transaction immobilière, et spécialisée sur le bassin de Rennes et ses environs, nous vous accompagnons à chaque étape de votre projet.
                     </p>
-                    <Button variant="primary" to="/contact">Contactez-nous</Button>
-                    <Button variant="secondary" to="/l_agence">En savoir plus</Button>
+                    <div className={s.buttonContainer}>
+                        <Button variant="primary" to="/contact">Contactez-nous</Button>
+                        <Button variant="secondary" to="/l_agence">En savoir plus</Button>
+                    </div>
                 </div>
-                <div className={s.teamOverview__containers_agents}>
-                    <h3 className={s.teamOverview__containers_agentsTitle}>Les conseillers</h3>
+                <div className={s.agents}>
+                    <h3 className={s.agentsTitle}>Les conseillers</h3>
                     <Carousel
                         items={agents}
                         renderItem={(agent) => <AgentCard agent={agent} />}

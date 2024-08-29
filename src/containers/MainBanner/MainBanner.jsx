@@ -38,7 +38,7 @@ const MainBanner = ({ categorie }) => {
                 >
                     <div className={s.content}>
                         <h1>{slide.title}</h1>
-                        <h3>{slide.subtitle}</h3>
+                        <p>{slide.subtitle}</p>
                         <a href={slide.link} className={s.link}>En savoir plus</a>
                     </div>
                 </div>

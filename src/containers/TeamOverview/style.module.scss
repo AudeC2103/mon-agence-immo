@@ -4,47 +4,30 @@
 .teamOverview {
     display: flex;
     flex-direction: column;
-    padding : 1%;
-   
 
     h2 {
         @include font-style('h2');
     }
 
-    &__containers {
+    .containers {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        gap: 2%;
+
         @include responsive(xs) {
-        padding: 1%;
-        flex-direction: column;
-        }
-    
-        @include responsive(sm) {
-            padding: $spacing-sm;
             flex-direction: column;
-        }
-    
-        @include responsive(md) {
-            padding: $spacing-md;
-        }
-    
-        @include responsive(lg) {
-            padding: $spacing-lg;
-        }
-    
-        @include responsive(xl) {
-            padding: $spacing-xl;
+            width: 100%;
         }
 
-        &_agency {
+        .agency, .agents {
             display: flex;
             flex-direction: column;
             width: 45%;
-            padding: 2%;
-            margin : 2%;
-            border-radius: $border-radius-md;
+            padding: 0% 2%;
+            margin: 1%;
             box-shadow: $box-shadow-complex;
-            
+            border-radius: $border-radius-md;
+
             @include responsive(xs) {
                 padding: $spacing-xs;
                 width: 100%;
@@ -52,58 +35,51 @@
         
             @include responsive(sm) {
                 padding: $spacing-sm;
-                flex-direction: column;
                 width: 100%;
             }
 
-            &Title {
-                // Titre de la section de l'agence
+            @include responsive(md) {
+                padding: $spacing-md;
+                width: 100%;
             }
 
-            &Text {
-                // Texte descriptif de l'agence
+            .agencyTitle, .agentsTitle {
+                // Titre de la section
             }
 
-            &img {
-                border-radius: 50%;
+            .agencyText {
+                // Texte descriptif de la section
             }
 
-            &ctaLink {
-                @include btn-style('primary'); // Appliquez correctement le mixin
+            .teamImg {
+                border-radius: $border-radius-md;
+            }
 
-                &:hover {
-                    // Styles pour le hover des boutons
+            .buttonContainer {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+
+                .btn {
+                    margin-right: 8px;
+
+                    &:last-child {
+                        margin-right: 0; // Retirer la marge à droite pour le dernier bouton
+                    }
                 }
-            }
-        }
 
-        &_agents {
-            display: flex;
-            flex-direction: column;
-            width: 45%;
-            padding: 2%;
-            margin : 2%;
-            box-shadow: $box-shadow-complex;
-            border-radius: $border-radius-md;
+                .secondary {
+                    @include btn-style('secondary');
+                }
 
-            @include responsive(xs) {
-                padding: $spacing-xs;
-                width: 100%;
-            }
-        
-            @include responsive(sm) {
-                padding: $spacing-sm;
-                flex-direction: column;
-                width: 100%;
-            }
-
-            &Title {
-                // Titre de la section des conseillers
+                .primary {
+                    @include btn-style('primary');
+                }
             }
         }
     }
 
-    // Ajout de media queries pour la responsivité
     @include responsive(xs) {
         padding: $spacing-xs;
     }
@@ -124,6 +100,3 @@
         padding: $spacing-xl;
     }
 }
-
-
-

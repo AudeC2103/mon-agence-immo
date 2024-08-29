@@ -44,7 +44,7 @@
         color: #ffffff;
       }
 
-      h3 {
+      p {
         @include font-style('h3');
         color:$white;
         margin-bottom: 2rem;
