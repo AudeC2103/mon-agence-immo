@@ -3,7 +3,20 @@
 .mainLayout {
     &__content {
       padding: 20px;
-      // Autres styles spécifiques
-    }
+      @include responsive(xs) {
+        padding: $spacing-xs;
+        width: 100%;
+      }
+
+      @include responsive(sm) {
+          padding: $spacing-sm;
+          width: 100%;
+      }
+
+      @include responsive(md) {
+          padding: $spacing-md;
+          width: 100%;
+      }
+      }
   }
   

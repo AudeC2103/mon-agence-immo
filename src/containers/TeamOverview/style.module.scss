@@ -7,6 +7,8 @@
 
     h2 {
         @include font-style('h2');
+        text-align: center;
+        margin-bottom: $spacing-md; // Ajouter un espacement sous le titre
     }
 
     .containers {
@@ -14,58 +16,64 @@
         justify-content: space-around;
         gap: 2%;
 
-        @include responsive(xs) {
+        // Media query pour mobile : change la direction des colonnes
+        @include responsive(md) {
             flex-direction: column;
-            width: 100%;
+            align-items: center; // Centrer les conteneurs sur mobile
+            gap: $spacing-sm;
         }
 
         .agency, .agents {
             display: flex;
             flex-direction: column;
+            align-items: center; // Centrer les éléments sur mobile
+            justify-content: space-around;
             width: 45%;
             padding: 0% 2%;
             margin: 1%;
             box-shadow: $box-shadow-complex;
-            border-radius: $border-radius-md;
-
-            @include responsive(xs) {
-                padding: $spacing-xs;
-                width: 100%;
-            }
-        
-            @include responsive(sm) {
-                padding: $spacing-sm;
-                width: 100%;
-            }
+            border-radius: $border-radius-lg;
 
             @include responsive(md) {
-                padding: $spacing-md;
-                width: 100%;
+                width: 100%; // Utiliser presque toute la largeur sur mobile
+                padding: $spacing-sm;
+                margin: $spacing-xs 0; // Espacement vertical réduit pour les conteneurs sur mobile
             }
 
             .agencyTitle, .agentsTitle {
-                // Titre de la section
+                margin-bottom: $spacing-lg; // Assurer un espace entre le titre et le contenu
+                text-align: center; // Centrer les titres sur mobile pour un meilleur rendu
             }
 
-            .agencyText {
-                // Texte descriptif de la section
+            .agencyText, .agentsText {
+                margin-bottom: $spacing-sm;
+                padding: 1% 2%;
             }
 
             .teamImg {
-                border-radius: $border-radius-md;
+                border-radius: $border-radius-lg;
+                width: 300px; // Ajuster la taille de l'image pour mobile
+                height: auto;
+                margin: 0 auto $spacing-sm; // Centrer l'image sur mobile
             }
 
             .buttonContainer {
                 display: flex;
-                justify-content: space-around;
+                justify-content: center; // Centrer les boutons sur mobile
+                gap: $spacing-xl; // Espacement entre les boutons
                 margin-top: 1rem;
-                margin-bottom: 1rem;
+                margin-bottom: 2rem;
+
+                @include responsive(md) {
+                    flex-direction: column; // Boutons en colonne sur mobile
+                    align-items: center;
+                }
 
                 .btn {
                     margin-right: 8px;
 
                     &:last-child {
-                        margin-right: 0; // Retirer la marge à droite pour le dernier bouton
+                        margin-right: 0;
                     }
                 }
 

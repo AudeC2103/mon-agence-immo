@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 import { useFavorites } from './../../hooks/useFavorites';
 import Carousel from './../Carousel/Carousel';
 import s from './style.module.scss';
+import coeurPlein from './../../assets/icones/coeurplein.png';
+import coeurVide from './../../assets/icones/coeurvide.png';
+
 
 const PropertyCard = ({ property }) => {
   const { addFavorite, removeFavorite, isFavorite } = useFavorites();
@@ -44,8 +47,11 @@ const PropertyCard = ({ property }) => {
           <p>{property.price} {property.currency}</p>
         </div>
       </Link>
-      <button onClick={handleFavoriteToggle}>
-        {isFavorite(property.id) ? 'Retirer des Favoris' : 'Ajouter aux Favoris'}
+      <button onClick={handleFavoriteToggle} aria-label={isFavorite(property.id) ? 'Retirer des Favoris' : 'Ajouter aux Favoris'} className={s.favoriteButton}>
+        <img 
+          src={isFavorite(property.id) ? coeurPlein : coeurVide} 
+          alt={isFavorite(property.id) ? 'Retirer des Favoris' : 'Ajouter aux Favoris'} 
+        />
       </button>
     </div>
   );

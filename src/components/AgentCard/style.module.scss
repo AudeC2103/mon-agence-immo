@@ -4,10 +4,11 @@
 .agentCard {
   display: flex;
   flex-direction: column;
-  border: 2px solid #ddd;
-  border-radius: $border-radius-md;
+  border: 2px solid $tertiary-color-light;
+  ;
+  border-radius: $border-radius-lg;
   padding: 1rem;
-  margin: 0;
+  margin: 0.7rem;
   background-color: #fff;
 
   .contact {
