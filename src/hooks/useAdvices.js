@@ -1,3 +1,4 @@
+//./src/hooks/useAdvices.js
 import { useState, useEffect } from 'react';
 import { getAdvices } from '../api/NotesAPI';
 

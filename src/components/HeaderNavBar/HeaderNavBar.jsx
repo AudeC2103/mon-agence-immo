@@ -32,7 +32,7 @@ const HeaderNavBar = () => {
               <li><Link to="/conseils/vente">Vente</Link></li>
             </ul>
           </li>
-          <li><Link to="/liste_des_articles">Articles</Link></li>
+          <li><Link to="/articles">Articles</Link></li>
           <li>
             <Link to="/l_agence">L'agence</Link>
             <ul className={s.subMenu}>

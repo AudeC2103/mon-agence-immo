@@ -753,7 +753,11 @@
             "title": "Trouvez votre conseiller",
             "categorie": [
                 "Home",
-                "Advice"
+                "Advice",
+                "Article",
+                "Contact",
+                "Property",
+                "success"
             ],
             "subtitle": "Nos experts sont là pour vous aider",
             "link": "https://mon-agence-immo.wouafwouaf.ovh/l_agence"
@@ -763,9 +767,13 @@
             "image": "assets/slides/bannerAdvice.jpg",
             "title": "Conseils d'Achat Immobilier",
             "categorie": [
-                "Agents",
-                "Home"
-            ],
+                    "Home",
+                    "Article",
+                    "Contact",
+                    "Property",
+                    "success",
+                    "Agency"
+                ],
             "subtitle": "Découvrez nos meilleurs conseils pour acheter une propriété.",
             "link": "https://mon-agence-immo.wouafwouaf.ovh/conseils"
         },
@@ -773,7 +781,15 @@
             "id": 4,
             "image": "assets/slides/bannerPropertyWeek.jpg",
             "title": "Propriété de la Semaine",
-            "categorie": "Home",
+            "categorie": [
+                "Home",
+                "Advice",
+                "Article",
+                "Contact",
+                "Property",
+                "success",
+                "Agency"
+            ],
             "subtitle": "Découvrez cette magnifique maison !",
             "link": "https://mon-agence-immo.wouafwouaf.ovh/biens_a_vendre/8"
         },
@@ -781,7 +797,14 @@
             "id": 5,
             "image": "assets/slides/bannerMarketTrends.jpg",
             "title": "Articles et informations immobilières",
-            "categorie": "Home",
+            "categorie": [
+                "Home",
+                "Advice",
+                "Contact",
+                "Property",
+                "Agency",
+                "success"
+            ],
             "subtitle": "Découvrez les tendances du marché en 2024.",
             "link": "https://mon-agence-immo.wouafwouaf.ovh/liste_des_articles"
         },
@@ -789,7 +812,15 @@
             "id": 6,
             "image": "assets/slides/bannerServicePromotion.jpg",
             "title": "Évaluation Gratuite",
-            "categorie": "Home",
+            "categorie": [
+                "Home",
+                "Advice",
+                "Article",
+                "Contact",
+                "Property",
+                "Agency",
+                "success"
+            ],
             "subtitle": "Obtenez une évaluation gratuite de votre bien immobilier en quelques clics.",
             "link": "https://mon-agence-immo.wouafwouaf.ovh/l_agence"
         },
@@ -797,7 +828,15 @@
             "id": 7,
             "image": "assets/slides/bannerRennes.jpg",
             "title": "Vivre à Rennes",
-            "categorie": "Home",
+            "categorie": [
+                "Home",
+                "Advice",
+                "Article",
+                "Contact",
+                "Property",
+                "Agency",
+                "success"
+            ],
             "subtitle": "Découvrez les charmes de Rennes et nos biens disponibles.",
             "link": "https://mon-agence-immo.wouafwouaf.ovh/l_agence"
         },
@@ -805,7 +844,15 @@
             "id": 8,
             "image": "assets/slides/bannerNewsletter.jpg",
             "title": "Newsletter de l'agence",
-            "categorie": "Home",
+            "categorie": [
+                "Home",
+                "Advice",
+                "Article",
+                "Contact",
+                "Property",
+                "Agency",
+                "success"
+            ],
             "subtitle": "Inscrivez-vous et recevez les dernières offres, nos conseils et plus encore !",
             "link": "/conseils"
         }
