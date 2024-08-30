@@ -12,9 +12,8 @@ import ContactFormPage from './pages/ContactFormPage/ContactFormPage';
 import TeamPage from './pages/TeamPage/TeamPage';
 import SuccessPage from './pages/SuccessPage/SuccessPage';
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
-import RegisterPage from './pages/RegisterPage/RegisterPage';
 import LoginPage from './pages/LoginPage/LoginPage';
-
+import SignupPage from './pages/SignupPage/SignupPage';
 
 export function App() {
     return (
@@ -29,7 +28,7 @@ export function App() {
                 <Route path="l_agence" element={<TeamPage />} />
                 <Route path="succes" element={<SuccessPage />} />
                 <Route path="contact" element={<ContactFormPage />} />
-                <Route path="inscription" element={<RegisterPage />} />
+                <Route path="inscription" element={<SignupPage />} />
                 <Route path="connexion" element={<LoginPage />} />
                 <Route path="*" element={<NotFoundPage />} /> {/* Route 404 */}
             </Route>

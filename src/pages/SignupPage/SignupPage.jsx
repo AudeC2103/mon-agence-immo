@@ -1,19 +1,26 @@
-// ./src/pages/LoginPage/LoginPage.jsx
+// ./src/pages/SignupPage/SignupPage.jsx
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import s from './style.module.scss';
 
-const LoginPage = () => {
+const SignupPage = () => {
   const [formData, setFormData] = useState({
+    username: '',
     email: '',
     password: '',
+    confirmPassword: '',
   });
 
   const [errors, setErrors] = useState({});
 
   const validate = (name, value) => {
     switch (name) {
+      case 'username':
+        if (!value) {
+          return 'Le nom d\'utilisateur est requis';
+        }
+        break;
       case 'email':
         const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
         if (!value) {
@@ -25,6 +32,13 @@ const LoginPage = () => {
       case 'password':
         if (!value) {
           return 'Le mot de passe est requis';
+        } else if (value.length < 6) {
+          return 'Le mot de passe doit contenir au moins 6 caractères';
+        }
+        break;
+      case 'confirmPassword':
+        if (value !== formData.password) {
+          return 'Les mots de passe ne correspondent pas';
         }
         break;
       default:
@@ -60,17 +74,29 @@ const LoginPage = () => {
     });
 
     if (isValid) {
-      console.log('Login submitted:', formData);
-      // Code to handle login submission
+      console.log('Form submitted:', formData);
+      // Code to handle the form submission
     } else {
       setErrors(newErrors);
     }
   };
 
   return (
-    <div className={s.loginContainer}>
-      <h2>Connexion</h2>
-      <form onSubmit={handleSubmit} className={s.loginForm}>
+    <div className={s.signupContainer}>
+      <h2>Inscription</h2>
+      <form onSubmit={handleSubmit} className={s.signupForm}>
+        <div className={s.formGroup}>
+          <label htmlFor="username">Nom d'utilisateur :</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            value={formData.username}
+            onChange={handleChange}
+            required
+          />
+          {errors.username && <span className={s.errorText}>{errors.username}</span>}
+        </div>
         <div className={s.formGroup}>
           <label htmlFor="email">Email :</label>
           <input
@@ -95,13 +121,25 @@ const LoginPage = () => {
           />
           {errors.password && <span className={s.errorText}>{errors.password}</span>}
         </div>
-        <button type="submit" className={s.submitButton}>Se connecter</button>
+        <div className={s.formGroup}>
+          <label htmlFor="confirmPassword">Confirmer le mot de passe :</label>
+          <input
+            type="password"
+            id="confirmPassword"
+            name="confirmPassword"
+            value={formData.confirmPassword}
+            onChange={handleChange}
+            required
+          />
+          {errors.confirmPassword && <span className={s.errorText}>{errors.confirmPassword}</span>}
+        </div>
+        <button type="submit" className={s.submitButton}>S'inscrire</button>
       </form>
-      <p className={s.signupLink}>
-        Pas de compte? <Link to="/inscription">Inscrivez-vous ici</Link>.
+      <p className={s.loginLink}>
+        Déjà un compte? <Link to="/connexion">Connectez-vous ici</Link>.
       </p>
     </div>
   );
 };
 
-export default LoginPage;
+export default SignupPage;
