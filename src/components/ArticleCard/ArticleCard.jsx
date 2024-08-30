@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import s from './style.module.scss';
 
 const ArticleCard = ({ article }) => {
@@ -16,9 +17,9 @@ const ArticleCard = ({ article }) => {
         <p className={s.author}>Par {article.author}</p>
         <p className={s.date}>{article.date}</p>
         <p className={s.summary}>{article.summary}</p>
-        <a href={article.link} target="_blank" rel="noopener noreferrer" className={s.link}>
+        <Link to={article.link} target="_blank" rel="noopener noreferrer" className={s.link}>
           Lire plus
-        </a>
+        </Link>
       </div>
     </div>
   );
