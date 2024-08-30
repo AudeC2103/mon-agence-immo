@@ -743,7 +743,15 @@
             "id": 1,
             "image": "assets/slides/bannerHome.jpg",
             "title": "Bienvenue chez Mon agence Immo",
-            "categorie": "Home",
+            "categorie": [
+                "Home",
+                "Advice",
+                "Article",
+                "Contact",
+                "Property",
+                "success",
+                "Agency"
+            ],
             "subtitle": "Trouvez la maison de vos rêves avec nous",
             "link": "https://mon-agence-immo.wouafwouaf.ovh/biens_a_vendre/"
         },
@@ -872,7 +880,7 @@
                         {
                             "id": 2,
                             "titre": "Promotion et publicité",
-                            "image": "assets/missions/promotionn.jpg",
+                            "image": "assets/missions/promotion.jpg",
                             "description": "Maximisez la visibilité de votre bien grâce à des campagnes publicitaires ciblées et des supports de qualité."
                         }
                     ]

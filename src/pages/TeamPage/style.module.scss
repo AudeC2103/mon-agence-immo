@@ -1,0 +1,59 @@
+@import './../../styles/variables';
+@import './../../styles/mixins';
+
+.teamPage {
+    padding: 20px;
+    background-color: #f9f9f9;
+  
+    .agencyDescription {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 30px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+      h2 {
+        margin-bottom: 16px;
+        font-size: 2rem;
+        color: $tertiary-color;
+      }
+  
+      p {
+        font-size: 1rem;
+        color: lighten($tertiary-color, 10%);
+        text-align: justify;
+        line-height: 1.6;
+        margin-bottom: 16px;
+      }
+    }
+  
+    .servicesSection {
+      h2 {
+        font-size: 1.8rem;
+        margin-bottom: 24px;
+        color: #333;
+        padding: 0 20px;
+      }
+  
+      .missionsGrid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+      }
+  
+      .missionCategory {
+        margin-bottom: 20px;
+  
+        h3 {
+          font-size: 1.5rem;
+          margin-bottom: 16px;
+          color: $tertiary-color;
+        }
+      }
+    }
+    .agents {
+        padding: 0 20px;    
+    }
+  }
+  
