@@ -37,9 +37,6 @@ const PropertyCard = ({ property }) => {
             <img src={`/${image}`} alt={property.title} className={s.image} style={styleOptions} />
           )}
           settings={carouselSettings}
-          width="100%"
-          height="200px" // Ajustez cette valeur selon vos besoins
-          borderRadius="8px"
         />
         <div className={s.details}>
           <h3>{property.title}</h3>
