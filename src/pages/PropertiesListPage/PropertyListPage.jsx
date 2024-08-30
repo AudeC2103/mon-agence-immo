@@ -32,10 +32,12 @@ const PropertiesListPage = () => {
   return (
     <div>
       <SearchBar onSearch={handleSearch} />
-      <div className={s.propertiesList}>
-        {filteredProperties.map((property) => (
-          <PropertyCard key={property.id} property={property} />
-        ))}
+      <div className={s.container}>
+        <div className={s.propertiesList}>
+          {filteredProperties.map((property) => (
+            <PropertyCard key={property.id} property={property} />
+          ))}
+        </div>
       </div>
     </div>
   );
