@@ -7,7 +7,7 @@ import MainBanner from '../../containers/MainBanner/MainBanner';
 const CGUVPage = () => {
   return (
     <div className={s.page}>
-      <MainBanner catégorie="CGUV" />
+      <MainBanner categorie="CGUV" />
       <div className={s.cguvContainer}>
         <h1>Conditions Générales d’Utilisation et de Vente (CGUV)</h1>
 

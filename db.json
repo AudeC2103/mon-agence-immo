@@ -855,10 +855,10 @@
         },
         {
             "id": 9,
-            "image": "assets/slides/bannerCGUV.jpg",
+            "image": "assets/slides/bannerCguv.jpg",
             "title": "Conditions Générales d'Utilisation et de Vente",
             "categorie": "CGUV",
-            "subtitle": "Mentions Légales",
+            "subtitle": "Voir les mentions légales",
             "link": "https://mon-agence-immo.wouafwouaf.ovh/mentions_legales"
         },
         {
@@ -866,7 +866,7 @@
             "image": "assets/slides/bannerLegalNotice.jpg",
             "title": "Mentions Légales",
             "categorie": "LegalNotice",
-            "subtitle": "Conditions Générales d'Utilisation et de Vente",
+            "subtitle": "Voir les Conditions Générales d'Utilisation et de Vente",
             "link": "https://mon-agence-immo.wouafwouaf.ovh/cguv"
         },
         {
