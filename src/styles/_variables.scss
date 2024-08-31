@@ -106,8 +106,8 @@ $line-height-map: (
 // Map des couleurs
 $color-map: (
   'h1': $tertiary-color-dark,
-  'h2': $tertiary-color-light,
-  'h3': $tertiary-color,
+  'h2': darken($tertiary-color-light, 7%),
+  'h3': darken($tertiary-color, 4%),
   'h4': $tertiary-color,
   'h5': $tertiary-color-light,
   'h6': $tertiary-color-light,

@@ -1,93 +1,110 @@
-@import './../../styles/components';
+@import './../../styles/variables';
+@import './../../styles/mixins';
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  .menuToggle {
-    display: none; // Cacher le bouton burger par défaut
-
-    @media (max-width: 768px) {
-      display: block; // Afficher le bouton burger sur mobile
-      background: none;
-      border: none;
-      font-size: 2rem;
-      cursor: pointer;
-      color: $text-color;
-    }
+  background-color: $white;
+  padding: $spacing-md;
+  position: relative; // Pour que la nav se positionne correctement en version mobile
+  min-width: 120px;
+  @include responsive(md) {
+    align-items: normal;
   }
 
   .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 0.4rem;
 
-    .navList {
-      list-style: none;
-      display: flex;
-      gap: 1.5rem;
-
-      li {
-        position: relative;
-
-        a {
-          color: $text-color;
-          text-decoration: none;
-          
-
-          &:hover {
-            color: $secondary-color-dark;
-            font-weight: bolder;
-            transition: color 0.3s ease;
-          }
-        }
-
-        .subMenu {
-          display: none;
-          position: absolute;
-          top: 100%;
-          left: 0;
-          background-color: $background-color;
-          list-style: none;
-          padding: 0.5rem 0;
-          border-radius: 4px;
-          border: solid 2px $white;
-
-          li {
-            padding: 0.5rem 1rem;
-
-            a {
-              color: $text-color;
-              text-decoration: none;
-
-              &:hover {
-                color: $secondary-color;
-              }
-            }
-          }
-        }
-
-        &:hover .subMenu {
-          display: block;
-        }
-      }
+    @include responsive(md) {
+      display: none;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 100%;
+      padding: 0.5rem;
+      position: absolute;
+      top: $spacing-xl;
+      left: 0;
+      background-color: lighten($neutral-color, 5%);
+      z-index: $z-index-dropdown;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     }
 
     &.open {
+      display: flex;
+      padding: 0.5rem;
+    }
+  }
+
+  .menuToggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2.2rem;
+
+    @include responsive(md) {
       display: block;
+      justify-content: space-around;
+      align-self: self-end;
+      color: black;
+      z-index: $z-index-sticky;
+    }
+  }
+
+  .navList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    @include responsive(md) {
+      flex-direction: column;
+      width: 100%;
     }
 
-    @media (max-width: 768px) {
-      display: none; // Cacher la navList par défaut sur mobile
+    li {
+      position: relative;
+      padding: 0.3rem;
+      border-radius: 0.4rem;
+      @include responsive(md) {
+        padding: 0rem;
+      }
+      
+      &:hover .subMenu {
+        display: block;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        padding: 0rem;
+        border-radius: 0.4rem;
+      }
+    }
 
-      &.open {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
+    .subMenu {
+      display: none;
+      position: absolute;
+      background-color: lighten($neutral-color, 5%);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      top: 100%;
+      left: 0;
+      z-index: $z-index-dropdown;
 
-        .navList {
-          flex-direction: column;
+      @include responsive(md) {
+        position: static;
+        top: 0;
+        left: 0;
+        display: none; // Hidden by default
+        background-color: $white;
+        box-shadow: none;
+      }
+
+      li {
+        padding: 0.5rem 1rem;
+
+        &:hover {
+          background-color: lighten($background-color, 3%);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
         }
       }
     }

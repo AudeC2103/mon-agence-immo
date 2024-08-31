@@ -3,7 +3,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import s from './style.module.scss';
 import HeaderNavBar from '../../components/HeaderNavBar/HeaderNavBar';
-import logo from '../../assets/logo2.png';
+import logo from './../../assets/logo2.png';
+import userLogin from './../../assets/icones/userLogin.png';
+import addUser from './../../assets/icones/addUser.png'
 
 const Header = () => {
   return (
@@ -18,9 +20,24 @@ const Header = () => {
           <HeaderNavBar/>
         </nav>
         <div className={s.auth}>
-          <Link to="/inscription" className={s.signUpBtn} alt="Boutton Inscription">Inscription</Link>
-          <Link to="/connexion" className={s.loginBtn} alt="Boutton Connexion">Connexion</Link>
-        </div>
+          <div className={s.authSignUp}>
+            <Link to="/inscription" className={s.signUpBtn}>
+              Inscription
+            </Link>
+            <Link to="/inscription" className={s.signUpImg}>
+          
+              <img src={userLogin} className={s.signUpImg}alt="Boutton Inscription"/>
+            </Link>
+          </div>
+          <div className={s.authLogin}>
+            <Link to="/connexion" className={s.loginBtn}>
+              Connexion
+            </Link> 
+            <Link to="/connexion" className={s.loginImg}> 
+              <img src={addUser} className={s.loginImg} alt="Boutton Connexion"/>
+            </Link>    
+          </div>
+          </div>
       </header>
     </div>
   );

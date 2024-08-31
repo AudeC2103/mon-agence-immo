@@ -1,4 +1,3 @@
-// src/components/HeaderNavBar/HeaderNavBar.jsx
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import s from './style.module.scss';
@@ -18,7 +17,7 @@ const HeaderNavBar = () => {
       <div className={`${s.nav} ${menuOpen ? s.open : ''}`}>
         <ul className={s.navList}>
           <li>
-            <Link to="/biens_a_vendre">Biens à vendre</Link>
+            <Link to="/biens_a_vendre" aria-haspopup="true">Biens à vendre</Link>
             <ul className={s.subMenu}>
               <li><Link to="/biens_a_vendre/maisons">Maison</Link></li>
               <li><Link to="/biens_a_vendre/appartements">Appartement</Link></li>
@@ -26,15 +25,17 @@ const HeaderNavBar = () => {
             </ul>
           </li>
           <li>
-            <Link to="/conseils">Conseils</Link>
+            <Link to="/conseils" aria-haspopup="true">Conseils</Link>
             <ul className={s.subMenu}>
               <li><Link to="/conseils/achat">Achat</Link></li>
               <li><Link to="/conseils/vente">Vente</Link></li>
             </ul>
           </li>
-          <li><Link to="/articles">Articles</Link></li>
           <li>
-            <Link to="/l_agence">L'agence</Link>
+            <Link className={s.articles} to="/articles">Articles</Link>
+          </li>
+          <li>
+            <Link to="/l_agence" aria-haspopup="true">L'agence</Link>
             <ul className={s.subMenu}>
               <li><Link to="/l_agence/mission">Mission</Link></li>
               <li><Link to="/l_agence/services">Services</Link></li>
@@ -42,13 +43,15 @@ const HeaderNavBar = () => {
             </ul>
           </li>
           <li>
-            <Link to="/succes">Succès</Link>
+            <Link to="/success" aria-haspopup="true">Succès</Link>
             <ul className={s.subMenu}>
-              <li><Link to="/succes/nos_ventes">Vendu</Link></li>
-              <li><Link to="/succes/avis">Avis</Link></li>
+              <li><Link to="/success/nos_ventes">Vendu</Link></li>
+              <li><Link to="/success/avis">Avis</Link></li>
             </ul>
           </li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li> 
+            <Link to="/contact">Contact</Link>
+          </li>
         </ul>
       </div>
     </nav>
