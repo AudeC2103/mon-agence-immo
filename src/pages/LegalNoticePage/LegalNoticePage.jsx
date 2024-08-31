@@ -9,7 +9,7 @@ const LegalNoticePage = () => {
     <div className={s.page}>
       <MainBanner categorie="LegalNotice" />
       <div className={s.legalNoticeContainer}>
-        <h2>Mentions légales</h2>
+        <h2>Identité du responsable, coordonnées de l'hébergeur, ainsi que les droits et obligations conformément aux réglementations en vigueur.</h2>
 
         <section className={s.section}>
           <h3>Identification de l’agence</h3>

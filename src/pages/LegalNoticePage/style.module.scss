@@ -4,26 +4,31 @@
 @import './../../styles/variables';
 
 .legalNoticeContainer {
-  padding: 20px;
+  padding: 0px 20px;
   background-color: #f9f9f9;
 
-  h1 {
-    @include font-style(heading);
+  h2 {
+    @include font-style(h2);
     margin-bottom: 24px;
+    color: darken($btn-primary-bg, 15%);
+    text-align: center;
   }
 
   .section {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 
-    h2 {
-      @include font-style(subheading);
-      margin-bottom: 12px;
-      color: $primary-color;
+    h3 {
+      @include font-style(h3);
+      margin-bottom: 10px;
+      color: darken($btn-primary-bg, 10%);
     }
 
     p {
-      @include font-style(body);
-      margin-bottom: 8px;
+      @include font-style(h5);
+      margin-bottom: 7px;
+      color : black;
+      @include responsive(md)
+
     }
 
     strong {
