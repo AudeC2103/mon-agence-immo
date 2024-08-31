@@ -32,9 +32,6 @@ const HeaderNavBar = () => {
             </ul>
           </li>
           <li>
-            <Link className={s.articles} to="/articles">Articles</Link>
-          </li>
-          <li>
             <Link to="/l_agence" aria-haspopup="true">L'agence</Link>
             <ul className={s.subMenu}>
               <li><Link to="/l_agence/mission">Mission</Link></li>
@@ -51,6 +48,9 @@ const HeaderNavBar = () => {
           </li>
           <li> 
             <Link to="/contact">Contact</Link>
+          </li>
+          <li>
+            <Link className={s.faq} to="/faq">FAQ</Link>
           </li>
         </ul>
       </div>

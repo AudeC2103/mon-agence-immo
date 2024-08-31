@@ -13,7 +13,7 @@ const ContactFormPage = () => {
   return (
     <div className={s.contactPage}>
       <h1>Contactez-nous</h1>
-      <p>Vous avez des questions ou besoin d'informations supplémentaires? Remplissez le formulaire ci-dessous et notre équipe vous répondra dans les plus brefs délais.</p>
+      <p>Vous avez des questions ou besoin d'informations supplémentaires? Remplissez le formulaire ci-dessous et notre équipe vous répondra dans les plus brefs délais. Vous souhaitez vous inscrire à notre Newsletters, c'est ici aussi !</p>
       <ContactForm onSubmit={handleSubmit} />
     </div>
   );

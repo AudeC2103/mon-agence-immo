@@ -1,12 +1,13 @@
 // ./src/components/ContactForm/style.module.scss
+@import './../../styles/variables';
 
 .contactForm {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: lighten($background-color, 2%);
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4), -1em 0 1em white;
   }
   
   .formGroup {
@@ -25,11 +26,12 @@
       padding: 10px;
       border-radius: 4px;
       border: 1px solid #ccc;
+      background-color: lighten($neutral-color, 10%);
       font-size: 1rem;
       transition: border-color 0.3s ease;
   
       &:focus {
-        border-color: #007bff;
+        border-color: #04ADBF;
         outline: none;
       }
     }
@@ -37,7 +39,7 @@
   
   .submitButton {
     padding: 10px 15px;
-    background-color: #007bff;
+    background-color: #04ADBF;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -46,7 +48,7 @@
     transition: background-color 0.3s ease;
   
     &:hover {
-      background-color: #0056b3;
+      background-color: darken(#04ADBF, 10%);;
     }
   }
   

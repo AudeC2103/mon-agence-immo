@@ -16,6 +16,7 @@ import LoginPage from './pages/LoginPage/LoginPage';
 import SignupPage from './pages/SignupPage/SignupPage';
 import CguvPage from './pages/CguvPage/CguvPage';
 import LegalNoticePage from './pages/LegalNoticePage/LegalNoticePage';
+import FaqPage from './pages/FaqPage/FaqPage'
 
 export function App() {
     return (
@@ -33,6 +34,7 @@ export function App() {
                 <Route path="inscription" element={<SignupPage />} />
                 <Route path="connexion" element={<LoginPage />} />
                 <Route path="cguv" element={<CguvPage />} />
+                <Route path="faq" element={<FaqPage />} />
                 <Route path="mentions_legales" element={<LegalNoticePage />} />
                 <Route path="*" element={<NotFoundPage />} /> {/* Route 404 */}
             </Route>

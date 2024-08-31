@@ -6,6 +6,7 @@ import MissionCard from './../../components/MissionCard/MissionCard';
 import MainBanner from '../../containers/MainBanner/MainBanner';
 import AgentCard from '../../components/AgentCard/AgentCard';
 import Carousel from '../../components/Carousel/Carousel';
+import FAQAccordion from '../../components/Accordeon/Accordeon';
 import s from './style.module.scss';
 
 const TeamPage = () => {
@@ -65,15 +66,16 @@ const TeamPage = () => {
           </div>
         </section>
         <div className={s.agents}>
-              <h2>L'équipe</h2>
-                  <div className={s.agents}>
-                      <Carousel
-                          items={agents}
-                          renderItem={(agent) => <AgentCard agent={agent} />}
-                          settings={carouselSettings}
-                      />
-                  </div>
+          <h2>L'équipe</h2>
+          <div className={s.agents}>
+              <Carousel
+                items={agents}
+                renderItem={(agent) => <AgentCard agent={agent} />}
+                settings={carouselSettings}
+              />
+          </div>
         </div>
+        <FAQAccordion />
       </div>
   );
 };

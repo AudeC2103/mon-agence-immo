@@ -1,8 +1,8 @@
 // src/FAQAccordion.js
 import React, { useState } from 'react';
-import AccordionItem from './../AccordionItem/AccordionItem';
-import { useFAQ } from './../../hooks/useFAQ';
-import './FAQAccordion.css';
+import AccordionItem from '../AccordionItem/AccordionItem';
+import { useFAQ } from '../../hooks/useFAQ';
+import './style.module.scss';
 
 const FAQAccordion = () => {
   const { FAQ, loading, error } = useFAQ(); // Utilisation du hook useFAQ
@@ -28,7 +28,7 @@ const FAQAccordion = () => {
 
   return (
     <div className="faq-accordion" style={{ padding: '20px' }}>
-      <h1>FAQ</h1>
+      <h2>FAQ</h2>
       
       <div style={{ marginBottom: '20px' }}>
         <label htmlFor="categoryFilter" style={{ marginRight: '10px' }}>Filtrer par catégorie:</label>
