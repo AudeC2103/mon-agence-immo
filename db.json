@@ -862,8 +862,39 @@
                 "success"
             ],
             "subtitle": "Inscrivez-vous et recevez les dernières offres, nos conseils et plus encore !",
-            "link": "/conseils"
+            "link": "https://mon-agence-immo.wouafwouaf.ovh/conseils"
         }
+        {
+            "id": 9,
+            "image": "assets/slides/bannerCGUV.jpg",
+            "title": "Conditions Générales d'Utilisation et de Vente",
+            "categorie": [
+                "CGUV"
+            ],
+            "subtitle": "Mentions Légales",
+            "link": "https://mon-agence-immo.wouafwouaf.ovh/mentions_legales"
+        }
+        {
+            "id": 10,
+            "image": "assets/slides/bannerLegalNotice.jpg",
+            "title": "Mentions Légales",
+            "categorie": [
+                "LegalNotice"
+            ],
+            "subtitle": "Conditions Générales d'Utilisation et de Vente",
+            "link": "https://mon-agence-immo.wouafwouaf.ovh/cguv"
+        }
+        {
+            "id": 11,
+            "image": "assets/slides/bannerHelp.jpg",
+            "title": "Installez-vous, on s'occupe de tout pour vous !",
+            "categorie": [
+                "Agency"
+            ],
+            "subtitle": "Demander un rendez-vous",
+            "link": "https://mon-agence-immo.wouafwouaf.ovh/contact"
+        }
+
     ],
     "Missions": [
         {
