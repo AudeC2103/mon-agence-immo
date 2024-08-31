@@ -11,9 +11,9 @@ const Footer = () => {
         <div className={s.rightSection}>
           <ul className={s.footerLinks}>
             <li><a href="/contact">Contact</a></li>
-            <li><a href="/about">À propos</a></li>
-            <li><a href="/privacy">Confidentialité</a></li>
-            <li><a href="/terms">Conditions d'utilisation</a></li>
+            <li><a href="/l_agence">À propos de nous</a></li>
+            <li><a href="/mentions_legales">Mentions Légales</a></li>
+            <li><a href="/cguv">CGUV</a></li>
           </ul>
         </div>
       </div>

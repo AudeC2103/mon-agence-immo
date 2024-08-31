@@ -11,9 +11,9 @@ const Footer = () => {
         <div className={styles.rightSection}>
           <ul className={styles.footerLinks}>
             <li><a href="/contact">Contact</a></li>
-            <li><a href="/about">À propos</a></li>
-            <li><a href="/privacy">Confidentialité</a></li>
-            <li><a href="/terms">Conditions d'utilisation</a></li>
+            <li><a href="/">À propos</a></li>
+            <li><a href="/mentions_legales">Mentions Légales</a></li>
+            <li><a href="/cguv">CGUV</a></li>
           </ul>
         </div>
       </div>

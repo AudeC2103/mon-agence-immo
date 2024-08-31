@@ -14,6 +14,8 @@ import SuccessPage from './pages/SuccessPage/SuccessPage';
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
 import LoginPage from './pages/LoginPage/LoginPage';
 import SignupPage from './pages/SignupPage/SignupPage';
+import CguvPage from './pages/CguvPage/CguvPage';
+import LegalNoticePage from './pages/LegalNoticePage/LegalNoticePage';
 
 export function App() {
     return (
@@ -30,6 +32,8 @@ export function App() {
                 <Route path="contact" element={<ContactFormPage />} />
                 <Route path="inscription" element={<SignupPage />} />
                 <Route path="connexion" element={<LoginPage />} />
+                <Route path="cguv" element={<CguvPage />} />
+                <Route path="mentions_legales" element={<LegalNoticePage />} />
                 <Route path="*" element={<NotFoundPage />} /> {/* Route 404 */}
             </Route>
         </Routes>
