@@ -863,7 +863,7 @@
             ],
             "subtitle": "Inscrivez-vous et recevez les dernières offres, nos conseils et plus encore !",
             "link": "https://mon-agence-immo.wouafwouaf.ovh/conseils"
-        }
+        },
         {
             "id": 9,
             "image": "assets/slides/bannerCGUV.jpg",
@@ -873,7 +873,7 @@
             ],
             "subtitle": "Mentions Légales",
             "link": "https://mon-agence-immo.wouafwouaf.ovh/mentions_legales"
-        }
+        },
         {
             "id": 10,
             "image": "assets/slides/bannerLegalNotice.jpg",
@@ -883,7 +883,7 @@
             ],
             "subtitle": "Conditions Générales d'Utilisation et de Vente",
             "link": "https://mon-agence-immo.wouafwouaf.ovh/cguv"
-        }
+        },
         {
             "id": 11,
             "image": "assets/slides/bannerHelp.jpg",
