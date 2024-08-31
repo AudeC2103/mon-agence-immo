@@ -7,7 +7,7 @@ import MainBanner from '../../containers/MainBanner/MainBanner';
 const LegalNoticePage = () => {
   return (
     <div className={s.page}>
-      <MainBanner categorie="Agency" />
+      <MainBanner categorie="LegalNotice" />
       <div className={s.legalNoticeContainer}>
         <h2>Mentions légales</h2>
 
