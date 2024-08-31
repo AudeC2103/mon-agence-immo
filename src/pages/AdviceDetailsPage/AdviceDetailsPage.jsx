@@ -1,8 +1,7 @@
 //./pages/AdviceDetailsPage/AdviceDetailsPage.jsx
 import React from 'react';
-import MainBanner from '../../containers/MainBanner/MainBanner';
+import MainBanner from './../../containers/MainBanner/MainBanner'
 import TeamOverView from '../../containers/TeamOverview/TeamOverView';
-import AdviceCard from '../../components/AdviceCard/AdviceCard';
 import ContactOverView from '../../containers/ContactOverview/ContactOverView';
 import s from './style.module.scss';
 
@@ -10,7 +9,6 @@ const AdviceDetailsPage = () => {
   return (
     <div className={s.page}>
       <MainBanner categorie="Advice" />
-      <AdviceCard/>
       <TeamOverView />
       <ContactOverView />
     </div>

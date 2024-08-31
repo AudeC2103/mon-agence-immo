@@ -3,20 +3,19 @@
 
 .mainLayout {
     &__content {
-      padding: 20px;
+      padding: 10px;
+      width: 100%;
       @include responsive(xs) {
         padding: $spacing-xs;
-        width: 100%;
+        
       }
 
       @include responsive(sm) {
           padding: $spacing-sm;
-          width: 100%;
       }
 
       @include responsive(md) {
           padding: $spacing-md;
-          width: 100%;
       }
       }
   }
