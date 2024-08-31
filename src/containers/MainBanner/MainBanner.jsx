@@ -28,18 +28,26 @@ const MainBanner = ({ categorie }) => {
         return <div>Erreur : {error.message}</div>;
     }
 
+    if (slides.length === 0) {
+        return <div>Aucune slide disponible pour cette catégorie.</div>;
+    }
+
     return (
-        <div className={s.mainBanner}>
+        <div className={s.mainBanner} aria-live="polite">
             {slides.map((slide, index) => (
                 <div 
                     key={index} 
                     className={`${s.slide} ${index === activeIndex ? s.active : ''}`}
                     style={{ backgroundImage: `url(${slide.image})` }}
+                    role="img"
+                    aria-label={`${slide.title} - ${slide.subtitle}`}
                 >
                     <div className={s.content}>
                         <h1>{slide.title}</h1>
                         <p>{slide.subtitle}</p>
-                        <a href={slide.link} className={s.link}>En savoir plus</a>
+                        <a href={slide.link} className={s.link} aria-label={`En savoir plus sur ${slide.title}`}>
+                            En savoir plus
+                        </a>
                     </div>
                 </div>
             ))}

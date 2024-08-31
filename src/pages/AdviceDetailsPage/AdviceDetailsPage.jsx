@@ -9,8 +9,10 @@ const AdviceDetailsPage = () => {
   return (
     <div className={s.page}>
       <MainBanner categorie="Advice" />
-      <TeamOverView />
-      <ContactOverView />
+      <div className={s.content}>
+        <TeamOverView />
+        <ContactOverView />
+      </div>
     </div>
   );
 };
