@@ -742,15 +742,9 @@
         {
             "id": 1,
             "image": "assets/slides/bannerHome.jpg",
-            "title": "Bienvenue chez Mon agence Immo",
+            "title": "Mon Agence Immo",
             "categorie": [
-                "Home",
-                "Advice",
-                "Article",
-                "Contact",
-                "Property",
-                "success",
-                "Agency"
+                "Home"
             ],
             "subtitle": "Trouvez la maison de vos rêves avec nous",
             "link": "https://mon-agence-immo.wouafwouaf.ovh/biens_a_vendre/"
@@ -782,7 +776,7 @@
                     "success",
                     "Agency"
                 ],
-            "subtitle": "Découvrez nos meilleurs conseils pour acheter une propriété.",
+            "subtitle": "Découvrez nos meilleurs conseils pour acheter ou vendre.",
             "link": "https://mon-agence-immo.wouafwouaf.ovh/conseils"
         },
         {
@@ -806,12 +800,7 @@
             "image": "assets/slides/bannerMarketTrends.jpg",
             "title": "Articles et informations immobilières",
             "categorie": [
-                "Home",
-                "Advice",
-                "Contact",
-                "Property",
-                "Agency",
-                "success"
+                "Home"
             ],
             "subtitle": "Découvrez les tendances du marché en 2024.",
             "link": "https://mon-agence-immo.wouafwouaf.ovh/liste_des_articles"
@@ -830,7 +819,7 @@
                 "success"
             ],
             "subtitle": "Obtenez une évaluation gratuite de votre bien immobilier en quelques clics.",
-            "link": "https://mon-agence-immo.wouafwouaf.ovh/l_agence"
+            "link": "https://mon-agence-immo.wouafwouaf.ovh/contact"
         },
         {
             "id": 7,
