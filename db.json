@@ -858,7 +858,12 @@
             "id": 11,
             "image": "assets/slides/bannerHelp.jpg",
             "title": "Installez-vous, on s'occupe de tout pour vous !",
-            "categorie": "House",
+            "categorie": [
+                "House",
+                "Advice",
+                "Agency",
+                "success"
+            ],
             "subtitle": "Demander un rendez-vous",
             "link": "https://mon-agence-immo.wouafwouaf.ovh/contact"
         }
