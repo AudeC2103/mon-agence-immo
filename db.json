@@ -652,10 +652,7 @@
         },
         {
             "id": 5,
-            "catégorie": [
-                "Vente",
-                "Achat"
-            ],
+            "catégorie": "Achat",
             "question": "Quels sont les documents nécessaires pour acheter un bien immobilier ?",
             "answer": "Les documents nécessaires pour acheter un bien immobilier incluent une pièce d'identité, les justificatifs de ressources, un relevé d'identité bancaire, et les documents liés au financement (offre de prêt, assurance emprunteur)."
         },
@@ -667,19 +664,13 @@
         },
         {
             "id": 8,
-            "catégorie": [
-                "Vente",
-                "Achat"
-            ],
+            "catégorie": "Achat",
             "question": "Quels sont les délais légaux entre la signature du compromis et de l'acte de vente ?",
             "answer": "Le délai légal entre la signature du compromis de vente et de l'acte définitif est généralement de 3 mois, mais il peut être prolongé en fonction des conditions spécifiques du contrat ou des besoins de financement de l'acheteur."
         },
         {
             "id": 9,
-            "catégorie": [
-                "Vente",
-                "Achat"
-            ],
+            "catégorie": "Achat",
             "question": "Qu'est-ce qu'un compromis de vente ?",
             "answer": "Le compromis de vente est un avant-contrat signé par le vendeur et l'acheteur, engageant les deux parties à conclure la vente du bien sous certaines conditions ; il inclut les diagnostics immobiliers et stipule les clauses suspensives, telles que l'obtention du financement par l'acheteur."
         },
@@ -703,10 +694,7 @@
         },
         {
             "id": 13,
-            "catégorie": [
-                "Vente",
-                "Achat"
-            ],
+            "catégorie": "Achat",
             "question": "Qu'est-ce que le délai de rétractation et comment fonctionne-t-il ?",
             "answer": "Le délai de rétractation est une période de 10 jours durant laquelle l'acheteur peut se rétracter sans frais après la signature du compromis de vente ; il commence à courir dès le lendemain de la notification du compromis."
         },
@@ -724,10 +712,7 @@
         },
         {
             "id": 16,
-            "catégorie": [
-                "Vente",
-                "Achat"
-            ],
+            "catégorie": "Vente",
             "question": "Qu'est-ce qu'une condition suspensive dans un compromis de vente ?",
             "answer": "Une condition suspensive est une clause qui doit être remplie pour que la vente soit finalisée, comme l'obtention du prêt par l'acheteur ; si la condition n'est pas remplie, le compromis de vente peut être annulé sans pénalité."
         },

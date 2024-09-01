@@ -26,7 +26,7 @@ const Header = () => {
             </Link>
             <Link to="/inscription" className={s.signUpImg}>
           
-              <img src={userLogin} className={s.signUpImg}alt="Boutton Inscription"/>
+              <img src={addUser} className={s.signUpImg}alt="Boutton Inscription"/>
             </Link>
           </div>
           <div className={s.authLogin}>
@@ -34,7 +34,7 @@ const Header = () => {
               Connexion
             </Link> 
             <Link to="/connexion" className={s.loginImg}> 
-              <img src={addUser} className={s.loginImg} alt="Boutton Connexion"/>
+              <img src={userLogin} className={s.loginImg} alt="Boutton Connexion"/>
             </Link>    
           </div>
           </div>
