@@ -726,7 +726,7 @@
     "Slides": [
         {
             "id": 1,
-            "image": "assets/slides/bannerHome.jpg",
+            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/slides/bannerHome.jpg",
             "title": "Mon Agence Immo",
             "categorie": [
                 "Home"
@@ -736,7 +736,7 @@
         },
         {
             "id": 2,
-            "image": "assets/slides/bannerTeam.jpg",
+            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/slides/bannerTeam.jpg",
             "title": "Trouvez votre conseiller",
             "categorie": [
                 "Home",
@@ -751,7 +751,7 @@
         },
         {
             "id": 3,
-            "image": "assets/slides/bannerAdvice.jpg",
+            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/slides/bannerAdvice.jpg",
             "title": "Conseils d'Achat Immobilier",
             "categorie": [
                     "Home",
@@ -766,7 +766,7 @@
         },
         {
             "id": 4,
-            "image": "assets/slides/bannerPropertyWeek.jpg",
+            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/slides/bannerPropertyWeek.jpg",
             "title": "Propriété de la Semaine",
             "categorie": [
                 "Home",
@@ -782,7 +782,7 @@
         },
         {
             "id": 5,
-            "image": "assets/slides/bannerMarketTrends.jpg",
+            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/slides/bannerMarketTrends.jpg",
             "title": "Articles et informations immobilières",
             "categorie": [
                 "Home"
@@ -792,7 +792,7 @@
         },
         {
             "id": 6,
-            "image": "assets/slides/bannerServicePromotion.jpg",
+            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/slides/bannerServicePromotion.jpg",
             "title": "Évaluation Gratuite",
             "categorie": [
                 "Home",
@@ -808,7 +808,7 @@
         },
         {
             "id": 7,
-            "image": "assets/slides/bannerRennes.jpg",
+            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/slides/bannerRennes.jpg",
             "title": "Vivre à Rennes",
             "categorie": [
                 "Home",
@@ -824,7 +824,7 @@
         },
         {
             "id": 8,
-            "image": "assets/slides/bannerNewsletter.jpg",
+            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/slides/bannerNewsletter.jpg",
             "title": "Newsletter de l'agence",
             "categorie": [
                 "Home",
@@ -840,7 +840,7 @@
         },
         {
             "id": 9,
-            "image": "assets/slides/bannerCguv.jpg",
+            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/slides/bannerTerms.jpg",
             "title": "C.G.U.V",
             "categorie": "CGUV",
             "subtitle": "Voir les mentions légales",
@@ -848,7 +848,7 @@
         },
         {
             "id": 10,
-            "image": "assets/slides/bannerLegalNotice.jpg",
+            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/slides/bannerLegalNotice.jpg",
             "title": "Mentions Légales",
             "categorie": "LegalNotice",
             "subtitle": "Voir les Conditions Générales d'Utilisation et de Vente",
@@ -856,7 +856,7 @@
         },
         {
             "id": 11,
-            "image": "assets/slides/bannerHelp.jpg",
+            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/slides/bannerHelp.jpg",
             "title": "Installez-vous, on s'occupe de tout pour vous !",
             "categorie": [
                 "House",

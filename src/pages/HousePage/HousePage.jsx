@@ -7,7 +7,7 @@ import s from './style.module.scss';
 
 const HousePage = () => {
   return (
-    <div className={s.page}>
+    <div className={s.housePage}>
       <HouseList />
       <TeamOverView />
       <TemoignagesList />
