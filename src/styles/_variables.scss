@@ -109,9 +109,9 @@ $color-map: (
   'h2': darken($tertiary-color-light, 7%),
   'h3': darken($tertiary-color, 4%),
   'h4': $tertiary-color,
-  'h5': $tertiary-color-light,
+  'h5': lighten($tertiary-color, 8%),
   'h6': $tertiary-color-light,
-  'p': $black,
+  'p': lighten($black, 5%)
 );
 
 // Espacement général

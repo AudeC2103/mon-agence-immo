@@ -1,0 +1,43 @@
+// ./src/component/TemoignageCard/style.module.scss
+@import './../../styles/variables';
+@import './../../styles/mixins';
+.card {
+    background-color: white;
+    border: 1px solid $neutral-color;
+    border-radius: $border-radius-md;
+    padding: $spacing-md;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0.5rem;
+    min-height: 200px;
+  
+    &:hover {
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+  
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: $spacing-sm;
+  
+      .client {
+        color: $tertiary-color;
+        @include font-style ('h5')
+
+      }
+  
+      .categorie {
+        color: darken($tertiary-color, 5%);
+      }
+    }
+  
+    .commentaire {
+        color: lighten($tertiary-color, 10%);
+    }
+  }
+  

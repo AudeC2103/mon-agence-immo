@@ -29,7 +29,7 @@ export function App() {
                 <Route path="conseils" element={<AdvicesListPage />} />
                 <Route path="conseils/:id" element={<AdviceDetailsPage />} />
                 <Route path="l_agence" element={<TeamPage />} />
-                <Route path="succes" element={<SuccessPage />} />
+                <Route path="success" element={<SuccessPage />} />
                 <Route path="contact" element={<ContactFormPage />} />
                 <Route path="inscription" element={<SignupPage />} />
                 <Route path="connexion" element={<LoginPage />} />

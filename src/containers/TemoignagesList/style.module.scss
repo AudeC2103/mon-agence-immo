@@ -1,0 +1,27 @@
+// style.module.scss
+
+.container {
+    padding: 0.5rem;
+    text-align: center;
+    gap: 1rem;
+  
+    h2 {
+      margin-bottom: 0.5rem;
+    }
+  
+    .slick-slider {
+      margin: 0 auto;
+      padding: 0 10px;
+      max-width: 90%; // Ajuster la largeur du carrousel
+    }
+  
+    .slick-dots {
+      bottom: -35px; // Ajuster la position des points de navigation
+    }
+  
+    .slick-prev,
+    .slick-next {
+      z-index: 1;
+    }
+  }
+  

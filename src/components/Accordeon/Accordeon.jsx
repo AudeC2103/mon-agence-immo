@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import AccordionItem from '../AccordionItem/AccordionItem';
 import { useFAQ } from '../../hooks/useFAQ';
-import './style.module.scss';
+import s from './style.module.scss';
 
 const FAQAccordion = () => {
   const { FAQ, loading, error } = useFAQ(); // Utilisation du hook useFAQ
