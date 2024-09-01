@@ -2,7 +2,7 @@
 import React from 'react';
 import { useAgents } from '../../hooks/useAgents';
 import { useMissions } from './../../hooks/useMissions';
-import MissionCard from './../../components/MissionCard/MissionCard';
+import ServicesCard from './../../components/ServicesCard/ServicesCard';
 import MainBanner from '../../containers/MainBanner/MainBanner';
 import AgentCard from '../../components/AgentCard/AgentCard';
 import Carousel from '../../components/Carousel/Carousel';
@@ -59,7 +59,7 @@ const TeamPage = () => {
               <div key={category.categorie} className={s.missionCategory}>
                 <h3>{category.categorie}</h3>
                 {category.services.map(service => (
-                  <MissionCard key={service.id} service={service} />
+                  <ServicesCard key={service.id} service={service} />
                 ))}
               </div>
             ))}

@@ -1,17 +1,15 @@
-//./pages/ServiceListPage/ServiceListPage.jsx
-//./pages/MissionPage/MissionPage.jsx
 //./pages/TeamPage/TeamPage.jsx
 import React from 'react';
-import { useMissions } from './../../hooks/useMissions';
-import MissionCard from '../../components/ServicesCard/ServicesCard';
-import FAQAccordion from './../../components/Accordeon/Accordeon';
+import { useMissions } from '../../hooks/useMissions';
+import ServicesCard from '../../components/ServicesCard/ServicesCard';
+import FAQAccordion from '../../components/Accordeon/Accordeon';
 import s from './style.module.scss';
 
-const ServicesListPage = () => {
+const ServicesPage = () => {
   const { missions, loading, error } = useMissions();
     
     return (
-      <div className={s.page}>
+      <div className={s.servicesPage}>
         <section className={s.servicesSection}>
           <h2>Les services que propose l’agence</h2>
           {loading && <p>Chargement des services...</p>}
@@ -21,7 +19,7 @@ const ServicesListPage = () => {
               <div key={category.categorie} className={s.missionCategory}>
                 <h3>{category.categorie}</h3>
                 {category.services.map(service => (
-                  <MissionCard key={service.id} service={service} />
+                  <ServicesCard key={service.id} service={service} />
                 ))}
               </div>
             ))}
@@ -47,4 +45,4 @@ const ServicesListPage = () => {
   );
 };
 
-export default ServicesListPage;
+export default ServicesPage;

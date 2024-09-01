@@ -37,8 +37,8 @@ const HeaderNavBar = () => {
             <Link to="/l_agence" aria-haspopup="true">L'agence</Link>
             <ul className={s.subMenu}>
               <li><Link to="/l_agence/tout_savoir">Tout savoir</Link></li>
-              <li><Link to="/l_agence/mission">Mission</Link></li>
               <li><Link to="/l_agence/services">Services</Link></li>
+              <li><Link to="/l_agence/mission">Mission</Link></li>
               <li><Link to="/l_agence/les_conseillers">L'équipe</Link></li>
             </ul>
           </li>

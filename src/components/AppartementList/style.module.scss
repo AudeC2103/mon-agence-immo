@@ -1,5 +1,8 @@
+@import './../../styles/variables';
+@import './../../styles/mixins';
+
 .propertyList {
-    padding: 1rem;
+    padding: 0 1rem;
   
     h2 {
       text-align: center;

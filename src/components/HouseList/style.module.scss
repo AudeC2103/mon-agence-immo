@@ -3,6 +3,8 @@
 
 .propertyList {
     padding: 1rem;
+    min-height: 100vh; // S'assurer que la liste a au moins la hauteur de la fenêtre
+
   
     h2 {
       text-align: center;

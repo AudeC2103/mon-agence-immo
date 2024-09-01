@@ -3,6 +3,7 @@
   box-sizing: border-box;
   max-width: 100%; /* Empêche la carte de dépasser sa largeur parent */
   margin: 0 auto; /* Centre la carte */
+  min-height: 200px;
 
   img {
     width: 100%;

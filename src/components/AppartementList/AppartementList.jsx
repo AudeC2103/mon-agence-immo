@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import PropertyCard from './PropertyCard';
-import { useProperties } from '../hooks/useProperties';
+import PropertyCard from './../PropertyCard/PropertyCard';
+import { useProperties } from './../../hooks/useProperties';
 import s from './style.module.scss';
 
-const ApartmentList = () => {
+const AppartementList = () => {
   const { properties, loading, error } = useProperties();
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -45,4 +45,4 @@ const ApartmentList = () => {
   );
 };
 
-export default ApartmentList;
+export default AppartementList;
