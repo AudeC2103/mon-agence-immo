@@ -9,6 +9,8 @@
   background-position: center center;
   display: flex;
   position: relative;
+  padding: 0 5px;
+  background-color: $background-color;
 
   .slide {
     
@@ -17,7 +19,7 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
-      height: 90%;
+      height: 85%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -35,9 +37,10 @@
   .content {
       z-index: 2;  // S'assure que le texte est bien par-dessus l'image de fond
       max-width: 800px;  // Limite la largeur du texte pour une meilleure lisibilité
-      padding: 20px;
+      padding: 10px;
       background-color: rgba($tertiary-color, 0.6);
       border-radius: $border-radius-md;
+      padding-bottom: 1.8rem;
 
       h1 {
         @include font-style('h1');
@@ -46,9 +49,13 @@
       }
 
       p {
-        @include font-style('h3');
+        @include font-style('h4');
         color:$white;
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
+        @include responsive ('md');
+          @include font-style('h3');
+          color:$white;
+
       }
 
       a {
@@ -58,6 +65,7 @@
           border: 2px solid #ffffff;  // Bordure autour du lien pour le faire ressortir
           padding: 10px 20px;
           transition: background-color 0.3s, color 0.3s;  // Effet de transition pour le lien
+         
 
           &:hover {
               background-color: #ffffff;

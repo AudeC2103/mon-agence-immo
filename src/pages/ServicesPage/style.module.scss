@@ -4,10 +4,37 @@
 .servicesPage {
     padding: 5px;
     background-color: #f9f9f9;
+    align-items: center;
   
+    
+    .servicesSection {
+      h2 {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+        color: #333;
+        padding: 0 px;
+        align-items: center;
+      }
+      
+      .missionsGrid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+      }
+      
+      .missionCategory {
+        margin-bottom: 20px;
+        
+        h3 {
+          font-size: 1.5rem;
+          margin-bottom: 16px;
+          color: $tertiary-color;
+        }
+      }
+    }
     .agencyDescription {
       background-color: #ffffff;
-      padding: 5px 20px 10px 20px;
+      padding: 5px 30px 10px 30px;
       border-radius: 8px;
       margin-top: 0px;
       margin-bottom: 40px;
@@ -15,7 +42,9 @@
   
       h2 {
         margin-bottom: 16px;
+        margin-left: 0;
         font-size: 2rem;
+        padding: 0;
         color: $tertiary-color;
       }
   
@@ -26,34 +55,6 @@
         line-height: 1.6;
         margin-bottom: 16px;
       }
-    }
-  
-    .servicesSection {
-      h2 {
-        font-size: 1.8rem;
-        margin-bottom: 0.5rem;
-        color: #333;
-        padding: 0 20px;
-      }
-  
-      .missionsGrid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 20px;
-      }
-  
-      .missionCategory {
-        margin-bottom: 20px;
-  
-        h3 {
-          font-size: 1.5rem;
-          margin-bottom: 16px;
-          color: $tertiary-color;
-        }
-      }
-    }
-    .agents {
-        padding: 0 20px;    
     }
   }
   

@@ -1,0 +1,212 @@
+// Variables
+$primary-color: #2a9d8f;
+$secondary-color: #666;
+$transition-time: 0.3s;
+$thumbnail-width: 100px;
+$thumbnail-height: 70px;
+$thumbnail-expanded-scale: 2;
+$spacing-unit: 20px;
+$max-width: 1200px;
+
+// Global Styles
+body {
+  font-family: 'Arial, sans-serif';
+  color: $secondary-color;
+}
+
+// Page Container
+.propertyDetailsPage {
+    padding: $spacing-unit;
+    max-width: $max-width;
+    margin: 0 auto;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+        font-size: 2rem;
+        margin-bottom: $spacing-unit;
+        color: $primary-color;
+        }
+
+        @media (min-width: 1024px) {
+        flex-direction: row;
+        align-items: flex-start;
+        }
+    
+        // Gallery Containers
+        .propertyGalleryContainers {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            @media (min-width: 1024px) {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            flex: 1;
+            margin-right: $spacing-unit * 2;
+            }
+
+            .propertyGallery {
+            width: 100%;
+            margin-bottom: $spacing-unit;
+
+            .mainImage {
+                width: 100%;
+                height: auto;
+                max-width: 600px;
+                border-radius: 10px;
+            }
+            }
+
+            .thumbnails {
+            display: flex;
+            justify-content: center;
+            gap: $spacing-unit;
+
+            @media (min-width: 1024px) {
+                justify-content: center;
+            }
+
+            .thumbnail {
+                width: $thumbnail-width;
+                height: $thumbnail-height;
+                cursor: pointer;
+                transition: transform $transition-time ease-in-out;
+
+                &:hover {
+                transform: scale($thumbnail-expanded-scale);
+                }
+            }
+            }
+        }
+    }
+
+    .propertyInfoPrincipales { 
+        text-align: center;
+
+        .price {
+        font-size: 1.8rem;
+        color: $primary-color;
+        font-weight: bold;
+        margin-bottom: 10px;
+        }
+
+        .area,
+        .rooms,
+        .yearBuilt {
+        margin-bottom: 5px;
+        }
+
+        @media (min-width: 1024px) {
+        text-align: left;
+        }
+    }
+
+    // Property Info
+    .propertyInfo {
+        text-align: center;
+        margin-top: 10px;
+
+        h3 {
+        font-size: 1.5rem;
+        color: $primary-color;
+        }
+
+        @media (min-width: 1024px) {
+        text-align: left;
+        margin-top: 0;
+        }
+    }
+
+    // Details and Contact
+    .details {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-top: $spacing-unit;
+
+        @media (min-width: 1024px) {
+        flex-direction: column;
+        }
+        @media (min-width: 600px) {
+        flex-direction: row;
+        }
+
+        .additionalDetails,
+        .contactInfo {
+        padding: $spacing-unit;
+        background-color: #f4f4f4;
+        border-radius: 10px;
+        margin-bottom: $spacing-unit;
+
+        @media (min-width: 1024px) {
+            margin-bottom: 0;
+        }
+
+        h4 {
+            font-size: 1.3rem;
+            color: $primary-color;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 5px;
+
+            a {
+            color: $primary-color;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+            }
+        }
+        }
+
+        .contactInfo {
+        @media (min-width: 1024px) {
+            margin-left: $spacing-unit;
+        }
+        }
+    }
+
+    @media (min-width: 1024px) {
+    .propertyDetailsPage {
+        display: flex;
+        flex-direction: column;
+
+        .container {
+            display: flex;
+            flex-direction: row;
+        flex: 2;
+        }
+
+        .propertyGalleryContainers {
+        flex: 1;
+        align-items: flex-start;
+        }
+
+        .propertyInfoPrincipales,
+        .propertyInfo,
+        .details {
+        flex: 1;
+        }
+
+        .details {
+        flex-direction: column;
+
+        .contactInfo {
+            margin-top: $spacing-unit;
+        }
+        }
+    }
+    }
+}

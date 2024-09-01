@@ -6,7 +6,7 @@ import AdvicesListPage from './pages/AdvicesListPage/AdvicesListPage';
 import AdviceDetailsPage from './pages/AdviceDetailsPage/AdviceDetailsPage';
 import ArticlesListPage from './pages/ArticlesListPage/ArticlesListPage';
 import PropertiesListPage from './pages/PropertiesListPage/PropertyListPage';
-import PropertyDetailsPage from './pages/PropertyDetailsPage/PropertiesDetailsPage';
+import PropertyDetailsPage2 from './pages/PropertyDetailsPage2/PropertyDetailsPage2';
 import HousePage from './pages/HousePage/HousePage';
 import AppartementPage from './pages/AppartementPage/AppartementPage';
 import MainLayout from './layouts/MainLayout/MainLayout';
@@ -21,6 +21,7 @@ import LegalNoticePage from './pages/LegalNoticePage/LegalNoticePage';
 import FaqPage from './pages/FaqPage/FaqPage'
 import MissionPage from './pages/MissionPage/MissionPage'
 import ServicesPage from './pages/ServicesPage/ServicesPage';
+import AllAdvicesPage from './pages/AdvicesListPage copy/AllAdvices';
 
 export function App() {
     return (
@@ -30,22 +31,22 @@ export function App() {
                 <Route path="inscription" element={<SignupPage />} />
                 <Route path="connexion" element={<LoginPage />} />
                 <Route path="biens_a_vendre" element={<PropertiesListPage />} />
-                <Route path="biens_a_vendre/:id" element={<PropertyDetailsPage />} />
+                <Route path="biens_a_vendre/:id" element={<PropertyDetailsPage2 />} />
                 <Route path="biens_a_vendre/tous" element={<PropertiesListPage />} />
                 <Route path="biens_a_vendre/maisons" element={<HousePage />} />
                 <Route path="biens_a_vendre/appartements" element={<AppartementPage />} />
                 <Route path="articles" element={<ArticlesListPage />} />
                 <Route path="conseils" element={<AdvicesListPage />} />
                 <Route path="conseils/:id" element={<AdviceDetailsPage />} />
-                <Route path="conseils/tous" element={<AdvicesListPage />} />
+                <Route path="conseils/tous" element={<AllAdvicesPage />} />
+                <Route path="conseils/conseils" element={<AdvicesListPage />} />
+                <Route path="conseils/faq" element={<FaqPage />} />
                 <Route path="l_agence" element={<TeamPage />} />
                 <Route path="l_agence/tout_savoir" element={<TeamPage />} />
                 <Route path="l_agence/mission" element={<MissionPage />} />
                 <Route path="l_agence/services" element={<ServicesPage />} />
                 <Route path="success" element={<SuccessPage />} />
-                <Route path="success/tous" element={<SuccessPage />} />
                 <Route path="contact" element={<ContactFormPage />} />
-                <Route path="faq" element={<FaqPage />} />
                 <Route path="cguv" element={<CguvPage />} />
                 <Route path="mentions_legales" element={<LegalNoticePage />} />
                 <Route path="*" element={<NotFoundPage />} /> {/* Route 404 */}

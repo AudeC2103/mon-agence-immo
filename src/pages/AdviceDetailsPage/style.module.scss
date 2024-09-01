@@ -1,2 +1,62 @@
-@import '../../styles/_variables.scss';
-@import '../../styles/_mixins.scss';
+// ./src/pages/AdviceDetailsPage/style.module.scss
+@import './../../styles/variables';
+@import './../../styles/mixins';
+
+.page {
+    padding: 30px;
+
+    .content {
+
+        .title {
+            @include font-style(h1);
+            margin-bottom: $spacing-md;
+        }
+
+        .author {
+            @include font-style(h3);
+            margin-bottom: $spacing-md;
+        }
+
+        .image {
+            width: 100%;
+            max-width: 600px;
+            margin: $spacing-lg 0;
+        }
+
+        .summary {
+            @include font-style(p);
+            margin-bottom: $spacing-md;
+        }
+
+        .section {
+            margin-bottom: $spacing-lg;
+
+            .sectionHeader {
+            @include font-style(h2);
+            margin-bottom: $spacing-sm;
+            }
+
+            .sectionText {
+            @include font-style(p);
+            margin-bottom: $spacing-md;
+            }
+
+            .subsections {
+            margin-left: $spacing-lg;
+
+            .subsection {
+                margin-bottom: $spacing-sm;
+
+                .subheader {
+                @include font-style(h3);
+                margin-bottom: $spacing-xs;
+                }
+
+                .subtext {
+                @include font-style(p);
+                }
+            }
+        }
+        }
+    }
+}

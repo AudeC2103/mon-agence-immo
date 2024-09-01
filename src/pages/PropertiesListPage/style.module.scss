@@ -1,8 +1,28 @@
+@import './../../styles/variables';
+@import './../../styles/mixins';
+
+.container {
+  padding: 1rem;
+}
+
+.propertiesList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); // Définit la grille avec des colonnes d'au moins 300px
+  gap: 1.5rem; // Espace entre les cartes
+
+  @include responsive(md) {
+    grid-template-columns: repeat(2, 1fr); // Deux colonnes pour les écrans moyens
+  }
+
+  @include responsive(xs) {
+    grid-template-columns: repeat(1, 1fr); // Une seule colonne pour les petits écrans
+  }
+}
+
 .container {
     display: flex;
 
 }
 .propertiesList {
-    width: 60%;
-    padding: 1%;
+    
 }
