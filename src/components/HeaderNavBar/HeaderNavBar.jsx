@@ -19,14 +19,16 @@ const HeaderNavBar = () => {
           <li>
             <Link to="/biens_a_vendre" aria-haspopup="true">Biens à vendre</Link>
             <ul className={s.subMenu}>
-              <li><Link to="/biens_a_vendre/maisons">Maison</Link></li>
-              <li><Link to="/biens_a_vendre/appartements">Appartement</Link></li>
-              <li><Link to="/biens_a_vendre/terrains">Terrain</Link></li>
+              <li><Link to="/biens_a_vendre/tous">Tous</Link></li>
+              <li><Link to="/biens_a_vendre/maisons">Maisons</Link></li>
+              <li><Link to="/biens_a_vendre/appartements">Appartements</Link></li>
+              <li><Link to="/biens_a_vendre/terrains">Terrains</Link></li>
             </ul>
           </li>
           <li>
             <Link to="/conseils" aria-haspopup="true">Conseils</Link>
             <ul className={s.subMenu}>
+              <li><Link to="conseils/tous">Tous</Link></li>
               <li><Link to="/conseils/achat">Achat</Link></li>
               <li><Link to="/conseils/vente">Vente</Link></li>
             </ul>
@@ -34,6 +36,7 @@ const HeaderNavBar = () => {
           <li>
             <Link to="/l_agence" aria-haspopup="true">L'agence</Link>
             <ul className={s.subMenu}>
+              <li><Link to="/l_agence/tout_savoir">Tout savoir</Link></li>
               <li><Link to="/l_agence/mission">Mission</Link></li>
               <li><Link to="/l_agence/services">Services</Link></li>
               <li><Link to="/l_agence/les_conseillers">L'équipe</Link></li>
@@ -42,6 +45,7 @@ const HeaderNavBar = () => {
           <li>
             <Link to="/success" aria-haspopup="true">Succès</Link>
             <ul className={s.subMenu}>
+              <li><Link to="/success/tous">Tous</Link></li>
               <li><Link to="/success/nos_ventes">Vendu</Link></li>
               <li><Link to="/success/avis">Avis</Link></li>
             </ul>
