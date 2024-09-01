@@ -1,49 +1,76 @@
-@import '../../styles/main.scss';
-
 .footer {
-  background-color: $primary-color;
-  color: $white;
-  padding: $base-padding 0;
-  border-top: 1px solid $neutral-color;
+  background-color: $neutral-color-dark; // Utiliser une couleur de fond neutre ou sombre
+  color: $white; // Texte en blanc pour contraster avec le fond
+  padding: $spacing-lg 0; // Espacement interne pour aérer le contenu
 
   .container {
-    @include flex-center; // Suppose un mixin flex-center pour centrer
-    flex-direction: column;
-    @include responsive(tablet) {
-      flex-direction: row;
-      justify-content: space-between;
-    }
-  }
-
-  .leftSection, .rightSection {
-    padding: $base-padding;
-    text-align: center;
-
-    @include responsive(tablet) {
-      text-align: left;
-    }
-  }
-
-  .footerLinks {
-    list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
-    flex-direction: column;
-    gap: $base-margin / 2;
+    justify-content: space-between;
+    align-items: center;
+    max-width: $max-width; // Limiter la largeur maximale
+    margin: 0 auto; // Centrer le contenu
+    padding: 0 $spacing-md; // Ajout d'espacement latéral
 
-    @include responsive(tablet) {
-      flex-direction: row;
+    @include responsive(xs) {
+      flex-direction: column;
+      text-align: center;
     }
+  }
 
-    li {
+  .leftSection, .centerSection, .rightSection {
+    display: flex;
+    align-items: center;
+
+    @include responsive(xs) {
+      margin-bottom: $spacing-sm;
+    }
+  }
+
+  .leftSection {
+    .link {
+      margin-right: $spacing-md; // Espacement entre les icônes
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.1); // Légère mise en avant au survol
+      }
+
+      .icone {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+
+  .centerSection {
+    p {
       margin: 0;
+      font-size: $font-size-sm;
+      color: $neutral-color-light;
+    }
+  }
 
-      a {
-        color: $white;
-        text-decoration: none;
-        &:hover {
-          text-decoration: underline;
+  .rightSection {
+    .footerLinks {
+      display: flex;
+      gap: $spacing-md;
+
+      @include responsive(xs) {
+        flex-direction: column;
+        gap: $spacing-sm;
+      }
+
+      li {
+        list-style: none;
+
+        a {
+          color: $white;
+          text-decoration: none;
+          font-size: $font-size-sm;
+
+          &:hover {
+            text-decoration: underline; // Surligner les liens au survol
+          }
         }
       }
     }

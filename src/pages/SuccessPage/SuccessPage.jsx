@@ -1,11 +1,10 @@
-//./pages/SucessPage/SucessPage.jsx
 import React from 'react';
 import Carousel from './../../components/Carousel/Carousel';
 import PropertyCard from './../../components/PropertyCard/PropertyCard';
 import { useProperties } from './../../hooks/useProperties';
+import TemoignagesList from './../../containers/TemoignagesList/TemoignagesList'
 
-const SuccessPage = () => {
-
+const SuccessList = () => {
   const { properties, loading, error } = useProperties();
 
   if (loading) {
@@ -21,6 +20,9 @@ const SuccessPage = () => {
 
   // Fonction pour trier les propriétés par date de publication
   const sortByDateListed = (a, b) => new Date(b.date_listed) - new Date(a.date_listed);
+
+  // Tri des propriétés vendues par date
+  const sortedSoldProperties = soldProperties.sort(sortByDateListed);
 
   const carouselSettings = {
     dots: true,
@@ -64,12 +66,13 @@ const SuccessPage = () => {
     <div>
       <h2>Propriétés Vendues</h2>
       <Carousel 
-        items={soldProperties.sort(sortByDateListed)} // Filtrer et trier avant de passer au carousel
+        items={sortedSoldProperties} // Utilisation des propriétés triées
         renderItem={(property) => <PropertyCard property={property} />}
         settings={carouselSettings}
       />
+      <TemoignagesList />
     </div>
   );
 };
 
-export default SuccessPage
+export default SuccessList;
