@@ -44,10 +44,10 @@
             "date_listed": "2024-07-01",
             "status": "Disponible",
             "images": [
-                "assets/properties/property1_1.jpg",
-                "assets/properties/property1_2.jpg",
-                "assets/properties/property1_3.jpg",
-                "assets/properties/property1_4.jpg"
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property1_1.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property1_2.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property1_3.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property1_4.jpg"
             ],
             "videos": [
                 ""
@@ -98,10 +98,10 @@
             "date_listed": "2024-05-15",
             "status": "Disponible",
             "images": [
-                "assets/properties/property2_1.jpg",
-                "assets/properties/property2_2.jpg",
-                "assets/properties/property2_3.jpg",
-                "assets/properties/property2_4.jpg"
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property2_1.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property2_2.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property2_3.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property2_4.jpg"
             ],
             "videos": [
                 ""
@@ -152,10 +152,10 @@
             "date_listed": "2024-06-25",
             "status": "Disponible",
             "images": [
-                "assets/properties/property3_1.jpg",
-                "assets/properties/property3_2.jpg",
-                "assets/properties/property3_3.jpg",
-                "assets/properties/property3_4.jpg"
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property3_1.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property3_2.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property3_3.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property3_4.jpg"
             ],
             "videos": [
                 ""
@@ -204,10 +204,10 @@
             "date_listed": "2024-06-12",
             "status": "Disponible",
             "images": [
-                "assets/properties/property4_1.jpg",
-                "assets/properties/property4_2.jpg",
-                "assets/properties/property4_3.jpg",
-                "assets/properties/property4_4.jpg"
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property4_1.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property4_2.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property4_3.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property4_4.jpg"
             ],
             "videos": [
                 ""
@@ -258,10 +258,10 @@
             "date_listed": "2024-07-05",
             "status": "Disponible",
             "images": [
-                "assets/properties/property5_1.jpg",
-                "assets/properties/property5_2.jpg",
-                "assets/properties/property5_3.jpg",
-                "assets/properties/property5_4.jpg"
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property5_1.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property5_2.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property5_3.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property5_4.jpg"
             ],
             "videos": [
                 ""
@@ -312,10 +312,10 @@
             "date_listed": "2024-06-20",
             "status": "Disponible",
             "images": [
-                "assets/properties/property6_1.jpg",
-                "assets/properties/property6_2.jpg",
-                "assets/properties/property6_3.jpg",
-                "assets/properties/property6_4.jpg"
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property6_1.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property6_2.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property6_3.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property6_4.jpg"
             ],
             "videos": [
                 ""
@@ -366,10 +366,10 @@
             "date_listed": "2024-07-10",
             "status": "Disponible",
             "images": [
-                "assets/properties/property7_1.jpg",
-                "assets/properties/property7_2.jpg",
-                "assets/properties/property7_3.jpg",
-                "assets/properties/property7_4.jpg"
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property7_1.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property7_2.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property7_3.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property7_4.jpg"
             ],
             "videos": [
                 ""
@@ -420,10 +420,10 @@
             "date_listed": "2024-07-15",
             "status": "Disponible",
             "images": [
-                "assets/properties/property8_1.jpg",
-                "assets/properties/property8_2.jpg",
-                "assets/properties/property8_3.jpg",
-                "assets/properties/property8_4.jpg"
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property8_1.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property8_2.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property8_3.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property8_4.jpg"
             ],
             "videos": [
                 ""
@@ -474,10 +474,10 @@
             "date_listed": "2024-08-10",
             "status": "Disponible",
             "images": [
-                "assets/properties/property9_1.jpg",
-                "assets/properties/property9_2.jpg",
-                "assets/properties/property9_3.jpg",
-                "assets/properties/property9_4.jpg"
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property9_1.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property9_2.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property9_3.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property9_4.jpg"
             ],
             "videos": [
                 ""
@@ -528,10 +528,10 @@
             "date_listed": "2024-08-15",
             "status": "Disponible",
             "images": [
-                "assets/properties/property10_1.jpg",
-                "assets/properties/property10_2.jpg",
-                "assets/properties/property10_3.jpg",
-                "assets/properties/property10_4.jpg"
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property10_1.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property10_2.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property10_3.jpg",
+                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property10_4.jpg"
             ],
             "videos": [
                 ""
@@ -550,7 +550,7 @@
             "experienceYears": 18,
             "projects": 252,
             "sales": 271,
-            "photo": "assets/agents/agent1.jpg"
+            "photo": "https://mon-agence-immo.wouafwouaf.ovh/assets/agents/agent1.jpg"
         },
         {
             "id": 2,
@@ -562,7 +562,7 @@
             "experienceYears": 5,
             "projects": 50,
             "sales": 60,
-            "photo": "assets/agents/agent2.jpg"
+            "photo": "https://mon-agence-immo.wouafwouaf.ovh/assets/agents/agent2.jpg"
         },
         {
             "id": 3,
@@ -574,7 +574,7 @@
             "experienceYears": 10,
             "projects": 98,
             "sales": 115,
-            "photo": "assets/agents/agent3.jpg"
+            "photo": "https://mon-agence-immo.wouafwouaf.ovh/assets/agents/agent3.jpg"
         },
         {
             "id": 4,
@@ -586,7 +586,7 @@
             "experienceYears": 12,
             "projects": 145,
             "sales": 160,
-            "photo": "assets/agents/agent4.jpg"
+            "photo": "https://mon-agence-immo.wouafwouaf.ovh/assets/agents/agent4.jpg"
         },
         {
             "id": 5,
@@ -598,7 +598,7 @@
             "experienceYears": 15,
             "projects": 200,
             "sales": 225,
-            "photo": "assets/agents/agent5.jpg"
+            "photo": "https://mon-agence-immo.wouafwouaf.ovh/assets/agents/agent5.jpg"
         },
         {
             "id": 6,
@@ -610,7 +610,7 @@
             "experienceYears": 14,
             "projects": 190,
             "sales": 220,
-            "photo": "assets/agents/agent6.jpg"
+            "photo": "https://mon-agence-immo.wouafwouaf.ovh/assets/agents/agent6.jpg"
         },
         {
             "id": 7,
@@ -622,7 +622,7 @@
             "experienceYears": 9,
             "projects": 120,
             "sales": 164,
-            "photo": "assets/agents/agent7.jpg"
+            "photo": "https://mon-agence-immo.wouafwouaf.ovh/assets/agents/agent7.jpg"
         }
     ],
     "FAQ": [
@@ -877,13 +877,13 @@
                         {
                             "id": 1,
                             "titre": "Évaluation et estimation du bien",
-                            "image": "assets/missions/evaluation.jpg",
+                            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/missions/evaluation.jpg",
                             "description": "Obtenez une évaluation précise de la valeur marchande de votre bien grâce à notre expertise locale."
                         },
                         {
                             "id": 2,
                             "titre": "Promotion et publicité",
-                            "image": "assets/missions/promotion.jpg",
+                            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/missions/promotion.jpg",
                             "description": "Maximisez la visibilité de votre bien grâce à des campagnes publicitaires ciblées et des supports de qualité."
                         }
                     ]
@@ -894,19 +894,19 @@
                         {
                             "id": 3,
                             "titre": "Organisation des visites",
-                            "image": "assets/missions/visites.jpg",
+                            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/missions/visites.jpg",
                             "description": "Nous organisons et présentons des visites professionnelles pour séduire les acheteurs potentiels."
                         },
                         {
                             "id": 4,
                             "titre": "Négociation et médiation",
-                            "image": "assets/missions/negociation.jpg",
+                            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/missions/negociation.jpg",
                             "description": "Profitez de notre savoir-faire pour négocier les meilleures conditions de vente."
                         },
                         {
                             "id": 5,
                             "titre": "Rédaction et gestion des documents légaux",
-                            "image": "assets/missions/redaction.jpg",
+                            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/missions/redaction.jpg",
                             "description": "Nous gérons toute la documentation juridique pour une transaction sans tracas."
                         }
                     ]
@@ -917,19 +917,19 @@
                         {
                             "id": 6,
                             "titre": "Conseil juridique et fiscal",
-                            "image": "assets/missions/conseil.jpg",
+                            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/missions/conseil.jpg",
                             "description": "Recevez des conseils avisés pour naviguer dans les implications juridiques et fiscales."
                         },
                         {
                             "id": 7,
                             "titre": "Accompagnement jusqu’à la finalisation",
-                            "image": "assets/missions/accompagnement.jpg",
+                            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/missions/accompagnement.jpg",
                             "description": "Un suivi personnalisé jusqu’à la signature finale chez le notaire."
                         },
                         {
                             "id": 8,
                             "titre": "Services après-vente",
-                            "image": "assets/missions/services_apres.jpg",
+                            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/missions/services_apres.jpg",
                             "description": "Nous restons disponibles pour toute assistance post-vente, garantissant votre satisfaction."
                         }
                     ]
@@ -1637,7 +1637,7 @@
             "title": "Eclairage sur le processus d’estimation d’un bien immobilier",
             "catégorie": "Vente, Achat",
             "author": "Aude CAMPILLO",
-            "image": "assets/advices/eclairage_estimation.jpg",
+            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/advices/eclairage_estimation.jpg",
             "summary": "Ce guide vous aide à comprendre le processus d’estimation d’un bien immobilier, en abordant les raisons pour lesquelles il est important, les professionnels impliqués, les critères d’évaluation, et les erreurs à éviter pour réussir votre transaction.",
             "sections": [
               {
@@ -1712,7 +1712,7 @@
             "title": "Guide simplifié : Vendre un bien immobilier",
             "catégorie": "Vente",
             "author": "Aude CAMPILLO",
-            "image": "assets/advices/guide_vente.jpg",
+            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/advices/guide_vente.jpg",
             "summary": "Ce guide simplifié vous accompagne dans les différentes étapes pour vendre un bien immobilier en France, de l’évaluation du prix à la signature chez le notaire.",
             "sections": [
                 {
@@ -1746,7 +1746,7 @@
             "title": "Maximiser la Vente de Votre Bien : Le HOME-STAGING",
             "catégorie": "Vente",
             "author": "Aude CAMPILLO",
-            "image": "assets/advices/home_staging.jpg",
+            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/advices/home_staging.jpg",
             "summary": "Ce guide met en lumière l’importance du home staging pour vendre rapidement et au meilleur prix votre bien immobilier en France.",
             "sections": [
                 {
@@ -1810,7 +1810,7 @@
             "title": "Guide simplifié : Acheter un bien immobilier",
             "catégorie": "Achat",
             "author": "Aude CAMPILLO",
-            "image": "assets/advices/guide_achat.jpg",
+            "image": "https://mon-agence-immo.wouafwouaf.ovh/assets/advices/guide_achat.jpg",
             "summary": "Ce guide simplifié vous accompagne dans les étapes clés pour acheter un bien immobilier en France, de l'évaluation de votre capacité d'achat à la signature chez le notaire.",
             "sections": [
                 {
