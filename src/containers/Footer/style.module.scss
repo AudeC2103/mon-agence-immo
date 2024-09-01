@@ -1,9 +1,8 @@
-
 @import './../../styles/variables';
 @import './../../styles/mixins';
 
 .footer {
-  background-color: lighten ($primary-color, 10%);
+  background-color: lighten($tertiary-color, 10%);
   color: $white;
   padding: $base-padding 0;
   margin-top: 1rem;
@@ -11,32 +10,84 @@
   .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem;
     border: solid 1px $neutral-color;
-    @include responsive(tablet) {
-      flex-direction: row;
-      justify-content: space-between;
+
+    @include responsive(md) {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  .centerSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+
+    @include responsive(md) {
+      margin-top: 1rem;
+    }
+
+    .logo {
+      margin-right: 1rem;
+      width: 55px;
+
+        &:hover {
+          transform: scale(1.1); // Zoom léger au survol pour attirer l'attention
+        }
+
+      a {
+        width: 30px;
+      }
+
+        .img {
+          width: 30px;
+          height: 30px;
+        }
+    }
+    
+    p {
+      color: white;
+      @include responsive(md) {
+        font-size: 12px;
+      }
     }
   }
 
   .leftSection, .rightSection {
     display: flex;
-    flex-direction: column;
-    padding: $base-padding;
-    text-align: center;
-
-    @include responsive(tablet) {
-      text-align: left;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+    @include responsive(md) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
     }
 
-    .icone{
+    .icone {
       height: 40px;
+      transition: transform 0.3s ease;
+      border: solid 1px white;
+      border-radius: 50%;
+
+      &:hover {
+        transform: scale(1.1); // Zoom léger au survol pour attirer l'attention
+      }
     }
   }
-  .leftSection{
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
+
+  .leftSection {
+      @include responsive(md) {
+      flex-direction: row;
+      margin-bottom: 1rem;
+    }
   }
 
   .footerLinks {
@@ -45,19 +96,23 @@
     margin: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
 
-    @include responsive(tablet) {
-      flex-direction: row;
+    @include responsive(sm) {
+      gap: 0.4rem;
     }
 
     li {
       margin: 0;
 
       a {
-        color: $tertiary-color;
+        color: white;
         text-decoration: none;
+        transition: color 0.3s ease;
+
         &:hover {
+          color: lighten(#04BFBF, 40%);
           text-decoration: underline;
         }
       }

@@ -1,4 +1,3 @@
-// src/FAQAccordion.js
 import React, { useState } from 'react';
 import AccordionItem from '../AccordionItem/AccordionItem';
 import { useFAQ } from '../../hooks/useFAQ';
@@ -27,12 +26,19 @@ const FAQAccordion = () => {
     : FAQ.filter(item => item.catégorie === selectedCategory);
 
   return (
-    <div className="faq-accordion" style={{ padding: '20px' }}>
+    <div className={s.faqAccordion}> {/* Remplacez le style inline par une classe */}
       <h2>FAQ</h2>
       
-      <div style={{ marginBottom: '20px' }}>
-        <label htmlFor="categoryFilter" style={{ marginRight: '10px' }}>Filtrer par catégorie:</label>
-        <select id="categoryFilter" value={selectedCategory} onChange={handleCategoryChange}>
+      <div className={s.filterContainer}> {/* Remplacez le style inline par une classe */}
+        <label htmlFor="categoryFilter" className={s.filterLabel}> 
+          Filtrer par catégorie:
+        </label>
+        <select
+          id="categoryFilter"
+          value={selectedCategory}
+          onChange={handleCategoryChange}
+          className={s.categoryFilter} 
+        >
           {categories.map(category => (
             <option key={category} value={category}>
               {category}

@@ -2,6 +2,7 @@ import React from 'react';
 import canva from './../../assets/icones/canva.png';
 import linkedIn from './../../assets/icones/linkedIn.png';
 import instagram from './../../assets/icones/instagram.png';
+import logo from './../../assets/logo2.png';
 import s from'./style.module.scss';
 
 const Footer = () => {
@@ -20,7 +21,12 @@ const Footer = () => {
           </a>
         </div>
         <div className={s.centerSection}>
-          <p>&copy; {new Date().getFullYear()} Mon Agence Immo. Tous droits réservés.</p>
+        <div className={s.logosection}>
+          <a href="/">
+            <img src={logo} className={s.logo} alt="Logo de l'agence" />
+          </a>
+        </div>
+        <p>&copy; {new Date().getFullYear()} Mon Agence Immo. Tous droits réservés.</p>
         </div>
         <div className={s.rightSection}>
           <ul className={s.footerLinks}>

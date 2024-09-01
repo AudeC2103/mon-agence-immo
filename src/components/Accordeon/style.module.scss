@@ -1,27 +1,45 @@
-// src/FAQAccordion.scss
+@import './../../styles/variables';
+@import './../../styles/mixins';
 
-.faq-accordion {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+.faqAccordion {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+
+  h2 {
+    text-align: start;
+    @include responsive ('md');
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+
+  .filterContainer {
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+
+  .filterLabel {
+    margin-right: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    
+  }
+
+  .categoryFilter {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
   
-    h2 {
-      text-align: center;
-      margin-bottom: 20px;
-      color: #343a40;
-    }
-  
-    #categoryFilter {
-      padding: 10px;
-      font-size: 1rem;
-      border: 1px solid #ced4da;
-      border-radius: 5px;
-      outline: none;
-      transition: border-color 0.3s ease;
-  
-      &:focus {
-        border-color: #007bff;
-      }
+
+    &:focus {
+      border-radius: 8px;
+      background-color: lighten(black, 30%);
+      color : white;
     }
   }
-  
+}

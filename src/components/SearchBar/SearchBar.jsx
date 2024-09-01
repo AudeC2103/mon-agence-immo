@@ -20,7 +20,7 @@ const SearchBar = ({ onSearch }) => {
     };
   
     return (
-      <div className={s.searcBbar}>
+      <div className={s.searchbar}>
         <input
           type="text"
           name="location"
