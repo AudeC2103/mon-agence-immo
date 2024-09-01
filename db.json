@@ -44,15 +44,13 @@
             "date_listed": "2024-07-01",
             "status": "Disponible",
             "images": [
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property1_1.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property1_2.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property1_3.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property1_4.jpg"
+                "assets/properties/property1_1.jpg",
+                "assets/properties/property1_2.jpg",
+                "assets/properties/property1_3.jpg",
+                "assets/properties/property1_4.jpg"
             ],
-            "videos": [
-                ""
-            ],
-            "virtual_tour": ""
+            "videos": ["coming_soon.mp4"],
+            "virtual_tour": "coming_soon"
         },
         {
             "id": 2,
@@ -98,15 +96,13 @@
             "date_listed": "2024-05-15",
             "status": "Disponible",
             "images": [
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property2_1.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property2_2.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property2_3.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property2_4.jpg"
+                "assets/properties/property2_1.jpg",
+                "assets/properties/property2_2.jpg",
+                "assets/properties/property2_3.jpg",
+                "assets/properties/property2_4.jpg"
             ],
-            "videos": [
-                ""
-            ],
-            "virtual_tour": ""
+            "videos": ["coming_soon.mp4"],
+            "virtual_tour": "coming_soon"
         },
         {
             "id": 3,
@@ -152,15 +148,13 @@
             "date_listed": "2024-06-25",
             "status": "Disponible",
             "images": [
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property3_1.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property3_2.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property3_3.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property3_4.jpg"
+                "assets/properties/property3_1.jpg",
+                "assets/properties/property3_2.jpg",
+                "assets/properties/property3_3.jpg",
+                "assets/properties/property3_4.jpg"
             ],
-            "videos": [
-                ""
-            ],
-            "virtual_tour": ""
+            "videos": ["coming_soon.mp4"],
+            "virtual_tour": "coming_soon"
         },
         {
             "id": 4,
@@ -204,15 +198,13 @@
             "date_listed": "2024-06-12",
             "status": "Disponible",
             "images": [
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property4_1.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property4_2.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property4_3.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property4_4.jpg"
+                "assets/properties/property4_1.jpg",
+                "assets/properties/property4_2.jpg",
+                "assets/properties/property4_3.jpg",
+                "assets/properties/property4_4.jpg"
             ],
-            "videos": [
-                ""
-            ],
-            "virtual_tour": ""
+            "videos": ["coming_soon.mp4"],
+            "virtual_tour": "coming_soon"
         },
         {
             "id": 5,
@@ -258,15 +250,13 @@
             "date_listed": "2024-07-05",
             "status": "Disponible",
             "images": [
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property5_1.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property5_2.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property5_3.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property5_4.jpg"
+                "assets/properties/property5_1.jpg",
+                "assets/properties/property5_2.jpg",
+                "assets/properties/property5_3.jpg",
+                "assets/properties/property5_4.jpg"
             ],
-            "videos": [
-                ""
-            ],
-            "virtual_tour": ""
+            "videos": ["coming_soon.mp4"],
+            "virtual_tour": "coming_soon"
         },
         {
             "id": 6,
@@ -312,15 +302,13 @@
             "date_listed": "2024-06-20",
             "status": "Disponible",
             "images": [
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property6_1.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property6_2.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property6_3.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property6_4.jpg"
+                "assets/properties/property6_1.jpg",
+                "assets/properties/property6_2.jpg",
+                "assets/properties/property6_3.jpg",
+                "assets/properties/property6_4.jpg"
             ],
-            "videos": [
-                ""
-            ],
-            "virtual_tour": ""
+            "videos": ["coming_soon.mp4"],
+            "virtual_tour": "coming_soon"
         },
         {
             "id": 7,
@@ -366,15 +354,13 @@
             "date_listed": "2024-07-10",
             "status": "Disponible",
             "images": [
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property7_1.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property7_2.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property7_3.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property7_4.jpg"
+                "assets/properties/property7_1.jpg",
+                "assets/properties/property7_2.jpg",
+                "assets/properties/property7_3.jpg",
+                "assets/properties/property7_4.jpg"
             ],
-            "videos": [
-                ""
-            ],
-            "virtual_tour": ""
+            "videos": ["coming_soon.mp4"],
+            "virtual_tour": "coming_soon"
         },
         {
             "id": 8,
@@ -420,15 +406,13 @@
             "date_listed": "2024-07-15",
             "status": "Disponible",
             "images": [
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property8_1.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property8_2.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property8_3.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property8_4.jpg"
+                "assets/properties/property8_1.jpg",
+                "assets/properties/property8_2.jpg",
+                "assets/properties/property8_3.jpg",
+                "assets/properties/property8_4.jpg"
             ],
-            "videos": [
-                ""
-            ],
-            "virtual_tour": ""
+            "videos": ["coming_soon.mp4"],
+            "virtual_tour": "coming_soon"
         },
         {
             "id": 9,
@@ -474,15 +458,13 @@
             "date_listed": "2024-08-10",
             "status": "Disponible",
             "images": [
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property9_1.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property9_2.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property9_3.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property9_4.jpg"
+                "assets/properties/property9_1.jpg",
+                "assets/properties/property9_2.jpg",
+                "assets/properties/property9_3.jpg",
+                "assets/properties/property9_4.jpg"
             ],
-            "videos": [
-                ""
-            ],
-            "virtual_tour": ""
+            "videos": ["coming_soon.mp4"],
+            "virtual_tour": "coming_soon"
         },
         {
             "id": 10,
@@ -528,15 +510,13 @@
             "date_listed": "2024-08-15",
             "status": "Disponible",
             "images": [
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property10_1.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property10_2.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property10_3.jpg",
-                "https://mon-agence-immo.wouafwouaf.ovh/assets/properties/property10_4.jpg"
+                "assets/properties/property10_1.jpg",
+                "assets/properties/property10_2.jpg",
+                "assets/properties/property10_3.jpg",
+                "assets/properties/property10_4.jpg"
             ],
-            "videos": [
-                ""
-            ],
-            "virtual_tour": ""
+            "videos": ["coming_soon.mp4"],
+            "virtual_tour": "coming_soon"
         }
     ],
     "Agents": [
