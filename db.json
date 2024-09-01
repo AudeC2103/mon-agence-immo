@@ -50,7 +50,7 @@
                 "assets/properties/property1_4.jpg"
             ],
             "videos": ["coming_soon.mp4"],
-            "virtual_tour": "coming_soon"
+            "virtual_tour": ""
         },
         {
             "id": 2,
@@ -102,7 +102,7 @@
                 "assets/properties/property2_4.jpg"
             ],
             "videos": ["coming_soon.mp4"],
-            "virtual_tour": "coming_soon"
+            "virtual_tour": ""
         },
         {
             "id": 3,
@@ -154,7 +154,7 @@
                 "assets/properties/property3_4.jpg"
             ],
             "videos": ["coming_soon.mp4"],
-            "virtual_tour": "coming_soon"
+            "virtual_tour": ""
         },
         {
             "id": 4,
@@ -204,7 +204,7 @@
                 "assets/properties/property4_4.jpg"
             ],
             "videos": ["coming_soon.mp4"],
-            "virtual_tour": "coming_soon"
+            "virtual_tour": ""
         },
         {
             "id": 5,
@@ -256,7 +256,7 @@
                 "assets/properties/property5_4.jpg"
             ],
             "videos": ["coming_soon.mp4"],
-            "virtual_tour": "coming_soon"
+            "virtual_tour": ""
         },
         {
             "id": 6,
@@ -308,7 +308,7 @@
                 "assets/properties/property6_4.jpg"
             ],
             "videos": ["coming_soon.mp4"],
-            "virtual_tour": "coming_soon"
+            "virtual_tour": ""
         },
         {
             "id": 7,
@@ -360,7 +360,7 @@
                 "assets/properties/property7_4.jpg"
             ],
             "videos": ["coming_soon.mp4"],
-            "virtual_tour": "coming_soon"
+            "virtual_tour": ""
         },
         {
             "id": 8,
@@ -412,7 +412,7 @@
                 "assets/properties/property8_4.jpg"
             ],
             "videos": ["coming_soon.mp4"],
-            "virtual_tour": "coming_soon"
+            "virtual_tour": ""
         },
         {
             "id": 9,
@@ -464,7 +464,7 @@
                 "assets/properties/property9_4.jpg"
             ],
             "videos": ["coming_soon.mp4"],
-            "virtual_tour": "coming_soon"
+            "virtual_tour": ""
         },
         {
             "id": 10,
@@ -516,7 +516,7 @@
                 "assets/properties/property10_4.jpg"
             ],
             "videos": ["coming_soon.mp4"],
-            "virtual_tour": "coming_soon"
+            "virtual_tour": ""
         }
     ],
     "Agents": [
